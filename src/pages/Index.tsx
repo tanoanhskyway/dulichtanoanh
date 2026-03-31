@@ -82,7 +82,7 @@ const Index = () => (
             <img src={car7} alt="Xe du lịch" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width={800} height={600} />
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 to-transparent" />
             <div className="absolute bottom-0 p-5 text-primary-foreground">
-              <h3 className="text-lg font-bold flex items-center gap-2"><MapPin className="h-5 w-5" /> Xe du lịch</h3>
+              <h3 className="text-lg font-bold flex items-center gap-2"><MapPin className="h-5 w-5" /> Xe tour du lịch </h3>
               <p className="text-sm opacity-80">4-7-16 chỗ, đi mọi nơi</p>
             </div>
           </Link>
