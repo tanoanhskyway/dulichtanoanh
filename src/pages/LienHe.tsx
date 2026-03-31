@@ -23,9 +23,9 @@ const LienHe = () => {
             
             <div className="space-y-4">
               {[
-                { icon: Phone, label: "Hotline", value: "0905.123.456", href: "tel:0905123456" },
-                { icon: MessageCircle, label: "Zalo", value: "0905.123.456", href: "https://zalo.me/0905123456" },
-                { icon: MapPin, label: "Địa chỉ", value: "Đông Hà, Quảng Trị" },
+                { icon: Phone, label: "Hotline", value: "08.666.00822", href: "tel:0866600822" },
+                { icon: MessageCircle, label: "Zalo", value: "08.666.00822", href: "https://zalo.me/0866600822" },
+                { icon: MapPin, label: "Địa chỉ", value: "Cửa Việt, Quảng Trị" },
                 { icon: Clock, label: "Giờ làm việc", value: "24/7 – Luôn sẵn sàng" },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4 bg-card rounded-lg p-4 border border-border">
@@ -55,7 +55,7 @@ const LienHe = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Bản đồ Đông Hà, Quảng Trị"
+                title="Bản đồ Cửa Việt, Quảng Trị"
               />
             </div>
           </div>
