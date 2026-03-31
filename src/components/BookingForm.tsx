@@ -7,11 +7,25 @@ const BookingForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({ phone: "", pickup: "", dropoff: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!form.phone.trim()) return;
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  if (!form.phone.trim()) return;
+
+  try {
+    await fetch("https://script.google.com/macros/s/AKfycbykzvzW1ZHu1LfOjAa_CuyiAqxVIc7VBdi8oAydCS9t-D74UQISt4de2oD1Ha2KV3MQ/exec", {
+      method: "POST",
+      body: JSON.stringify({
+        phone: form.phone,
+        pickup: form.pickup,
+        dropoff: form.dropoff
+      })
+    });
+
     setSubmitted(true);
-  };
+  } catch (error) {
+    alert("Gửi thất bại!");
+  }
+};
 
   if (submitted) {
     return (
