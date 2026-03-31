@@ -75,10 +75,10 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
-            <a href="tel:0905123456" className="mt-2">
+            <a href="tel:0866600822" className="mt-2">
               <Button className="w-full cta-shadow gap-2">
                 <Phone className="h-4 w-4" />
-                0905.123.456
+                08.666.00822
               </Button>
             </a>
           </nav>

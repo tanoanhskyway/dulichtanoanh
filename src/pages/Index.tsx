@@ -160,9 +160,9 @@ const Index = () => (
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Sẵn sàng đặt xe?</h2>
         <p className="opacity-90 mb-6 max-w-md mx-auto">Liên hệ ngay để được tư vấn và đặt xe nhanh nhất!</p>
         <div className="flex flex-wrap justify-center gap-3">
-          <a href="tel:0905123456">
+          <a href="tel:0866600822">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold h-12 px-8 cta-shadow">
-              Gọi 0905.123.456
+              Gọi 08.666.00822
             </Button>
           </a>
           <Link to="/lien-he">
