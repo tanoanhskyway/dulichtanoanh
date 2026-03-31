@@ -121,7 +121,7 @@ const Index = () => (
               </div>
               <div className="text-right">
                 <p className="font-bold text-primary text-lg">{r.price}</p>
-                <a href="tel:0905123456">
+                <a href="tel:0866600822">
                   <Button size="sm" variant="outline" className="mt-1 gap-1 text-xs">
                     Đặt ngay <ArrowRight className="h-3 w-3" />
                   </Button>
