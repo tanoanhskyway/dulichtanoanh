@@ -41,7 +41,7 @@ const Index = () => (
               Xe ghép – xe riêng – đưa đón tận nơi 24/7
             </p>
             <div className="flex flex-wrap gap-3 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-              <a href="tel:0905123456">
+              <a href="tel:0866600822">
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 cta-shadow text-base font-semibold h-12 px-8">
                   Đặt xe ngay
                 </Button>
