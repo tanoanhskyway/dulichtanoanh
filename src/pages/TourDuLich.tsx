@@ -15,10 +15,7 @@ const articles = [
     title: "Tour du lịch Quảng Trị – Khám phá vùng đất lịch sử và biển đẹp",
     intro: "Quảng Trị không chỉ nổi tiếng với những di tích lịch sử hào hùng mà còn sở hữu những bãi biển hoang sơ tuyệt đẹp. Đây là điểm đến lý tưởng cho những ai yêu thích du lịch kết hợp tìm hiểu văn hóa – lịch sử.",
     highlights: [
-      {
-  name: "Thành cổ Quảng Trị",
-  desc: "Thành cổ Quảng Trị là di tích lịch sử quốc gia đặc biệt, gắn liền với trận chiến 81 ngày đêm năm 1972. Đây là nơi tưởng niệm các anh hùng liệt sĩ đã hy sinh vì độc lập dân tộc. Không gian yên bình, trang nghiêm cùng hệ thống bảo tàng giúp du khách hiểu sâu sắc hơn về lịch sử Việt Nam. Đây là điểm du lịch tâm linh và giáo dục lịch sử rất ý nghĩa khi đến Quảng Trị."
-},
+      { name: "Thành cổ Quảng Trị", desc: "Di tích lịch sử quốc gia đặc biệt, nơi ghi dấu 81 ngày đêm chiến đấu anh dũng. Đến đây, du khách sẽ được tham quan bảo tàng, tưởng niệm và hiểu thêm về lịch sử hào hùng của dân tộc." },
       { name: "Địa đạo Vịnh Mốc", desc: "Hệ thống địa đạo độc đáo nằm sâu trong lòng đất, từng là nơi sinh sống của hàng trăm người dân trong chiến tranh. Một công trình kiến trúc ngầm đáng kinh ngạc." },
       { name: "Bãi biển Cửa Việt", desc: "Bãi biển đẹp với cát trắng mịn, nước trong xanh, lý tưởng cho nghỉ dưỡng và tắm biển. Hải sản tươi sống giá rẻ là điểm cộng lớn." },
       { name: "Cầu Hiền Lương – Sông Bến Hải", desc: "Biểu tượng chia cắt hai miền Nam – Bắc, nay là điểm tham quan du lịch nổi tiếng với cột cờ Hiền Lương." },
