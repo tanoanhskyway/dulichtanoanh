@@ -15,7 +15,7 @@ import TourDuLich from "./pages/TourDuLich";
 import GioiThieu from "./pages/GioiThieu";
 import LienHe from "./pages/LienHe";
 import NotFound from "./pages/NotFound";
-
+import ThanhCoQuangTri from "./pages/ThanhCoQuangTri";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -34,6 +34,7 @@ const App = () => (
             <Route path="/tour-du-lich" element={<TourDuLich />} />
             <Route path="/gioi-thieu" element={<GioiThieu />} />
             <Route path="/lien-he" element={<LienHe />} />
+            <Route path="/thanh-co-quang-tri" element={<ThanhCoQuangTri />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
