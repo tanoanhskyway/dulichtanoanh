@@ -14,10 +14,10 @@ const schedule = [
 ];
 
 const pricing = [
-  { route: "Đông Hà – Đà Nẵng", price: "250.000đ/khách" },
-  { route: "Cửa Việt – Đà Nẵng", price: "280.000đ/khách" },
-  { route: "Đông Hà – Huế", price: "150.000đ/khách" },
-  { route: "Đông Hà – Sân bay Đà Nẵng", price: "300.000đ/khách" },
+  { route: "Đông Hà – Đà Nẵng", price: "400.000đ/khách" },
+  { route: "Cửa Việt – Đà Nẵng", price: "450.000đ/khách" },
+  { route: "Đông Hà – Sân bay Phú Bài", price: "250.000đ/khách" },
+  { route: "Cửa Tùng – Sân bay Phú bài", price: "300.000đ/khách" },
 ];
 
 const XeGhep = () => (
