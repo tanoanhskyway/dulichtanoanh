@@ -41,7 +41,7 @@ const Index = () => (
               Xe ghép – xe riêng – đưa đón tận nơi 24/7
             </p>
             <div className="flex flex-wrap gap-3 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-              <a href="tel:0905123456">
+              <a href="tel:0866600822">
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 cta-shadow text-base font-semibold h-12 px-8">
                   Đặt xe ngay
                 </Button>
@@ -74,7 +74,7 @@ const Index = () => (
             <img src={car4} alt="Xe ghép Quảng Trị Đà Nẵng" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width={800} height={600} />
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 to-transparent" />
             <div className="absolute bottom-0 p-5 text-primary-foreground">
-              <h3 className="text-lg font-bold flex items-center gap-2"><Users className="h-5 w-5" /> Xe ghép QT – ĐN</h3>
+              <h3 className="text-lg font-bold flex items-center gap-2"><Users className="h-5 w-5" /> Xe ghép Quảng Trị – Đà Nẵng</h3>
               <p className="text-sm opacity-80">Tuyến cố định, giá tiết kiệm</p>
             </div>
           </Link>
@@ -82,7 +82,7 @@ const Index = () => (
             <img src={car7} alt="Xe du lịch" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width={800} height={600} />
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 to-transparent" />
             <div className="absolute bottom-0 p-5 text-primary-foreground">
-              <h3 className="text-lg font-bold flex items-center gap-2"><MapPin className="h-5 w-5" /> Xe du lịch</h3>
+              <h3 className="text-lg font-bold flex items-center gap-2"><MapPin className="h-5 w-5" /> Xe tour du lịch </h3>
               <p className="text-sm opacity-80">4-7-16 chỗ, đi mọi nơi</p>
             </div>
           </Link>
@@ -121,7 +121,7 @@ const Index = () => (
               </div>
               <div className="text-right">
                 <p className="font-bold text-primary text-lg">{r.price}</p>
-                <a href="tel:0905123456">
+                <a href="tel:0866600822">
                   <Button size="sm" variant="outline" className="mt-1 gap-1 text-xs">
                     Đặt ngay <ArrowRight className="h-3 w-3" />
                   </Button>
@@ -160,9 +160,9 @@ const Index = () => (
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Sẵn sàng đặt xe?</h2>
         <p className="opacity-90 mb-6 max-w-md mx-auto">Liên hệ ngay để được tư vấn và đặt xe nhanh nhất!</p>
         <div className="flex flex-wrap justify-center gap-3">
-          <a href="tel:0905123456">
+          <a href="tel:0866600822">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold h-12 px-8 cta-shadow">
-              Gọi 0905.123.456
+              Gọi 08.666.00822
             </Button>
           </a>
           <Link to="/lien-he">
