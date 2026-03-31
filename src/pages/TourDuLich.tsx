@@ -132,6 +132,11 @@ const TourDuLich = () => (
 
 {articles.map((article)=>(
 <article key={article.id} id={article.id}>
+  <img
+  src={article.img}
+  alt={article.title}
+  className="w-full h-[300px] object-cover rounded-xl mb-6"
+/>
 
 <h2 className="text-2xl font-bold mb-3">{article.title}</h2>
 
