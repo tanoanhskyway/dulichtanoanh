@@ -15,8 +15,8 @@ const Footer = () => (
         <div>
           <h4 className="font-semibold mb-4">Liên kết</h4>
           <nav className="flex flex-col gap-2 text-sm opacity-80">
-            <Link to="/xe-ghep" className="hover:opacity-100">Xe ghép QT - ĐN</Link>
-            <Link to="/xe-du-lich" className="hover:opacity-100">Xe du lịch</Link>
+            <Link to="/xe-ghep" className="hover:opacity-100">Xe ghép Quảng Trị - Đà Nẵng</Link>
+            <Link to="/xe-du-lich" className="hover:opacity-100">Xe tour - du lịch</Link>
             <Link to="/dia-diem" className="hover:opacity-100">Địa điểm du lịch</Link>
             <Link to="/gioi-thieu" className="hover:opacity-100">Giới thiệu</Link>
             <Link to="/lien-he" className="hover:opacity-100">Liên hệ</Link>
