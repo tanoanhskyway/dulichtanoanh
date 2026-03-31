@@ -19,12 +19,12 @@ const destinations = [
   {
     img: destHue, name: "Huế",
     desc: "Đại Nội, lăng tẩm, sông Hương – cố đô thơ mộng với di sản văn hóa UNESCO.",
-    transport: "Xe ghép QT → Huế hàng ngày, 150.000đ/khách"
+    transport: "Xe từ Quảng Trị → Huế giá từ 700.000đ"
   },
   {
     img: destDN, name: "Đà Nẵng",
     desc: "Cầu Rồng, Bà Nà Hills, bãi biển Mỹ Khê – thành phố đáng sống nhất Việt Nam.",
-    transport: "Xe ghép QT → ĐN hàng ngày, 250.000đ/khách"
+    transport: "Xe từ Quảng Trị đi Đà Nẵng , chỉ ~3.5 giờ , giá từ 1.600.000đ"
   },
 ];
 
