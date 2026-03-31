@@ -13,10 +13,10 @@ const advantages = [
 ];
 
 const routes = [
-  { from: "Đông Hà", to: "Đà Nẵng", price: "250.000đ/khách", time: "~3.5 giờ" },
-  { from: "Cửa Việt", to: "Đà Nẵng", price: "280.000đ/khách", time: "~4 giờ" },
-  { from: "Đông Hà", to: "Huế", price: "150.000đ/khách", time: "~2 giờ" },
-  { from: "Quảng Trị", to: "Sân bay Đà Nẵng", price: "300.000đ/khách", time: "~3.5 giờ" },
+  { from: "Đông Hà", to: "Đà Nẵng", price: "400.000đ/khách", time: "~3.5 giờ" },
+  { from: "Cửa Việt", to: "Đà Nẵng", price: "450.000đ/khách", time: "~4 giờ" },
+  { from: "Cửa Tùng", to: "Sân bay Phú bài", price: "300.000đ/khách", time: "~2 giờ" },
+  { from: "Quảng Trị", to: "Sân bay Đà Nẵng", price: "400.000đ/khách", time: "~3.5 giờ" },
 ];
 
 const testimonials = [
