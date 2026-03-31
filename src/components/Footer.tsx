@@ -41,7 +41,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center text-sm opacity-60">
-        © 2026 XeQuảngTrị. Tất cả quyền được bảo lưu.
+        © 2026 TanOanh Sky Way. Tất cả quyền được bảo lưu.
       </div>
     </div>
   </footer>
