@@ -51,7 +51,7 @@ const DiaDiem = () => (
                 <div className="bg-secondary rounded-lg p-3 text-sm">
                   <p className="font-medium text-secondary-foreground">🚗 {d.transport}</p>
                 </div>
-                <a href="tel:0905123456" className="block mt-4">
+                <a href="tel:0866600822" className="block mt-4">
                   <Button variant="outline" size="sm" className="w-full gap-2">
                     Đặt xe đi {d.name} <ArrowRight className="h-3 w-3" />
                   </Button>
