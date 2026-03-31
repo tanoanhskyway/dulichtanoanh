@@ -12,7 +12,7 @@ const data: Record<string, Place> = {
   "thanh-co-quang-tri": {
     title: "Thành cổ Quảng Trị",
     images: [
-      "https://your-image-link-1.com",
+      "https://cms.junglebosstours.com/assets/9dba0c19-b575-4fc7-b973-439dc1a6114f?format=webp",
       "https://your-image-link-2.com",
       "https://your-image-link-3.com",
     ],
