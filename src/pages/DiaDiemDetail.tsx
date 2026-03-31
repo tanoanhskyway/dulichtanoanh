@@ -41,18 +41,61 @@ Thành cổ Quảng Trị không chỉ là một điểm đến du lịch, mà c
 
   "dia-dao-vinh-moc": {
     title: "Địa đạo Vịnh Mốc",
-    content: `Địa đạo Vịnh Mốc là hệ thống đường hầm nằm sâu trong lòng đất tại huyện Vĩnh Linh.
-Địa đạo được xây dựng trong thời chiến tranh để người dân sinh sống và tránh bom đạn.`,
+    content:`Địa đạo Vịnh Mốc là một trong những công trình lịch sử độc đáo nhất tại Quảng Trị, được xây dựng trong thời kỳ chiến tranh để người dân sinh sống và tránh bom đạn. Hệ thống đường hầm nằm sâu trong lòng đất với nhiều tầng, phòng chức năng và lối thông ra biển, thể hiện ý chí kiên cường của người dân vùng đất lửa.
+
+Khi tham quan Địa đạo Vịnh Mốc, du khách sẽ được trực tiếp trải nghiệm không gian sống dưới lòng đất, tìm hiểu về cuộc sống và tinh thần chiến đấu của người dân trong thời chiến. Đây là điểm đến đặc biệt phù hợp với những ai yêu thích lịch sử và muốn hiểu sâu hơn về quá khứ.
+
+Ngoài ra, bạn có thể kết hợp tham quan Địa đạo Vịnh Mốc cùng các địa điểm gần đó như Cầu Hiền Lương, Thành cổ Quảng Trị để có một hành trình trọn vẹn.
+
+---
+
+Nếu bạn đang có kế hoạch tham quan Địa đạo Vịnh Mốc, việc lựa chọn xe dịch vụ Quảng Trị sẽ giúp bạn chủ động thời gian và lịch trình. Với nhóm nhỏ hoặc khách đi lẻ, xe ghép Quảng Trị là lựa chọn tiết kiệm chi phí nhưng vẫn đảm bảo tiện lợi.
+
+Ngoài ra, bạn có thể tham khảo các tour du lịch Tân Oanh để kết hợp nhiều điểm tham quan nổi tiếng trong cùng một hành trình.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi  
+👉 Xe ghép Quảng Trị giá rẻ – linh hoạt thời gian  
+👉 Du lịch Tân Oanh – hành trình trọn gói, tiết kiệm
+
+Địa đạo Vịnh Mốc chắc chắn là điểm đến không thể bỏ qua khi khám phá Quảng Trị.`
   },
 
   "cau-hien-luong-ben-hai": {
     title: "Cầu Hiền Lương – Sông Bến Hải",
-    content: `Cầu Hiền Lương là biểu tượng lịch sử của sự chia cắt hai miền Nam Bắc trong thời kỳ chiến tranh Việt Nam.`,
+    content:`Cầu Hiền Lương – Sông Bến Hải là biểu tượng lịch sử đặc biệt của Việt Nam, từng là ranh giới chia cắt hai miền Nam – Bắc trong suốt thời kỳ chiến tranh. Nơi đây mang đậm dấu ấn lịch sử và là điểm tham quan ý nghĩa đối với du khách.
+
+Khi đến đây, du khách có thể tham quan cầu Hiền Lương, bảo tàng và khu vực di tích lịch sử, đồng thời tìm hiểu về giai đoạn lịch sử đầy biến động của đất nước.
+
+---
+
+Để di chuyển thuận tiện đến Cầu Hiền Lương, bạn có thể lựa chọn xe dịch vụ Quảng Trị với lịch trình linh hoạt. Nếu muốn tiết kiệm chi phí, xe ghép Quảng Trị là lựa chọn phù hợp.
+
+Ngoài ra, các tour du lịch Tân Oanh cũng cung cấp hành trình kết hợp nhiều địa điểm lịch sử trong khu vực.
+
+👉 Đặt xe dịch vụ Quảng Trị – tiện lợi, nhanh chóng  
+👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
+👉 Du lịch Tân Oanh – khám phá trọn vẹn miền Trung
+
+Cầu Hiền Lương là điểm đến mang nhiều ý nghĩa lịch sử và cảm xúc.`
   },
 
   "bien-cua-viet": {
     title: "Biển Cửa Việt",
-    content: `Biển Cửa Việt nổi tiếng với bãi cát trắng mịn, nước biển trong xanh và hải sản tươi ngon.`,
+    content:`Biển Cửa Việt là một trong những bãi biển đẹp và nổi tiếng tại Quảng Trị, thu hút du khách bởi bãi cát trắng mịn, nước biển trong xanh và không khí trong lành. Đây là điểm đến lý tưởng cho các chuyến nghỉ dưỡng và du lịch biển.
+
+Du khách có thể tắm biển, thưởng thức hải sản tươi ngon và tận hưởng không gian yên bình tại đây.
+
+---
+
+Để đến Biển Cửa Việt thuận tiện, bạn có thể lựa chọn xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị tùy theo nhu cầu và ngân sách.
+
+Nếu muốn kết hợp tham quan nhiều địa điểm, du lịch Tân Oanh là lựa chọn phù hợp giúp bạn tối ưu hành trình.
+
+👉 Xe dịch vụ Quảng Trị – di chuyển thoải mái  
+👉 Xe ghép Quảng Trị – giá rẻ, tiện lợi  
+👉 Du lịch Tân Oanh – tour trọn gói hấp dẫn
+
+Biển Cửa Việt là điểm dừng chân lý tưởng cho chuyến du lịch miền Trung.`
   },
 
   "thanh-dia-la-vang": {
@@ -62,7 +105,21 @@ Thành cổ Quảng Trị không chỉ là một điểm đến du lịch, mà c
 
   "dao-con-co": {
     title: "Đảo Cồn Cỏ",
-    content: `Đảo Cồn Cỏ là hòn đảo nhỏ ngoài khơi Quảng Trị với hệ sinh thái biển phong phú và cảnh quan hoang sơ.`,
+    content:`Đảo Cồn Cỏ là hòn đảo nhỏ nằm ngoài khơi Quảng Trị, nổi bật với hệ sinh thái biển phong phú và cảnh quan thiên nhiên hoang sơ. Đây là điểm đến lý tưởng cho những ai yêu thích khám phá và trải nghiệm thiên nhiên.
+
+Du khách có thể tham gia các hoạt động như lặn biển, câu cá và khám phá hệ sinh thái biển độc đáo.
+
+---
+
+Để di chuyển ra đảo thuận tiện, bạn nên sử dụng xe dịch vụ Quảng Trị để đến cảng, hoặc lựa chọn xe ghép Quảng Trị nếu đi theo nhóm nhỏ.
+
+Ngoài ra, du lịch Tân Oanh cung cấp các tour kết hợp tham quan đảo và các điểm du lịch khác.
+
+👉 Xe dịch vụ Quảng Trị – linh hoạt lịch trình  
+👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
+👉 Du lịch Tân Oanh – trải nghiệm trọn gói
+
+Đảo Cồn Cỏ là điểm đến hấp dẫn cho những ai yêu thiên nhiên và biển đảo.`
   },
 
   "bien-cua-tung": {
@@ -79,7 +136,21 @@ Thành cổ Quảng Trị không chỉ là một điểm đến du lịch, mà c
 
   "phong-nha-ke-bang": {
     title: "Phong Nha – Kẻ Bàng",
-    content: `Phong Nha Kẻ Bàng là di sản thiên nhiên thế giới nổi tiếng với hệ thống hang động lớn nhất châu Á.`,
+    content:`Phong Nha – Kẻ Bàng là di sản thiên nhiên thế giới nổi tiếng với hệ thống hang động kỳ vĩ và đa dạng sinh học phong phú. Đây là điểm đến hàng đầu tại miền Trung Việt Nam.
+
+Du khách có thể khám phá các hang động, tham gia các hoạt động du lịch sinh thái và trải nghiệm thiên nhiên hoang sơ.
+
+---
+
+Để đến Phong Nha thuận tiện, bạn có thể sử dụng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị tùy theo nhu cầu.
+
+Ngoài ra, du lịch Tân Oanh cung cấp nhiều tour khám phá hang động hấp dẫn.
+
+👉 Xe dịch vụ Quảng Trị – tiện lợi, nhanh chóng  
+👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
+👉 Du lịch Tân Oanh – tour khám phá chuyên nghiệp
+
+Phong Nha – Kẻ Bàng là điểm đến không thể bỏ qua khi du lịch miền Trung.`
   },
 
   "hang-son-doong": {
@@ -121,7 +192,21 @@ Thành cổ Quảng Trị không chỉ là một điểm đến du lịch, mà c
 
   "dai-noi-hue": {
     title: "Đại Nội Huế",
-    content: `Đại Nội Huế là quần thể cung điện và thành quách của triều Nguyễn được UNESCO công nhận.`,
+    content:`Đại Nội Huế là quần thể di tích lịch sử thuộc cố đô Huế, được UNESCO công nhận là di sản văn hóa thế giới. Đây là nơi lưu giữ nhiều giá trị văn hóa và kiến trúc đặc sắc của triều Nguyễn.
+
+Du khách có thể tham quan cung điện, lăng tẩm và tìm hiểu về lịch sử triều đại phong kiến Việt Nam.
+
+---
+
+Để di chuyển đến Huế thuận tiện, bạn có thể lựa chọn xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+Ngoài ra, du lịch Tân Oanh cung cấp các tour kết hợp Huế – Đà Nẵng – Hội An rất thuận tiện.
+
+👉 Xe dịch vụ Quảng Trị – đưa đón tận nơi  
+👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
+👉 Du lịch Tân Oanh – hành trình trọn gói
+
+Đại Nội Huế là điểm đến mang đậm dấu ấn văn hóa và lịch sử.`
   },
 
   "lang-tu-duc": {
