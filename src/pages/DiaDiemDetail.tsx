@@ -52,7 +52,8 @@ content:"Khu du lịch nổi tiếng của Đà Nẵng với Cầu Vàng."
 export default function DiaDiemDetail(){
 
 const { slug } = useParams();
-const place = places[slug as keyof typeof places];
+
+const place = places[slug as string];
 
 if(!place){
 return <div className="container py-10">Không tìm thấy địa điểm</div>;
