@@ -41,6 +41,11 @@ Thành cổ Quảng Trị không chỉ là một điểm đến du lịch, mà c
 
   "dia-dao-vinh-moc": {
     title: "Địa đạo Vịnh Mốc",
+        images: [
+      "https://your-image-link-2.com",
+      "https://your-image-link-2.com",
+      "https://your-image-link-3.com",
+    ],
     content:`Địa đạo Vịnh Mốc là một trong những công trình lịch sử độc đáo nhất tại Quảng Trị, được xây dựng trong thời kỳ chiến tranh để người dân sinh sống và tránh bom đạn. Hệ thống đường hầm nằm sâu trong lòng đất với nhiều tầng, phòng chức năng và lối thông ra biển, thể hiện ý chí kiên cường của người dân vùng đất lửa.
 
 Khi tham quan Địa đạo Vịnh Mốc, du khách sẽ được trực tiếp trải nghiệm không gian sống dưới lòng đất, tìm hiểu về cuộc sống và tinh thần chiến đấu của người dân trong thời chiến. Đây là điểm đến đặc biệt phù hợp với những ai yêu thích lịch sử và muốn hiểu sâu hơn về quá khứ.
