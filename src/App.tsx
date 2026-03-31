@@ -31,6 +31,7 @@ const App = () => (
             <Route path="/xe-ghep" element={<XeGhep />} />
             <Route path="/xe-du-lich" element={<XeDuLich />} />
             <Route path="/dia-diem" element={<DiaDiem />} />
+            <Route path="/tour-du-lich" element={<TourDuLich />} />
             <Route path="/gioi-thieu" element={<GioiThieu />} />
             <Route path="/lien-he" element={<LienHe />} />
             <Route path="*" element={<NotFound />} />
