@@ -16,19 +16,27 @@ const data: Record<string, Place> = {
       "https://your-image-link-2.com",
       "https://your-image-link-3.com",
     ],
-    content: `Thành cổ Quảng Trị là di tích lịch sử đặc biệt gắn liền với trận chiến 81 ngày đêm năm 1972 – một trong những dấu mốc hào hùng của dân tộc Việt Nam. Đây là địa điểm du lịch lịch sử nổi tiếng thu hút đông đảo du khách, cựu chiến binh và những người yêu lịch sử đến tham quan, tưởng niệm.
+    content: `Thành cổ Quảng Trị là di tích lịch sử đặc biệt gắn liền với trận chiến 81 ngày đêm năm 1972, một dấu mốc bi tráng trong lịch sử dân tộc Việt Nam. Đây không chỉ là điểm đến mang giá trị lịch sử sâu sắc mà còn là nơi để du khách, cựu chiến binh và thế hệ trẻ tìm hiểu, tưởng niệm và tri ân những hy sinh to lớn của cha ông.
 
-Khi đến tham quan Thành cổ Quảng Trị, du khách sẽ được tìm hiểu về những câu chuyện lịch sử đầy xúc động, đồng thời chiêm ngưỡng không gian trang nghiêm, yên bình. Khuôn viên rộng rãi, nhiều cây xanh cùng các công trình tưởng niệm tạo nên một không gian linh thiêng và ý nghĩa.
+Khi đến tham quan Thành cổ Quảng Trị, du khách sẽ cảm nhận được không gian trang nghiêm, yên bình nhưng đầy xúc động. Khuôn viên rộng rãi, nhiều cây xanh cùng các công trình tưởng niệm tạo nên một điểm dừng chân ý nghĩa cho những ai muốn tìm hiểu thêm về lịch sử Việt Nam. Đây cũng là một trong những địa điểm nổi bật trong hành trình khám phá Quảng Trị, đặc biệt phù hợp với du khách yêu thích du lịch văn hóa và du lịch lịch sử.
 
-Hiện nay, việc di chuyển đến Thành cổ Quảng Trị trở nên dễ dàng hơn nhờ các dịch vụ vận chuyển như xe dịch vụ Quảng Trị và xe ghép Quảng Trị. Đây là lựa chọn phù hợp cho du khách muốn tiết kiệm chi phí nhưng vẫn đảm bảo sự tiện lợi và thoải mái trong hành trình.
+Thời điểm thích hợp để tham quan Thành cổ Quảng Trị thường là từ tháng 3 đến tháng 8, khi thời tiết khô ráo và thuận lợi cho việc di chuyển. Du khách nên lựa chọn trang phục lịch sự, đồng thời giữ thái độ trang nghiêm khi tham quan khu vực tưởng niệm để thể hiện sự tôn trọng đối với giá trị lịch sử của di tích.
 
-Đặc biệt, nhiều du khách lựa chọn xe ghép Quảng Trị để di chuyển theo nhóm nhỏ hoặc cá nhân, vừa tiết kiệm vừa có thể linh hoạt về thời gian. Ngoài ra, các dịch vụ xe dịch vụ Quảng Trị cũng cung cấp các dòng xe từ 4 chỗ, 7 chỗ đến 16 chỗ phù hợp cho gia đình hoặc đoàn du lịch.
+Ngoài ý nghĩa lịch sử, Thành cổ Quảng Trị còn có vị trí thuận tiện để kết hợp tham quan các địa điểm nổi tiếng khác như Cầu Hiền Lương, Địa đạo Vịnh Mốc hay Biển Cửa Việt. Vì vậy, nơi đây thường được nhiều du khách lựa chọn trong các hành trình khám phá miền Trung.
 
-Bên cạnh đó, các tour du lịch Tân Oanh cũng thường xuyên tổ chức hành trình tham quan Thành cổ Quảng Trị kết hợp với các địa điểm nổi tiếng khác trong khu vực như Cầu Hiền Lương, Địa đạo Vịnh Mốc hay Biển Cửa Việt.
+--- 
 
-Thời điểm lý tưởng để tham quan Thành cổ Quảng Trị là từ tháng 3 đến tháng 8 khi thời tiết khô ráo, thuận tiện cho việc di chuyển và tham quan. Du khách nên chuẩn bị trang phục lịch sự và giữ gìn không gian chung khi đến các khu vực tưởng niệm.
+Nếu bạn đang có kế hoạch đến Thành cổ Quảng Trị, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi trở nên thuận tiện và tiết kiệm hơn. Hiện nay, TanOanh Sky Way đang được nhiều du khách lựa chọn nhờ sự linh hoạt, đưa đón tận nơi và phù hợp với nhiều nhóm khách khác nhau.
 
-Với giá trị lịch sử sâu sắc và ý nghĩa đặc biệt, Thành cổ Quảng Trị không chỉ là điểm đến du lịch mà còn là nơi để mỗi người tưởng nhớ và tri ân những hy sinh của thế hệ đi trước. Đây chắc chắn là điểm dừng chân không thể bỏ qua khi đến miền Trung Việt Nam.`,
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tối ưu giúp tiết kiệm chi phí mà vẫn đảm bảo và tiện lợi trong suốt hành trình. Đây là hình thức di chuyển ngày càng phổ biến và phù hợp với nhu cầu du lịch hiện đại.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Quảng Trị và khu vực miền Trung, bạn có thể tham khảo các tour du lịch Tân Oanh. Dịch vụ này sẽ giúp bạn tối ưu thời gian, chi phí và có trải nghiệm trọn vẹn hơn trong chuyến đi.
+
+👉 Liên hệ ngay để đặt xe dịch vụ Quảng Trị nhanh chóng, an toàn  
+👉 Đặt xe ghép Quảng Trị giá rẻ – khởi hành linh hoạt mỗi ngày  
+👉 Đồng hành cùng du lịch Tân Oanh để khám phá trọn vẹn miền Trung
+
+Thành cổ Quảng Trị không chỉ là một điểm đến du lịch, mà còn là nơi lưu giữ ký ức lịch sử thiêng liêng của dân tộc. Đây chắc chắn là điểm dừng chân ý nghĩa mà bạn không nên bỏ lỡ trong hành trình khám phá Việt Nam.`
   },
 
   "dia-dao-vinh-moc": {
