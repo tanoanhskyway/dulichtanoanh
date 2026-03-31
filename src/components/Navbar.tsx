@@ -20,8 +20,8 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border shadow-sm">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 font-bold text-xl text-primary">
-          🚗 XeQuảngTrị
+        <Link to="/" className="flex items-center gap-2 shrink-0">
+          <img src={logo} alt="Tan Oanh Skyway" className="h-10 w-auto" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">
