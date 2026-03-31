@@ -6,8 +6,25 @@ const data:any={
 
 "thanh-co-quang-tri":{
 title:"Thành cổ Quảng Trị",
-content:`Thành cổ Quảng Trị là di tích lịch sử đặc biệt gắn liền với trận chiến 81 ngày đêm năm 1972.
-Đây là địa điểm du lịch lịch sử nổi tiếng thu hút nhiều du khách và cựu chiến binh đến tham quan tưởng niệm.`
+content:`Thành cổ Quảng Trị là di tích lịch sử đặc biệt gắn liền với trận chiến 81 ngày đêm năm 1972 – một trong những dấu mốc hào hùng của dân tộc Việt Nam. Đây là địa điểm du lịch lịch sử nổi tiếng thu hút đông đảo du khách, cựu chiến binh và những người yêu lịch sử đến tham quan, tưởng niệm.
+
+<img src="https://your-image-link-1.com" alt="Thành cổ Quảng Trị toàn cảnh" />
+
+Khi đến tham quan Thành cổ Quảng Trị, du khách sẽ được tìm hiểu về những câu chuyện lịch sử đầy xúc động, đồng thời chiêm ngưỡng không gian trang nghiêm, yên bình. Khuôn viên rộng rãi, nhiều cây xanh cùng các công trình tưởng niệm tạo nên một không gian linh thiêng và ý nghĩa.
+
+Hiện nay, việc di chuyển đến Thành cổ Quảng Trị trở nên dễ dàng hơn nhờ các dịch vụ vận chuyển như <strong>xe dịch vụ Quảng Trị</strong> và <strong>xe ghép Quảng Trị</strong>. Đây là lựa chọn phù hợp cho du khách muốn tiết kiệm chi phí nhưng vẫn đảm bảo sự tiện lợi và thoải mái trong hành trình.
+
+<img src="https://your-image-link-2.com" alt="Khuôn viên Thành cổ Quảng Trị" />
+
+Đặc biệt, nhiều du khách lựa chọn <strong>xe ghép Quảng Trị</strong> để di chuyển theo nhóm nhỏ hoặc cá nhân, vừa tiết kiệm vừa có thể linh hoạt về thời gian. Ngoài ra, các dịch vụ <strong>xe dịch vụ Quảng Trị</strong> cũng cung cấp các dòng xe từ 4 chỗ, 7 chỗ đến 16 chỗ phù hợp cho gia đình hoặc đoàn du lịch.
+
+Bên cạnh đó, các tour <strong>du lịch Tân Oanh</strong> cũng thường xuyên tổ chức hành trình tham quan Thành cổ Quảng Trị kết hợp với các địa điểm nổi tiếng khác trong khu vực như Cầu Hiền Lương, Địa đạo Vịnh Mốc hay Biển Cửa Việt.
+
+<img src="https://your-image-link-3.com" alt="Du lịch Thành cổ Quảng Trị" />
+
+Thời điểm lý tưởng để tham quan Thành cổ Quảng Trị là từ tháng 3 đến tháng 8 khi thời tiết khô ráo, thuận tiện cho việc di chuyển và tham quan. Du khách nên chuẩn bị trang phục lịch sự và giữ gìn không gian chung khi đến các khu vực tưởng niệm.
+
+Với giá trị lịch sử sâu sắc và ý nghĩa đặc biệt, Thành cổ Quảng Trị không chỉ là điểm đến du lịch mà còn là nơi để mỗi người tưởng nhớ và tri ân những hy sinh của thế hệ đi trước. Đây chắc chắn là điểm dừng chân không thể bỏ qua khi đến miền Trung Việt Nam.`
 },
 
 "dia-dao-vinh-moc":{
