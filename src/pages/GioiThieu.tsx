@@ -20,7 +20,7 @@ const GioiThieu = () => (
       <div className="container max-w-3xl">
         <div className="prose prose-lg text-muted-foreground space-y-4 mb-12">
           <p>
-            <strong className="text-foreground">XeQuảngTrị</strong> được thành lập với sứ mệnh cung cấp dịch vụ vận chuyển 
+            <strong className="text-foreground">TanOanhSkyWay</strong> được thành lập với sứ mệnh cung cấp dịch vụ vận chuyển 
             hành khách chất lượng cao tại khu vực miền Trung Việt Nam. Với hơn <strong className="text-foreground">5 năm kinh nghiệm</strong> trong 
             lĩnh vực xe du lịch và xe ghép, chúng tôi tự hào phục vụ hàng nghìn lượt khách mỗi năm.
           </p>
