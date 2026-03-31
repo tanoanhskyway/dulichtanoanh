@@ -74,7 +74,7 @@ const XeGhep = () => (
             </div>
           </div>
 
-          <a href="tel:0905123456">
+          <a href="tel:0866600822">
             <Button size="lg" className="w-full sm:w-auto cta-shadow h-12 px-8 text-base font-semibold gap-2 mt-4">
               Đặt xe ngay <ArrowRight className="h-4 w-4" />
             </Button>
