@@ -21,7 +21,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border shadow-sm">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={logo} alt="Tan Oanh Skyway" className="h-20 w-auto" />
+          <img src={logo} alt="Tan Oanh Skyway" className="h-14 w-auto" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">
