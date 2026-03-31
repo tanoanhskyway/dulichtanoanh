@@ -27,7 +27,7 @@ const Footer = () => (
           <div className="flex flex-col gap-3 text-sm opacity-80">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4 shrink-0" />
-              <a href="tel:0905123456" className="hover:opacity-100">0905.123.456</a>
+              <a href="tel:0866600822" className="hover:opacity-100">08.666.00822</a>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4 shrink-0" />
