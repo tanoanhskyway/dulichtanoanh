@@ -15,8 +15,8 @@ const Footer = () => (
         <div>
           <h4 className="font-semibold mb-4">Liên kết</h4>
           <nav className="flex flex-col gap-2 text-sm opacity-80">
-            <Link to="/xe-ghep" className="hover:opacity-100">Xe ghép QT - ĐN</Link>
-            <Link to="/xe-du-lich" className="hover:opacity-100">Xe du lịch</Link>
+            <Link to="/xe-ghep" className="hover:opacity-100">Xe ghép Quảng Trị - Đà Nẵng</Link>
+            <Link to="/xe-du-lich" className="hover:opacity-100">Xe tour - du lịch</Link>
             <Link to="/dia-diem" className="hover:opacity-100">Địa điểm du lịch</Link>
             <Link to="/gioi-thieu" className="hover:opacity-100">Giới thiệu</Link>
             <Link to="/lien-he" className="hover:opacity-100">Liên hệ</Link>
@@ -27,11 +27,11 @@ const Footer = () => (
           <div className="flex flex-col gap-3 text-sm opacity-80">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4 shrink-0" />
-              <a href="tel:0905123456" className="hover:opacity-100">0905.123.456</a>
+              <a href="tel:0866600822" className="hover:opacity-100">08.666.00822</a>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4 shrink-0" />
-              <span>Đông Hà, Quảng Trị</span>
+              <span>Cửa Việt , Quảng Trị</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="h-4 w-4 shrink-0" />

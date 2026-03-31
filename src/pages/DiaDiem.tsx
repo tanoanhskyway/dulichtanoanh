@@ -14,7 +14,7 @@ const destinations = [
   {
     img: destQB, name: "Quảng Bình",
     desc: "Phong Nha – Kẻ Bàng, hang Sơn Đoòng, suối Moọc – thiên đường hang động kỳ vĩ nhất Việt Nam.",
-    transport: "Xe từ Quảng Trị đi Phong Nha, chỉ ~2.5 giờ, giá từ 600.000đ"
+    transport: "Xe từ Quảng Trị đi Phong Nha, chỉ ~2.5 giờ, giá từ 800.000đ"
   },
   {
     img: destHue, name: "Huế",
