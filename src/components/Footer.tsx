@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Clock } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-foreground text-primary-foreground">
     <div className="container py-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-lg font-bold mb-4">🚗 XeQuảngTrị</h3>
+          <img src={logo} alt="Tan Oanh Skyway" className="h-10 w-auto mb-4 brightness-0 invert" />
           <p className="text-sm opacity-80 leading-relaxed">
             Dịch vụ xe ghép và xe du lịch uy tín tuyến Quảng Trị - Đà Nẵng. Đưa đón tận nơi 24/7.
           </p>
