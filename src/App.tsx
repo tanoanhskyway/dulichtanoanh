@@ -11,6 +11,7 @@ import Index from "./pages/Index";
 import XeGhep from "./pages/XeGhep";
 import XeDuLich from "./pages/XeDuLich";
 import DiaDiem from "./pages/DiaDiem";
+import TourDuLich from "./pages/TourDuLich";
 import GioiThieu from "./pages/GioiThieu";
 import LienHe from "./pages/LienHe";
 import NotFound from "./pages/NotFound";
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/xe-ghep" element={<XeGhep />} />
             <Route path="/xe-du-lich" element={<XeDuLich />} />
             <Route path="/dia-diem" element={<DiaDiem />} />
+            <Route path="/tour-du-lich" element={<TourDuLich />} />
             <Route path="/gioi-thieu" element={<GioiThieu />} />
             <Route path="/lien-he" element={<LienHe />} />
             <Route path="*" element={<NotFound />} />
