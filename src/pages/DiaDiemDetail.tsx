@@ -1,224 +1,229 @@
 import { useParams } from "react-router-dom";
 
-const data:any={
+type Place = {
+  title: string;
+  content: string;
+  images?: string[];
+};
 
-/* QUẢNG TRỊ */
+const data: Record<string, Place> = {
+  /* QUẢNG TRỊ */
 
-"thanh-co-quang-tri":{
-title:"Thành cổ Quảng Trị",
-content:`Thành cổ Quảng Trị là di tích lịch sử đặc biệt gắn liền với trận chiến 81 ngày đêm năm 1972 – một trong những dấu mốc hào hùng của dân tộc Việt Nam. Đây là địa điểm du lịch lịch sử nổi tiếng thu hút đông đảo du khách, cựu chiến binh và những người yêu lịch sử đến tham quan, tưởng niệm.
-
-<img src="https://your-image-link-1.com" alt="Thành cổ Quảng Trị toàn cảnh" />
+  "thanh-co-quang-tri": {
+    title: "Thành cổ Quảng Trị",
+    images: [
+      "https://your-image-link-1.com",
+      "https://your-image-link-2.com",
+      "https://your-image-link-3.com",
+    ],
+    content: `Thành cổ Quảng Trị là di tích lịch sử đặc biệt gắn liền với trận chiến 81 ngày đêm năm 1972 – một trong những dấu mốc hào hùng của dân tộc Việt Nam. Đây là địa điểm du lịch lịch sử nổi tiếng thu hút đông đảo du khách, cựu chiến binh và những người yêu lịch sử đến tham quan, tưởng niệm.
 
 Khi đến tham quan Thành cổ Quảng Trị, du khách sẽ được tìm hiểu về những câu chuyện lịch sử đầy xúc động, đồng thời chiêm ngưỡng không gian trang nghiêm, yên bình. Khuôn viên rộng rãi, nhiều cây xanh cùng các công trình tưởng niệm tạo nên một không gian linh thiêng và ý nghĩa.
 
-Hiện nay, việc di chuyển đến Thành cổ Quảng Trị trở nên dễ dàng hơn nhờ các dịch vụ vận chuyển như <strong>xe dịch vụ Quảng Trị</strong> và <strong>xe ghép Quảng Trị</strong>. Đây là lựa chọn phù hợp cho du khách muốn tiết kiệm chi phí nhưng vẫn đảm bảo sự tiện lợi và thoải mái trong hành trình.
+Hiện nay, việc di chuyển đến Thành cổ Quảng Trị trở nên dễ dàng hơn nhờ các dịch vụ vận chuyển như xe dịch vụ Quảng Trị và xe ghép Quảng Trị. Đây là lựa chọn phù hợp cho du khách muốn tiết kiệm chi phí nhưng vẫn đảm bảo sự tiện lợi và thoải mái trong hành trình.
 
-<img src="https://your-image-link-2.com" alt="Khuôn viên Thành cổ Quảng Trị" />
+Đặc biệt, nhiều du khách lựa chọn xe ghép Quảng Trị để di chuyển theo nhóm nhỏ hoặc cá nhân, vừa tiết kiệm vừa có thể linh hoạt về thời gian. Ngoài ra, các dịch vụ xe dịch vụ Quảng Trị cũng cung cấp các dòng xe từ 4 chỗ, 7 chỗ đến 16 chỗ phù hợp cho gia đình hoặc đoàn du lịch.
 
-Đặc biệt, nhiều du khách lựa chọn <strong>xe ghép Quảng Trị</strong> để di chuyển theo nhóm nhỏ hoặc cá nhân, vừa tiết kiệm vừa có thể linh hoạt về thời gian. Ngoài ra, các dịch vụ <strong>xe dịch vụ Quảng Trị</strong> cũng cung cấp các dòng xe từ 4 chỗ, 7 chỗ đến 16 chỗ phù hợp cho gia đình hoặc đoàn du lịch.
-
-Bên cạnh đó, các tour <strong>du lịch Tân Oanh</strong> cũng thường xuyên tổ chức hành trình tham quan Thành cổ Quảng Trị kết hợp với các địa điểm nổi tiếng khác trong khu vực như Cầu Hiền Lương, Địa đạo Vịnh Mốc hay Biển Cửa Việt.
-
-<img src="https://your-image-link-3.com" alt="Du lịch Thành cổ Quảng Trị" />
+Bên cạnh đó, các tour du lịch Tân Oanh cũng thường xuyên tổ chức hành trình tham quan Thành cổ Quảng Trị kết hợp với các địa điểm nổi tiếng khác trong khu vực như Cầu Hiền Lương, Địa đạo Vịnh Mốc hay Biển Cửa Việt.
 
 Thời điểm lý tưởng để tham quan Thành cổ Quảng Trị là từ tháng 3 đến tháng 8 khi thời tiết khô ráo, thuận tiện cho việc di chuyển và tham quan. Du khách nên chuẩn bị trang phục lịch sự và giữ gìn không gian chung khi đến các khu vực tưởng niệm.
 
-Với giá trị lịch sử sâu sắc và ý nghĩa đặc biệt, Thành cổ Quảng Trị không chỉ là điểm đến du lịch mà còn là nơi để mỗi người tưởng nhớ và tri ân những hy sinh của thế hệ đi trước. Đây chắc chắn là điểm dừng chân không thể bỏ qua khi đến miền Trung Việt Nam.`
-},
+Với giá trị lịch sử sâu sắc và ý nghĩa đặc biệt, Thành cổ Quảng Trị không chỉ là điểm đến du lịch mà còn là nơi để mỗi người tưởng nhớ và tri ân những hy sinh của thế hệ đi trước. Đây chắc chắn là điểm dừng chân không thể bỏ qua khi đến miền Trung Việt Nam.`,
+  },
 
-"dia-dao-vinh-moc":{
-title:"Địa đạo Vịnh Mốc",
-content:`Địa đạo Vịnh Mốc là hệ thống đường hầm nằm sâu trong lòng đất tại huyện Vĩnh Linh.
-Địa đạo được xây dựng trong thời chiến tranh để người dân sinh sống và tránh bom đạn.`
-},
+  "dia-dao-vinh-moc": {
+    title: "Địa đạo Vịnh Mốc",
+    content: `Địa đạo Vịnh Mốc là hệ thống đường hầm nằm sâu trong lòng đất tại huyện Vĩnh Linh.
+Địa đạo được xây dựng trong thời chiến tranh để người dân sinh sống và tránh bom đạn.`,
+  },
 
-"cau-hien-luong-ben-hai":{
-title:"Cầu Hiền Lương – Sông Bến Hải",
-content:`Cầu Hiền Lương là biểu tượng lịch sử của sự chia cắt hai miền Nam Bắc trong thời kỳ chiến tranh Việt Nam.`
-},
+  "cau-hien-luong-ben-hai": {
+    title: "Cầu Hiền Lương – Sông Bến Hải",
+    content: `Cầu Hiền Lương là biểu tượng lịch sử của sự chia cắt hai miền Nam Bắc trong thời kỳ chiến tranh Việt Nam.`,
+  },
 
-"bien-cua-viet":{
-title:"Biển Cửa Việt",
-content:`Biển Cửa Việt nổi tiếng với bãi cát trắng mịn, nước biển trong xanh và hải sản tươi ngon.`
-},
+  "bien-cua-viet": {
+    title: "Biển Cửa Việt",
+    content: `Biển Cửa Việt nổi tiếng với bãi cát trắng mịn, nước biển trong xanh và hải sản tươi ngon.`,
+  },
 
-"thanh-dia-la-vang":{
-title:"Thánh địa La Vang",
-content:`La Vang là trung tâm hành hương Công giáo lớn nhất Việt Nam.`
-},
+  "thanh-dia-la-vang": {
+    title: "Thánh địa La Vang",
+    content: `La Vang là trung tâm hành hương Công giáo lớn nhất Việt Nam.`,
+  },
 
-"dao-con-co":{
-title:"Đảo Cồn Cỏ",
-content:`Đảo Cồn Cỏ là hòn đảo nhỏ ngoài khơi Quảng Trị với hệ sinh thái biển phong phú và cảnh quan hoang sơ.`
-},
+  "dao-con-co": {
+    title: "Đảo Cồn Cỏ",
+    content: `Đảo Cồn Cỏ là hòn đảo nhỏ ngoài khơi Quảng Trị với hệ sinh thái biển phong phú và cảnh quan hoang sơ.`,
+  },
 
-"bien-cua-tung":{
-title:"Biển Cửa Tùng",
-content:`Cửa Tùng từng được mệnh danh là nữ hoàng của các bãi biển miền Trung.`
-},
+  "bien-cua-tung": {
+    title: "Biển Cửa Tùng",
+    content: `Cửa Tùng từng được mệnh danh là nữ hoàng của các bãi biển miền Trung.`,
+  },
 
-"rung-ru-linh":{
-title:"Rừng nguyên sinh Rú Lịnh",
-content:`Rú Lịnh là khu rừng nguyên sinh hiếm hoi còn lại tại Quảng Trị với hệ sinh thái đa dạng.`
-},
+  "rung-ru-linh": {
+    title: "Rừng nguyên sinh Rú Lịnh",
+    content: `Rú Lịnh là khu rừng nguyên sinh hiếm hoi còn lại tại Quảng Trị với hệ sinh thái đa dạng.`,
+  },
 
-/* QUẢNG BÌNH */
+  /* QUẢNG BÌNH */
 
-"phong-nha-ke-bang":{
-title:"Phong Nha – Kẻ Bàng",
-content:`Phong Nha Kẻ Bàng là di sản thiên nhiên thế giới nổi tiếng với hệ thống hang động lớn nhất châu Á.`
-},
+  "phong-nha-ke-bang": {
+    title: "Phong Nha – Kẻ Bàng",
+    content: `Phong Nha Kẻ Bàng là di sản thiên nhiên thế giới nổi tiếng với hệ thống hang động lớn nhất châu Á.`,
+  },
 
-"hang-son-doong":{
-title:"Hang Sơn Đoòng",
-content:`Hang Sơn Đoòng là hang động lớn nhất thế giới được phát hiện tại Quảng Bình.`
-},
+  "hang-son-doong": {
+    title: "Hang Sơn Đoòng",
+    content: `Hang Sơn Đoòng là hang động lớn nhất thế giới được phát hiện tại Quảng Bình.`,
+  },
 
-"dong-thien-duong":{
-title:"Động Thiên Đường",
-content:`Động Thiên Đường dài hơn 31km với hệ thống thạch nhũ tuyệt đẹp.`
-},
+  "dong-thien-duong": {
+    title: "Động Thiên Đường",
+    content: `Động Thiên Đường dài hơn 31km với hệ thống thạch nhũ tuyệt đẹp.`,
+  },
 
-"suoi-mooc":{
-title:"Suối Moọc",
-content:`Suối Moọc là điểm du lịch sinh thái nổi tiếng với làn nước xanh ngọc.`
-},
+  "suoi-mooc": {
+    title: "Suối Moọc",
+    content: `Suối Moọc là điểm du lịch sinh thái nổi tiếng với làn nước xanh ngọc.`,
+  },
 
-"bien-nhat-le":{
-title:"Biển Nhật Lệ",
-content:`Biển Nhật Lệ nằm tại thành phố Đồng Hới với bãi cát trắng mịn và nước biển trong xanh.`
-},
+  "bien-nhat-le": {
+    title: "Biển Nhật Lệ",
+    content: `Biển Nhật Lệ nằm tại thành phố Đồng Hới với bãi cát trắng mịn và nước biển trong xanh.`,
+  },
 
-"con-cat-quang-phu":{
-title:"Cồn cát Quang Phú",
-content:`Cồn cát Quang Phú là địa điểm trượt cát và check in nổi tiếng của Quảng Bình.`
-},
+  "con-cat-quang-phu": {
+    title: "Cồn cát Quang Phú",
+    content: `Cồn cát Quang Phú là địa điểm trượt cát và check in nổi tiếng của Quảng Bình.`,
+  },
 
-"hang-en":{
-title:"Hang Én",
-content:`Hang Én là hang động lớn thứ ba thế giới nằm trong vườn quốc gia Phong Nha Kẻ Bàng.`
-},
+  "hang-en": {
+    title: "Hang Én",
+    content: `Hang Én là hang động lớn thứ ba thế giới nằm trong vườn quốc gia Phong Nha Kẻ Bàng.`,
+  },
 
-"bien-bao-ninh":{
-title:"Biển Bảo Ninh",
-content:`Bãi biển Bảo Ninh nổi tiếng với khung cảnh hoang sơ và yên bình.`
-},
+  "bien-bao-ninh": {
+    title: "Biển Bảo Ninh",
+    content: `Bãi biển Bảo Ninh nổi tiếng với khung cảnh hoang sơ và yên bình.`,
+  },
 
-/* HUẾ */
+  /* HUẾ */
 
-"dai-noi-hue":{
-title:"Đại Nội Huế",
-content:`Đại Nội Huế là quần thể cung điện và thành quách của triều Nguyễn được UNESCO công nhận.`
-},
+  "dai-noi-hue": {
+    title: "Đại Nội Huế",
+    content: `Đại Nội Huế là quần thể cung điện và thành quách của triều Nguyễn được UNESCO công nhận.`,
+  },
 
-"lang-tu-duc":{
-title:"Lăng Tự Đức",
-content:`Lăng Tự Đức nổi tiếng với cảnh quan thơ mộng và kiến trúc hài hòa với thiên nhiên.`
-},
+  "lang-tu-duc": {
+    title: "Lăng Tự Đức",
+    content: `Lăng Tự Đức nổi tiếng với cảnh quan thơ mộng và kiến trúc hài hòa với thiên nhiên.`,
+  },
 
-"chua-thien-mu":{
-title:"Chùa Thiên Mụ",
-content:`Chùa Thiên Mụ là ngôi chùa cổ nổi tiếng nằm bên bờ sông Hương.`
-},
+  "chua-thien-mu": {
+    title: "Chùa Thiên Mụ",
+    content: `Chùa Thiên Mụ là ngôi chùa cổ nổi tiếng nằm bên bờ sông Hương.`,
+  },
 
-"song-huong-hue":{
-title:"Sông Hương",
-content:`Sông Hương là biểu tượng thơ mộng của thành phố Huế.`
-},
+  "song-huong-hue": {
+    title: "Sông Hương",
+    content: `Sông Hương là biểu tượng thơ mộng của thành phố Huế.`,
+  },
 
-"cho-dong-ba":{
-title:"Chợ Đông Ba",
-content:`Chợ Đông Ba là khu chợ nổi tiếng với ẩm thực đặc sản Huế.`
-},
+  "cho-dong-ba": {
+    title: "Chợ Đông Ba",
+    content: `Chợ Đông Ba là khu chợ nổi tiếng với ẩm thực đặc sản Huế.`,
+  },
 
-"lang-khai-dinh":{
-title:"Lăng Khải Định",
-content:`Lăng Khải Định có kiến trúc độc đáo pha trộn giữa Á và Âu.`
-},
+  "lang-khai-dinh": {
+    title: "Lăng Khải Định",
+    content: `Lăng Khải Định có kiến trúc độc đáo pha trộn giữa Á và Âu.`,
+  },
 
-"bien-lang-co":{
-title:"Biển Lăng Cô",
-content:`Lăng Cô là một trong những vịnh biển đẹp nhất thế giới.`
-},
+  "bien-lang-co": {
+    title: "Biển Lăng Cô",
+    content: `Lăng Cô là một trong những vịnh biển đẹp nhất thế giới.`,
+  },
 
-"doi-vong-canh":{
-title:"Đồi Vọng Cảnh",
-content:`Đồi Vọng Cảnh là điểm ngắm hoàng hôn nổi tiếng tại Huế.`
-},
+  "doi-vong-canh": {
+    title: "Đồi Vọng Cảnh",
+    content: `Đồi Vọng Cảnh là điểm ngắm hoàng hôn nổi tiếng tại Huế.`,
+  },
 
-/* ĐÀ NẴNG */
+  /* ĐÀ NẴNG */
 
-"ba-na-hills":{
-title:"Bà Nà Hills",
-content:`Bà Nà Hills nổi tiếng với Cầu Vàng và khu du lịch trên đỉnh núi.`
-},
+  "ba-na-hills": {
+    title: "Bà Nà Hills",
+    content: `Bà Nà Hills nổi tiếng với Cầu Vàng và khu du lịch trên đỉnh núi.`,
+  },
 
-"bien-my-khe":{
-title:"Biển Mỹ Khê",
-content:`Mỹ Khê là một trong những bãi biển đẹp nhất hành tinh.`
-},
+  "bien-my-khe": {
+    title: "Biển Mỹ Khê",
+    content: `Mỹ Khê là một trong những bãi biển đẹp nhất hành tinh.`,
+  },
 
-"cau-rong-da-nang":{
-title:"Cầu Rồng Đà Nẵng",
-content:`Cầu Rồng là biểu tượng của thành phố Đà Nẵng và có thể phun lửa vào cuối tuần.`
-},
+  "cau-rong-da-nang": {
+    title: "Cầu Rồng Đà Nẵng",
+    content: `Cầu Rồng là biểu tượng của thành phố Đà Nẵng và có thể phun lửa vào cuối tuần.`,
+  },
 
-"ngu-hanh-son":{
-title:"Ngũ Hành Sơn",
-content:`Ngũ Hành Sơn là quần thể núi đá vôi với nhiều chùa và hang động.`
-},
+  "ngu-hanh-son": {
+    title: "Ngũ Hành Sơn",
+    content: `Ngũ Hành Sơn là quần thể núi đá vôi với nhiều chùa và hang động.`,
+  },
 
-"pho-co-hoi-an":{
-title:"Phố cổ Hội An",
-content:`Phố cổ Hội An là di sản văn hóa thế giới nổi tiếng.`
-},
+  "pho-co-hoi-an": {
+    title: "Phố cổ Hội An",
+    content: `Phố cổ Hội An là di sản văn hóa thế giới nổi tiếng.`,
+  },
 
-"ban-dao-son-tra":{
-title:"Bán đảo Sơn Trà",
-content:`Sơn Trà là khu bảo tồn thiên nhiên nổi tiếng của Đà Nẵng.`
-},
+  "ban-dao-son-tra": {
+    title: "Bán đảo Sơn Trà",
+    content: `Sơn Trà là khu bảo tồn thiên nhiên nổi tiếng của Đà Nẵng.`,
+  },
 
-"cau-tinh-yeu-da-nang":{
-title:"Cầu Tình Yêu",
-content:`Cầu Tình Yêu là địa điểm check-in nổi tiếng bên sông Hàn.`
-},
+  "cau-tinh-yeu-da-nang": {
+    title: "Cầu Tình Yêu",
+    content: `Cầu Tình Yêu là địa điểm check-in nổi tiếng bên sông Hàn.`,
+  },
 
-"asia-park-da-nang":{
-title:"Asia Park",
-content:`Asia Park là công viên giải trí nổi tiếng với vòng quay Sun Wheel.`
-}
+  "asia-park-da-nang": {
+    title: "Asia Park",
+    content: `Asia Park là công viên giải trí nổi tiếng với vòng quay Sun Wheel.`,
+  },
+};
 
-}
+const DiaDiemDetail = () => {
+  const { slug } = useParams();
+  const place = data[slug as string];
 
-const DiaDiemDetail=()=>{
+  if (!place) {
+    return <div className="container py-20">Không tìm thấy địa điểm</div>;
+  }
 
-const {slug}=useParams()
+  return (
+    <div className="container max-w-3xl py-16">
+      <h1 className="text-3xl font-bold mb-6">{place.title}</h1>
 
-const place=data[slug as string]
+      {place.images && place.images.length > 0 && (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          {place.images.map((img, index) => (
+            <img
+              key={index}
+              src={img}
+              alt={`${place.title} ${index + 1}`}
+              className="w-full h-56 object-cover rounded-lg"
+            />
+          ))}
+        </div>
+      )}
 
-if(!place){
-return <div className="container py-20">Không tìm thấy địa điểm</div>
-}
+      <p className="leading-8 text-lg text-muted-foreground whitespace-pre-line">
+        {place.content}
+      </p>
+    </div>
+  );
+};
 
-return(
-<div className="container max-w-3xl py-16">
-
-<h1 className="text-3xl font-bold mb-6">
-{place.title}
-</h1>
-
-<p className="leading-8 text-lg text-muted-foreground">
-{place.content}
-</p>
-
-</div>
-)
-
-}
-
-export default DiaDiemDetail
-Beta
-0 / 0
-used queries
-1
+export default DiaDiemDetail;
