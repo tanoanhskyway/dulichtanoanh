@@ -19,7 +19,7 @@ const articles = [
       { name: "Địa đạo Vịnh Mốc", desc: "Hệ thống địa đạo độc đáo nằm sâu trong lòng đất, từng là nơi sinh sống của hàng trăm người dân trong chiến tranh. Một công trình kiến trúc ngầm đáng kinh ngạc." },
       { name: "Bãi biển Cửa Việt", desc: "Bãi biển đẹp với cát trắng mịn, nước trong xanh, lý tưởng cho nghỉ dưỡng và tắm biển. Hải sản tươi sống giá rẻ là điểm cộng lớn." },
       { name: "Cầu Hiền Lương – Sông Bến Hải", desc: "Biểu tượng chia cắt hai miền Nam – Bắc, nay là điểm tham quan du lịch nổi tiếng với cột cờ Hiền Lương." },
-      { name: "Chùa La Vang", desc: "Trung tâm hành hương Công giáo lớn nhất Việt Nam, thu hút hàng triệu lượt khách mỗi năm." },
+      { name: "Thánh Địa La Vang", desc: "Trung tâm hành hương Công giáo lớn nhất Việt Nam, thu hút hàng triệu lượt khách mỗi năm." },
     ],
     tips: "Thời điểm lý tưởng để du lịch Quảng Trị là từ tháng 3 đến tháng 8, khi thời tiết nắng ấm, biển lặng. Nên dành 2-3 ngày để khám phá trọn vẹn các điểm đến.",
   },
