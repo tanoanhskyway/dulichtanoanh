@@ -9,7 +9,7 @@ const FloatingButtons = () => (
       className="flex items-center justify-center w-14 h-14 rounded-full bg-[hsl(211,84%,45%)] text-[hsl(0,0%,100%)] shadow-lg hover:scale-110 transition-transform"
       aria-label="Chat Zalo"
     >
-      <MessageCircle className="h-6 w-6" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" className="w-5 h-5" />
     </a>
     <a
       href="tel:0866600822"
