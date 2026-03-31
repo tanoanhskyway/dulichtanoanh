@@ -11,6 +11,7 @@ import Index from "./pages/Index";
 import XeGhep from "./pages/XeGhep";
 import XeDuLich from "./pages/XeDuLich";
 import DiaDiem from "./pages/DiaDiem";
+import TourDuLich from "./pages/TourDuLich";
 import GioiThieu from "./pages/GioiThieu";
 import LienHe from "./pages/LienHe";
 import NotFound from "./pages/NotFound";

@@ -9,6 +9,7 @@ const navItems = [
   { label: "Xe ghép", path: "/xe-ghep" },
   { label: "Xe du lịch", path: "/xe-du-lich" },
   { label: "Địa điểm", path: "/dia-diem" },
+  { label: "Tour du lịch", path: "/tour-du-lich" },
   { label: "Giới thiệu", path: "/gioi-thieu" },
   { label: "Liên hệ", path: "/lien-he" },
 ];
