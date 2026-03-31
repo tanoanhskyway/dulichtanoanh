@@ -55,7 +55,7 @@ const LienHe = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Bản đồ Đông Hà, Quảng Trị"
+                title="Bản đồ Cửa Việt, Quảng Trị"
               />
             </div>
           </div>
