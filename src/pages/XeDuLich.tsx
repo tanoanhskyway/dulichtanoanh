@@ -65,7 +65,7 @@ const XeDuLich = () => (
             <p className="text-muted-foreground text-sm mb-4">
               Giá thuê xe phụ thuộc loại xe, quãng đường và thời gian thuê. Liên hệ để nhận báo giá chính xác nhất.
             </p>
-            <a href="tel:0905123456">
+            <a href="tel:0866600822">
               <Button className="cta-shadow gap-2">
                 Liên hệ ngay <ArrowRight className="h-4 w-4" />
               </Button>
