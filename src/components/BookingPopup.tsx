@@ -20,12 +20,26 @@ const BookingPopup = () => {
     sessionStorage.setItem("popup_dismissed", "1");
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!form.phone.trim()) return;
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  if (!form.phone.trim()) return;
+
+  try {
+    await fetch("https://script.google.com/macros/s/AKfycbykzvzW1ZHu1LfOjAa_CuyiAqxVIc7VBdi8oAydCS9t-D74UQISt4de2oD1Ha2KV3MQ/exec", {
+      method: "POST",
+      body: JSON.stringify({
+        phone: form.phone,
+        pickup: form.pickup,
+        dropoff: form.dropoff
+      })
+    });
+
     setSubmitted(true);
     setTimeout(handleClose, 2000);
-  };
+  } catch (error) {
+    alert("Gửi thất bại, thử lại!");
+  }
+};
 
   if (!show) return null;
 
