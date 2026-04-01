@@ -131,6 +131,7 @@ Biển Cửa Việt là điểm dừng chân lý tưởng cho chuyến du lịch
       "https://cdn.xanhsm.com/2025/02/0a88ceed-thanh-dia-duc-me-la-vang-1.jpg",
       "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfwtupocma5EJEnvtCuM8TuZUzjSOxAItyAMcXCXwHTu-yMNzLFXslFLHOwPKglsWHSaTbuxpu8hkh0rPVCoTjuD_fxcWejER1zgBqiQyh-VnC_RxQhg-F4rD2UjfaGmbEV7QQ6?key=TxwSl_Cy_ksJ6rhyBNogjZDD",
       "https://bizweb.dktcdn.net/100/006/093/articles/thanh-dia-duc-me-la-vang.jpg?v=1700974161927",
+    ],
     content:`Thánh địa La Vang là trung tâm hành hương Công giáo lớn nhất Việt Nam, nằm tại Quảng Trị. Đây là điểm đến tâm linh nổi tiếng thu hút hàng triệu du khách và giáo dân mỗi năm.
 
 Không gian tại La Vang rộng lớn, trang nghiêm với các công trình kiến trúc mang đậm dấu ấn tôn giáo. Đây là nơi lý tưởng để cầu nguyện và tìm sự bình an.
@@ -156,6 +157,7 @@ La Vang là điểm đến tâm linh không thể bỏ qua khi đến Quảng Tr
       "https://images.vietnamtourism.gov.vn/vn/images/2021/dao_Con_Co.jpg",
       "https://www.vietnamairlines.com/content/dam/legacy-site-assets/SEO-images/2025%20SEO/Thay%20Anh%20Traffic%20Tieng%20Viet/dao%20con%20co/cot-co-to-quoc-dao-con-co.jpeg",
       "https://thiennhienmoitruong.vn/upload2024/images/a-phuong-1/btv-t.phuong-2/148.jpg",
+     ],
 content:`Đảo Cồn Cỏ là hòn đảo nhỏ nằm ngoài khơi Quảng Trị, nổi bật với cảnh quan thiên nhiên hoang sơ và hệ sinh thái biển phong phú. Đây là điểm đến hấp dẫn cho những ai yêu thích khám phá.
 
 Du khách có thể tham gia các hoạt động như lặn biển, câu cá, khám phá rạn san hô và tận hưởng không khí trong lành.
@@ -181,6 +183,7 @@ Ngoài ra, du lịch Tân Oanh có các tour khám phá đảo rất tiện lợ
       "https://images.vietnamtourism.gov.vn/vn/images/2021/dao_Con_Co.jpg",
       "https://www.vietnamairlines.com/content/dam/legacy-site-assets/SEO-images/2025%20SEO/Thay%20Anh%20Traffic%20Tieng%20Viet/dao%20con%20co/cot-co-to-quoc-dao-con-co.jpeg",
       "https://thiennhienmoitruong.vn/upload2024/images/a-phuong-1/btv-t.phuong-2/148.jpg",
+     ],
   content:`Biển Cửa Tùng từng được mệnh danh là “nữ hoàng của các bãi biển miền Trung” với vẻ đẹp yên bình và thơ mộng. Nơi đây nổi bật với làn nước trong xanh và bãi cát mịn.
 
 Du khách có thể tắm biển, nghỉ dưỡng và thưởng thức hải sản địa phương.
@@ -206,6 +209,7 @@ Biển Cửa Tùng là điểm đến lý tưởng cho kỳ nghỉ thư giãn.`
       "https://nld.mediacdn.vn/thumb_w/698/291774122806476800/2022/3/1/13-rulinh2-1646140239781810676032.jpg",
       "https://dulich-media.quangtri.gov.vn/resources/portal//Images/QTI/adminportal.qti.it3/doanhnghiep/du_lich/rung_ru_linh/7_381906929.jpg",
       "https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/06_2021/rung-nguyen-sinh-ru-linh-canh.jpg",
+     ],
   content:`Rừng nguyên sinh Rú Lịnh là khu rừng hiếm hoi còn giữ được hệ sinh thái tự nhiên tại Quảng Trị. Với không gian xanh mát và đa dạng sinh học, nơi đây là điểm đến lý tưởng cho những ai yêu thiên nhiên.
 
 Du khách có thể đi bộ khám phá rừng, tận hưởng không khí trong lành và tìm hiểu về hệ sinh thái đặc trưng.
