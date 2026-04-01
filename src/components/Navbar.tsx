@@ -45,7 +45,7 @@ const Navbar = () => {
           <a href="tel:0866600822" className="flex items-center gap-2">
             <Button variant="default" className="cta-shadow gap-2">
               <Phone className="h-4 w-4" />
-              08.666.00822
+              08.666.008.22
             </Button>
           </a>
         </div>
