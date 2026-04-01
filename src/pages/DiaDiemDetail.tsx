@@ -357,23 +357,93 @@ Biển Nhật Lệ là lựa chọn hoàn hảo cho kỳ nghỉ thư giãn.`
 
   "con-cat-quang-phu": {
     title: "Cồn cát Quang Phú",
-    content: `Cồn cát Quang Phú là địa điểm trượt cát và check in nổi tiếng của Quảng Bình.`,
+              images: [
+      "https://raovat73.com/qlw/prodimg/con-cat-quang-phu-dong-hoi-quang-binh.jpg",
+      "https://phongnhaviet.com/uploads/service/2025_02/doi_cat_quang_phu/anh-trai-nghiem-xe-leo-doi-cat.jpg",
+      "https://netintravel.com/wp-content/uploads/2023/06/doi-cat-quang-binh.jpg",
+     ],
+    content:`Cồn cát Quang Phú là địa điểm du lịch nổi tiếng tại Quảng Bình với những đồi cát rộng lớn và cảnh quan độc đáo. Đây là nơi lý tưởng để chụp ảnh và trải nghiệm trượt cát.
+
+Du khách có thể tham gia nhiều hoạt động thú vị như trượt cát, check-in và khám phá thiên nhiên.
+
+---
+
+Để di chuyển thuận tiện, bạn có thể sử dụng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+Ngoài ra, du lịch Tân Oanh có nhiều tour kết hợp tham quan khu vực này.
+
+👉 Xe dịch vụ Quảng Trị – tiện lợi  
+👉 Xe ghép Quảng Trị – giá rẻ  
+👉 Du lịch Tân Oanh – trọn gói
+
+Cồn cát Quang Phú là điểm check-in không thể bỏ lỡ.`,
   },
 
   "hang-en": {
     title: "Hang Én",
-    content: `Hang Én là hang động lớn thứ ba thế giới nằm trong vườn quốc gia Phong Nha Kẻ Bàng.`,
+              images: [
+      "https://statics.vinpearl.com/hang-en-002_1630662227.jpg",
+      "https://www.kkday.com/vi/blog/wp-content/uploads/Hang-En-3.jpg",
+      "https://image.vietgoing.com/editor/image_pkr1639446571.jpg",
+     ],
+    content:`Hang Én là hang động lớn thứ ba thế giới nằm trong Vườn quốc gia Phong Nha – Kẻ Bàng. Đây là điểm đến hấp dẫn dành cho những ai yêu thích khám phá và mạo hiểm.
+
+Du khách sẽ được trải nghiệm trekking, cắm trại và khám phá thiên nhiên kỳ vĩ.
+
+---
+
+Để di chuyển đến Hang Én, bạn có thể lựa chọn xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+Ngoài ra, du lịch Tân Oanh cung cấp tour chuyên nghiệp khám phá hang động.
+
+👉 Xe dịch vụ Quảng Trị – linh hoạt  
+👉 Xe ghép Quảng Trị – tiết kiệm  
+👉 Du lịch Tân Oanh – chuyên nghiệp
+
+Hang Én là điểm đến lý tưởng cho dân phượt.`,
   },
 
   "bien-bao-ninh": {
     title: "Biển Bảo Ninh",
-    content: `Bãi biển Bảo Ninh nổi tiếng với khung cảnh hoang sơ và yên bình.`,
+              images: [
+      "https://statics.vinpearl.com/bien-bao-ninh--22_1629534360.jpg",
+      "https://dolcepenisola.com.vn/wp-content/uploads/2023/05/image2-1683512325-764-width2048height1152.jpg",
+      "https://chacungcharao.com/wp-content/uploads/2025/05/bien-bao-ninh-o-dau.jpg",
+     ],
+ content:`Biển Bảo Ninh là một trong những bãi biển còn giữ được vẻ đẹp hoang sơ và yên bình tại Quảng Bình, nằm ngay đối diện trung tâm thành phố Đồng Hới. Với bãi cát trắng mịn, làn nước trong xanh và không gian thoáng đãng, nơi đây ngày càng trở thành điểm đến yêu thích của nhiều du khách khi khám phá miền Trung.
+
+Khác với những bãi biển đông đúc, Biển Bảo Ninh mang đến cảm giác thư giãn, nhẹ nhàng và gần gũi với thiên nhiên. Du khách có thể thoải mái dạo biển vào sáng sớm, ngắm bình minh hoặc tận hưởng không khí mát mẻ vào buổi chiều. Đây là địa điểm lý tưởng cho những ai muốn tìm một không gian yên tĩnh để nghỉ dưỡng.
+
+Ngoài hoạt động tắm biển, du khách còn có thể thưởng thức nhiều món hải sản tươi ngon được đánh bắt trong ngày như tôm, cua, mực và các loại cá biển. Khu vực này cũng đang phát triển nhiều dịch vụ du lịch, resort và quán ăn phục vụ du khách.
+
+Một điểm đặc biệt của Biển Bảo Ninh là vị trí rất thuận tiện để kết hợp tham quan các địa điểm nổi tiếng khác tại Quảng Bình như Phong Nha – Kẻ Bàng, Động Thiên Đường hay Suối Moọc. Nhờ đó, du khách có thể dễ dàng xây dựng một lịch trình du lịch đa dạng và hấp dẫn.
+
+Thời điểm đẹp nhất để tham quan Biển Bảo Ninh là từ tháng 4 đến tháng 8, khi thời tiết nắng đẹp, ít mưa và phù hợp cho các hoạt động ngoài trời. Du khách nên chuẩn bị trang phục nhẹ, kem chống nắng và lên kế hoạch di chuyển hợp lý để có trải nghiệm tốt nhất.
+
+---
+
+Nếu bạn đang có kế hoạch đến Biển Bảo Ninh, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và tiết kiệm hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ sự linh hoạt, đưa đón tận nơi và phù hợp với nhiều nhóm khách khác nhau.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tối ưu giúp tiết kiệm chi phí mà vẫn đảm bảo sự thoải mái trong suốt hành trình. Đây là hình thức di chuyển ngày càng phổ biến và rất phù hợp với nhu cầu du lịch hiện nay.
+
+Ngoài ra, nếu bạn muốn kết hợp tham quan nhiều địa điểm nổi tiếng trong cùng một chuyến đi, các tour du lịch Tân Oanh sẽ giúp bạn tối ưu lịch trình, chi phí và có trải nghiệm trọn vẹn hơn.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động thời gian  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá miền Trung
+
+Biển Bảo Ninh không chỉ là điểm đến nghỉ dưỡng lý tưởng mà còn là nơi mang lại cảm giác bình yên, thư thái cho mỗi du khách khi đặt chân đến Quảng Bình. Đây chắc chắn là điểm dừng chân đáng trải nghiệm trong hành trình khám phá miền Trung Việt Nam.`,
   },
 
   /* HUẾ */
 
   "dai-noi-hue": {
     title: "Đại Nội Huế",
+              images: [
+      "https://queenbus.com.vn/wp-content/uploads/2025/07/Dai-Noi-Hue-khi-hoang-hon-buong-xuong-1.jpg",
+      "https://media.vietravel.com/images/Content/du-lich-dai-noi-hue-01.jpg",
+      "https://huedailytour.net/wp-content/uploads/2023/02/DAI-NOI.jpeg",
+     ],
     content:`Đại Nội Huế là quần thể di tích lịch sử thuộc cố đô Huế, được UNESCO công nhận là di sản văn hóa thế giới. Đây là nơi lưu giữ nhiều giá trị văn hóa và kiến trúc đặc sắc của triều Nguyễn.
 
 Du khách có thể tham quan cung điện, lăng tẩm và tìm hiểu về lịch sử triều đại phong kiến Việt Nam.
@@ -393,37 +463,212 @@ Ngoài ra, du lịch Tân Oanh cung cấp các tour kết hợp Huế – Đà N
 
   "lang-tu-duc": {
     title: "Lăng Tự Đức",
-    content: `Lăng Tự Đức nổi tiếng với cảnh quan thơ mộng và kiến trúc hài hòa với thiên nhiên.`,
+              images: [
+      "https://khamphahue.com.vn/Portals/0/Medias/Nam2022/T10/Khamphahue_LangTamHue_LangVuaTuDuc-daidien.jpg",
+      "https://bazaarvietnam.vn/wp-content/uploads/2019/07/2019227-lang-Tu-Duc-05.jpg",
+      "https://husta.vn/wp-content/uploads/2022/07/3ffb1e64562d9473cd3c1.jpg",
+     ],
+    content:`Lăng Tự Đức nổi bật với cảnh quan thơ mộng và kiến trúc hài hòa với thiên nhiên. Đây là một trong những lăng đẹp nhất tại Huế.
+
+Du khách có thể tham quan và tìm hiểu về cuộc đời vua Tự Đức.
+
+---
+
+Di chuyển bằng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+👉 Xe dịch vụ Quảng Trị  
+👉 Xe ghép Quảng Trị  
+👉 Du lịch Tân Oanh
+
+Lăng Tự Đức là điểm đến yên bình và đẹp mắt.`,
   },
 
   "chua-thien-mu": {
     title: "Chùa Thiên Mụ",
-    content: `Chùa Thiên Mụ là ngôi chùa cổ nổi tiếng nằm bên bờ sông Hương.`,
+              images: [
+      "https://www.chuaviettoancau.com/userfiles/85_01.jpg",
+      "https://bizweb.dktcdn.net/100/006/093/files/chua-thien-mu-2.jpg?v=1730911821713",
+      "https://hue.gov.vn/Portals/0/Medias/Nam2022/T8/M_20220712_CHUATHIENMU1.jpg",
+     ],
+   content:`Chùa Thiên Mụ là ngôi chùa cổ nổi tiếng nằm bên sông Hương, mang vẻ đẹp linh thiêng và cổ kính.
+
+Du khách có thể tham quan, cầu nguyện và ngắm cảnh sông Hương.
+
+---
+
+Di chuyển bằng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+👉 Xe dịch vụ Quảng Trị  
+👉 Xe ghép Quảng Trị  
+👉 Du lịch Tân Oanh
+
+Chùa Thiên Mụ là biểu tượng của Huế.`,
   },
 
   "song-huong-hue": {
     title: "Sông Hương",
-    content: `Sông Hương là biểu tượng thơ mộng của thành phố Huế.`,
+              images: [
+      "https://cahuetrensonghuong.com/wp-content/uploads/2024/07/z5391414460273_1b4a1aac3895fc8887f414d254626883.jpg.webp",
+      "https://media.vietravel.com/images/Content/du-lich-song-huong-hue-1.jpg",
+      "https://huetv.com.vn/uploads/static/tin-tuc/TADH02.jpg",
+     ],
+    content:`Sông Hương là biểu tượng thơ mộng và nổi tiếng nhất của thành phố Huế, gắn liền với vẻ đẹp dịu dàng, trầm mặc của vùng đất cố đô. Dòng sông uốn lượn qua lòng thành phố không chỉ mang giá trị cảnh quan mà còn chứa đựng chiều sâu văn hóa và lịch sử đặc biệt.
+
+Sông Hương bắt nguồn từ dãy Trường Sơn và chảy qua nhiều khu vực trước khi đi qua trung tâm Huế. Nước sông trong xanh, êm đềm, hai bên là những hàng cây xanh mát và các công trình kiến trúc cổ kính tạo nên một khung cảnh rất đặc trưng. Đây là nơi mà bất kỳ du khách nào đến Huế cũng muốn ghé thăm ít nhất một lần.
+
+Một trong những trải nghiệm thú vị khi đến Sông Hương là đi thuyền rồng vào buổi tối. Du khách có thể vừa ngắm cảnh thành phố lên đèn, vừa nghe ca Huế – một loại hình nghệ thuật truyền thống đặc sắc. Không gian yên bình, tiếng nhạc nhẹ nhàng cùng ánh đèn lung linh tạo nên một trải nghiệm rất đáng nhớ.
+
+Ngoài ra, du khách có thể đi dạo dọc bờ sông, đạp xe hoặc check-in tại các địa điểm nổi tiếng như cầu Tràng Tiền, chùa Thiên Mụ hay Đại Nội Huế. Những địa điểm này đều nằm gần Sông Hương và có thể kết hợp tham quan rất thuận tiện.
+
+Thời điểm đẹp nhất để tham quan Sông Hương là vào sáng sớm hoặc chiều tối, khi thời tiết mát mẻ và ánh sáng tạo nên khung cảnh rất thơ mộng. Đặc biệt vào mùa thu, Sông Hương mang vẻ đẹp rất riêng với không khí dịu nhẹ và lãng mạn.
+
+---
+
+Nếu bạn đang có kế hoạch khám phá Sông Hương Huế, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và thoải mái hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tiết kiệm chi phí mà vẫn đảm bảo sự tiện lợi trong suốt hành trình. Đây là lựa chọn rất phổ biến cho các chuyến đi Huế – Đà Nẵng – Quảng Trị.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Huế và miền Trung, bạn có thể lựa chọn các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá cố đô Huế
+
+Sông Hương không chỉ là dòng sông đẹp mà còn là linh hồn của Huế, nơi lưu giữ những giá trị văn hóa và ký ức lịch sử của vùng đất cố đô. Đây chắc chắn là điểm đến mà bạn không nên bỏ lỡ trong hành trình khám phá miền Trung Việt Nam.`,
   },
 
   "cho-dong-ba": {
     title: "Chợ Đông Ba",
-    content: `Chợ Đông Ba là khu chợ nổi tiếng với ẩm thực đặc sản Huế.`,
+              images: [
+      "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos196442922xl-1732498164999.jpg",
+      "https://aeonmall-review-rikkei.cdn.vccloud.vn/website/21/articles/September2025/1cbdf8b4-97d4-48e4-93c7-12f32916f220.jpg",
+      "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/11/1/1261922/Dong-Ba-6.jpg",
+     ],
+    content:`Chợ Đông Ba là khu chợ truyền thống lớn nhất và lâu đời nhất tại Huế, nằm bên bờ sông Hương và gần cầu Tràng Tiền. Đây không chỉ là nơi buôn bán sầm uất mà còn là điểm đến mang đậm nét văn hóa đặc trưng của vùng đất cố đô.
+
+Được xây dựng từ thời nhà Nguyễn, Chợ Đông Ba đã trải qua nhiều giai đoạn lịch sử và trở thành trung tâm giao thương quan trọng của Huế. Khi đến đây, du khách có thể cảm nhận rõ nhịp sống địa phương, sự thân thiện của người dân và không khí mua bán rất đặc trưng của miền Trung.
+
+Một trong những điểm hấp dẫn nhất tại Chợ Đông Ba chính là ẩm thực. Du khách có thể thưởng thức hàng loạt món ăn nổi tiếng của Huế như bún bò Huế, bánh bèo, bánh nậm, bánh lọc hay các loại chè truyền thống. Đây là nơi lý tưởng để khám phá ẩm thực địa phương với mức giá rất hợp lý.
+
+Ngoài ra, chợ còn là nơi bán nhiều đặc sản và quà lưu niệm như mè xửng, tôm chua, nón lá, áo dài Huế và các sản phẩm thủ công mỹ nghệ. Du khách có thể dễ dàng tìm thấy những món quà ý nghĩa để mang về.
+
+Chợ Đông Ba cũng có vị trí rất thuận tiện để kết hợp tham quan các địa điểm nổi tiếng khác như Đại Nội Huế, chùa Thiên Mụ hay dạo chơi dọc sông Hương. Vì vậy, đây thường là điểm dừng chân không thể thiếu trong hành trình khám phá Huế.
+
+Thời điểm thích hợp để tham quan Chợ Đông Ba là vào buổi sáng hoặc chiều mát, khi hoạt động mua bán diễn ra nhộn nhịp nhất. Du khách nên chuẩn bị tiền mặt và có thể trả giá nhẹ khi mua hàng để có trải nghiệm tốt hơn.
+
+---
+
+Nếu bạn đang có kế hoạch tham quan Chợ Đông Ba và khám phá Huế, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và tiết kiệm hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tối ưu giúp tiết kiệm chi phí mà vẫn đảm bảo sự thoải mái trong suốt hành trình. Đây là hình thức di chuyển rất phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Huế và miền Trung, bạn có thể tham khảo các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá cố đô Huế
+
+Chợ Đông Ba không chỉ là nơi mua sắm mà còn là điểm đến giúp bạn hiểu rõ hơn về văn hóa, ẩm thực và con người Huế. Đây chắc chắn là trải nghiệm đáng nhớ trong hành trình khám phá miền Trung Việt Nam.`,
   },
 
   "lang-khai-dinh": {
     title: "Lăng Khải Định",
-    content: `Lăng Khải Định có kiến trúc độc đáo pha trộn giữa Á và Âu.`,
+              images: [
+      "https://vcdn1-dulich.vnecdn.net/2016/08/26/8-1472207296.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=XVSrHi6a3ZH73RZmQJNIGg",
+      "https://hnm.1cdn.vn/2023/07/06/lang_khaidinh.jpg",
+      "https://dulichdaibang.com/theme/root/Lang%20Khai%20Dinh.jpg",
+     ],
+    content:`Lăng Khải Định là một trong những công trình lăng tẩm nổi bật và độc đáo nhất tại Huế, nằm trên triền núi Châu Chữ. Đây là nơi an nghỉ của vua Khải Định – vị vua thứ 12 của triều Nguyễn, đồng thời cũng là công trình mang phong cách kiến trúc đặc biệt, kết hợp giữa truyền thống Á Đông và ảnh hưởng phương Tây.
+
+Khác với các lăng tẩm khác của triều Nguyễn thường mang vẻ đẹp hài hòa với thiên nhiên, Lăng Khải Định gây ấn tượng mạnh với du khách bởi kiến trúc đồ sộ, cầu kỳ và được xây dựng chủ yếu bằng bê tông, đá và các vật liệu hiện đại thời bấy giờ. Công trình được xây dựng trong suốt nhiều năm với sự đầu tư lớn về công sức và nghệ thuật.
+
+Khi tham quan Lăng Khải Định, du khách sẽ phải đi qua hệ thống bậc thang dẫn lên đỉnh đồi, nơi tọa lạc khu lăng chính. Điểm nổi bật nhất chính là cung Thiên Định – khu vực trung tâm của lăng, nơi đặt tượng vua Khải Định và được trang trí bằng nghệ thuật khảm sành sứ vô cùng tinh xảo. Các chi tiết trang trí bên trong lăng thể hiện trình độ thủ công mỹ nghệ đỉnh cao của nghệ nhân thời Nguyễn.
+
+Không gian bên trong lăng mang màu sắc trầm mặc nhưng vô cùng ấn tượng với những họa tiết cầu kỳ, kết hợp giữa văn hóa phương Đông và phương Tây. Đây chính là điểm khác biệt khiến Lăng Khải Định trở thành một trong những điểm tham quan thu hút du khách nhất tại Huế.
+
+Ngoài ra, du khách có thể kết hợp tham quan Lăng Khải Định với các địa điểm nổi tiếng khác như Đại Nội Huế, chùa Thiên Mụ, Lăng Tự Đức hay dạo chơi dọc sông Hương. Nhờ vị trí thuận tiện, việc di chuyển giữa các điểm tham quan khá dễ dàng.
+
+Thời điểm lý tưởng để tham quan Lăng Khải Định là vào buổi sáng hoặc chiều mát, khi thời tiết không quá nắng nóng. Du khách nên chuẩn bị trang phục thoải mái và giày thể thao để dễ dàng di chuyển lên các bậc thang.
+
+---
+
+Nếu bạn đang có kế hoạch tham quan Lăng Khải Định và khám phá Huế, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và tiết kiệm hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tối ưu giúp tiết kiệm chi phí mà vẫn đảm bảo sự thoải mái trong suốt hành trình. Đây là lựa chọn phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Huế và miền Trung, bạn có thể lựa chọn các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá cố đô Huế
+
+Lăng Khải Định không chỉ là một công trình kiến trúc độc đáo mà còn là nơi lưu giữ nhiều giá trị lịch sử và văn hóa đặc sắc của triều Nguyễn. Đây chắc chắn là điểm đến không thể bỏ qua khi bạn đến Huế.`,
   },
 
   "bien-lang-co": {
     title: "Biển Lăng Cô",
-    content: `Lăng Cô là một trong những vịnh biển đẹp nhất thế giới.`,
+              images: [
+      "https://dulichconvoi.com/wp-content/uploads/2023/09/Langco3-1446-1689668265.jpg",
+      "https://khamphahue.com.vn/Portals/0/Medias/Nam2022/T9/Khamphahue_Vinh-dep-lang-co-hue.jpg",
+      "https://phongnhatourist.com/wp-content/uploads/2021/08/langcothodiadulich-1024x577.jpg",
+     ],
+    content:`Biển Lăng Cô là một trong những vịnh biển đẹp nhất thế giới, nằm dưới chân đèo Hải Vân, thuộc huyện Phú Lộc, tỉnh Thừa Thiên Huế. Với vẻ đẹp hoang sơ, làn nước trong xanh và bãi cát trắng mịn trải dài, Lăng Cô luôn nằm trong danh sách những điểm đến hấp dẫn nhất tại miền Trung Việt Nam.
+
+Vịnh Lăng Cô gây ấn tượng mạnh với du khách bởi khung cảnh thiên nhiên hài hòa giữa biển, núi và đầm phá. Một bên là dãy núi Bạch Mã hùng vĩ, một bên là đầm Lập An thơ mộng, tạo nên một bức tranh thiên nhiên tuyệt đẹp hiếm nơi nào có được. Đây là điểm đến lý tưởng cho những ai yêu thích nghỉ dưỡng, chụp ảnh và tận hưởng không gian yên bình.
+
+Khi đến Biển Lăng Cô, du khách có thể tham gia nhiều hoạt động thú vị như tắm biển, chèo thuyền, thưởng thức hải sản tươi sống hoặc đơn giản là thư giãn bên bờ biển. Khu vực này cũng có nhiều resort và khách sạn cao cấp phục vụ nhu cầu nghỉ dưỡng.
+
+Một trải nghiệm không thể bỏ qua khi đến Lăng Cô là thưởng thức hải sản tại đầm Lập An. Các món như hàu, tôm, cua và cá biển đều rất tươi ngon và mang đậm hương vị địa phương.
+
+Ngoài ra, Biển Lăng Cô có vị trí rất thuận tiện để kết hợp tham quan các địa điểm nổi tiếng khác như đèo Hải Vân, Bà Nà Hills, Đại Nội Huế hoặc phố cổ Hội An. Nhờ đó, du khách có thể dễ dàng xây dựng một lịch trình du lịch đa dạng và hấp dẫn.
+
+Thời điểm lý tưởng để du lịch Lăng Cô là từ tháng 4 đến tháng 8, khi thời tiết nắng đẹp, biển êm và thích hợp cho các hoạt động ngoài trời. Du khách nên chuẩn bị trang phục nhẹ, kem chống nắng và lên kế hoạch di chuyển hợp lý để có trải nghiệm tốt nhất.
+
+---
+
+Nếu bạn đang có kế hoạch đến Biển Lăng Cô, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và tiết kiệm hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tối ưu giúp tiết kiệm chi phí mà vẫn đảm bảo sự thoải mái trong suốt hành trình. Đây là lựa chọn phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại miền Trung, bạn có thể tham khảo các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá miền Trung
+
+Biển Lăng Cô không chỉ là điểm đến nghỉ dưỡng lý tưởng mà còn là nơi mang đến những trải nghiệm thiên nhiên tuyệt vời. Đây chắc chắn là điểm dừng chân mà bạn không nên bỏ lỡ khi đến Huế và khu vực miền Trung Việt Nam.`,
   },
 
   "doi-vong-canh": {
     title: "Đồi Vọng Cảnh",
-    content: `Đồi Vọng Cảnh là điểm ngắm hoàng hôn nổi tiếng tại Huế.`,
+              images: [
+      "https://huesmiletravel.com.vn/images/doi-vong-canh-hue.jpg",
+      "https://media-cdn-v2.laodong.vn/storage/newsportal/2024/5/19/1341807/Vong-Canh-1.jpg",
+      "https://booking.muongthanh.com/upload_images/images/H%60/doi-vong-canh(1).jpg",
+     ],
+    content:`Đồi Vọng Cảnh là một trong những điểm ngắm cảnh đẹp và thơ mộng nhất tại Huế, nằm cách trung tâm thành phố không xa. Nơi đây nổi tiếng với tầm nhìn bao quát sông Hương, núi non và những khu lăng tẩm cổ kính của triều Nguyễn, tạo nên một khung cảnh vừa hùng vĩ vừa yên bình.
+
+Đúng như tên gọi, Đồi Vọng Cảnh là nơi lý tưởng để du khách chiêm ngưỡng toàn cảnh thiên nhiên Huế từ trên cao. Từ đỉnh đồi, bạn có thể nhìn thấy dòng sông Hương uốn lượn mềm mại giữa những rặng thông xanh mướt, xa xa là các công trình lịch sử như lăng Tự Đức, lăng Khải Định. Đây là một trong những điểm check-in được yêu thích nhất khi đến Huế.
+
+Không gian tại Đồi Vọng Cảnh rất yên tĩnh, trong lành, thích hợp cho việc thư giãn, dạo chơi và tận hưởng vẻ đẹp thiên nhiên. Đặc biệt, vào buổi chiều, khi mặt trời dần lặn, nơi đây trở thành điểm ngắm hoàng hôn tuyệt đẹp với ánh nắng vàng phủ lên toàn cảnh Huế.
+
+Du khách có thể đến Đồi Vọng Cảnh bằng xe máy, ô tô hoặc xe du lịch. Đường lên đồi khá dễ đi, không quá dốc nên phù hợp với nhiều đối tượng. Ngoài ra, khu vực này cũng rất thuận tiện để kết hợp tham quan các địa điểm nổi tiếng khác như lăng Tự Đức, lăng Khải Định hay chùa Thiên Mụ.
+
+Thời điểm lý tưởng để tham quan Đồi Vọng Cảnh là vào sáng sớm hoặc chiều muộn, khi thời tiết mát mẻ và ánh sáng đẹp để chụp ảnh. Du khách nên chuẩn bị máy ảnh hoặc điện thoại đầy pin để lưu lại những khoảnh khắc ấn tượng.
+
+---
+
+Nếu bạn đang có kế hoạch khám phá Đồi Vọng Cảnh và các địa điểm tại Huế, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và thoải mái hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tiết kiệm chi phí mà vẫn đảm bảo sự tiện lợi trong suốt hành trình. Đây là lựa chọn rất phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Huế và miền Trung, bạn có thể tham khảo các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá cố đô Huế
+
+Đồi Vọng Cảnh không chỉ là điểm ngắm cảnh tuyệt đẹp mà còn là nơi giúp bạn cảm nhận rõ nét vẻ yên bình, thơ mộng của Huế. Đây chắc chắn là điểm dừng chân lý tưởng trong hành trình khám phá miền Trung Việt Nam.`,
   },
 
   /* ĐÀ NẴNG */
