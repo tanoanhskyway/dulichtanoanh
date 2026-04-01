@@ -77,7 +77,8 @@ Ngoài ra, nếu bạn muốn có một hành trình trọn vẹn, kết hợp n
       "https://bcp.cdnchinhphu.vn/334894974524682240/2025/4/14/dl3-cauhienluongsongbenhai-vituyen17homnay20230425153740-1744623159965304727765.jpg",
       "https://media.vov.vn/sites/default/files/styles/large_watermark/public/2025-04/cau_hien_luong_in_bong_tren_song_ben_hai.jpg",
       "https://netintravel.com/wp-content/uploads/2025/09/cau-hien-luong-1.jpg",
-content:`Cầu Hiền Lương – Sông Bến Hải là một trong những biểu tượng lịch sử quan trọng của Việt Nam, từng là ranh giới chia cắt hai miền Nam – Bắc trong thời kỳ chiến tranh. Đây là địa điểm mang giá trị lịch sử sâu sắc và thu hút nhiều du khách đến tham quan.
+    ],
+   content:`Cầu Hiền Lương – Sông Bến Hải là một trong những biểu tượng lịch sử quan trọng của Việt Nam, từng là ranh giới chia cắt hai miền Nam – Bắc trong thời kỳ chiến tranh. Đây là địa điểm mang giá trị lịch sử sâu sắc và thu hút nhiều du khách đến tham quan.
 
 Khi đến đây, du khách sẽ được tìm hiểu về giai đoạn lịch sử đầy biến động của đất nước, tham quan các công trình như cầu Hiền Lương, nhà trưng bày và các di tích liên quan.
 
