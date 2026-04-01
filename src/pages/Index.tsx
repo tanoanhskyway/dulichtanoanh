@@ -162,7 +162,7 @@ const Index = () => (
         <div className="flex flex-wrap justify-center gap-3">
           <a href="tel:0866600822">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold h-12 px-8 cta-shadow">
-              Gọi 08.666.00822
+              Gọi 08.666.008.22
             </Button>
           </a>
           <Link to="/lien-he">
