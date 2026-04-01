@@ -231,41 +231,128 @@ Rú Lịnh là điểm đến lý tưởng cho những ai yêu thiên nhiên hoa
 
   "phong-nha-ke-bang": {
     title: "Phong Nha – Kẻ Bàng",
-    content:`Phong Nha – Kẻ Bàng là di sản thiên nhiên thế giới nổi tiếng với hệ thống hang động kỳ vĩ và đa dạng sinh học phong phú. Đây là điểm đến hàng đầu tại miền Trung Việt Nam.
+                                images: [
+      "https://nld.mediacdn.vn/thumb_w/640/291774122806476800/2024/11/18/dong-phong-nha-ke-bang-dep-den-choang-ngop-17319168370561406931222.jpg",
+      "https://ecotour.com.vn/wp-content/uploads/2025/05/du-lich-dong-phong-nha-ke-bang-quang-binh.jpeg",
+      "https://xdcs.cdnchinhphu.vn/446259493575335936/2025/7/13/dong-phong-nha-175241040064959440978.jpg",
+     ],
+    content:`Phong Nha – Kẻ Bàng là di sản thiên nhiên thế giới được UNESCO công nhận, nổi tiếng với hệ thống hang động kỳ vĩ và đa dạng sinh học bậc nhất châu Á. Đây là điểm đến không thể bỏ qua khi du lịch miền Trung.
 
-Du khách có thể khám phá các hang động, tham gia các hoạt động du lịch sinh thái và trải nghiệm thiên nhiên hoang sơ.
+Khu vực này sở hữu hàng trăm hang động lớn nhỏ, trong đó nổi bật nhất là động Phong Nha, động Thiên Đường và hang Sơn Đoòng – hang động lớn nhất thế giới. Du khách đến đây sẽ được trải nghiệm chèo thuyền trên sông Son, khám phá hang động và tận hưởng không khí trong lành của rừng nguyên sinh.
+
+Ngoài ra, Phong Nha còn phù hợp với các hoạt động du lịch sinh thái như trekking, khám phá rừng và cắm trại.
+
+Thời điểm lý tưởng để tham quan là từ tháng 3 đến tháng 8, khi thời tiết khô ráo và thuận lợi cho việc khám phá hang động.
 
 ---
 
-Để đến Phong Nha thuận tiện, bạn có thể sử dụng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị tùy theo nhu cầu.
+Để di chuyển thuận tiện đến Phong Nha – Kẻ Bàng, bạn có thể lựa chọn xe dịch vụ Quảng Trị để chủ động lịch trình. Với khách đi lẻ, xe ghép Quảng Trị là lựa chọn tiết kiệm chi phí mà vẫn đảm bảo tiện lợi.
 
-Ngoài ra, du lịch Tân Oanh cung cấp nhiều tour khám phá hang động hấp dẫn.
+Ngoài ra, du lịch Tân Oanh cung cấp nhiều tour khám phá hang động chuyên nghiệp.
 
-👉 Xe dịch vụ Quảng Trị – tiện lợi, nhanh chóng  
-👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
-👉 Du lịch Tân Oanh – tour khám phá chuyên nghiệp
+👉 Xe dịch vụ Quảng Trị – đưa đón tận nơi  
+👉 Xe ghép Quảng Trị – giá rẻ, linh hoạt  
+👉 Du lịch Tân Oanh – hành trình trọn gói
 
-Phong Nha – Kẻ Bàng là điểm đến không thể bỏ qua khi du lịch miền Trung.`
+Phong Nha – Kẻ Bàng là điểm đến thiên nhiên kỳ vĩ hàng đầu Việt Nam.`
   },
 
   "hang-son-doong": {
     title: "Hang Sơn Đoòng",
-    content: `Hang Sơn Đoòng là hang động lớn nhất thế giới được phát hiện tại Quảng Bình.`,
+                                    images: [
+      "https://thoibaotaichinhvietnam.vn/stores/news_dataimages/2023/122023/23/14/photo-1-16498243241022068969928-1649836162311-16498361624051000345387-1649839152084-1649839152141111541271520231223145719.5433580.jpg",
+      "https://vcdn1-dulich.vnecdn.net/2022/01/12/hang-1641962825-5455-1641962984.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OTGvhIoUKJUj7fY3L6Z71A",
+      "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/3/30/1676949/Hang-En-Campsite-At-.jpeg",
+     ],
+    content:`Hang Sơn Đoòng là hang động lớn nhất thế giới, nằm trong Vườn quốc gia Phong Nha – Kẻ Bàng. Với kích thước khổng lồ và hệ sinh thái riêng biệt bên trong, nơi đây được xem là kỳ quan thiên nhiên độc đáo.
+
+Bên trong hang có rừng nguyên sinh, sông ngầm và hệ thống thạch nhũ khổng lồ tạo nên cảnh quan vô cùng ấn tượng. Đây là điểm đến mơ ước của những người yêu thích khám phá và mạo hiểm.
+
+Tuy nhiên, để khám phá Sơn Đoòng, du khách cần đăng ký tour chuyên biệt và có sự chuẩn bị kỹ lưỡng.
+
+---
+
+Để đến khu vực Phong Nha thuận tiện, bạn có thể sử dụng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+Ngoài ra, du lịch Tân Oanh cung cấp các tour hỗ trợ khám phá khu vực này.
+
+👉 Xe dịch vụ Quảng Trị – tiện lợi  
+👉 Xe ghép Quảng Trị – tiết kiệm  
+👉 Du lịch Tân Oanh – hỗ trợ hành trình
+
+Hang Sơn Đoòng là điểm đến dành cho những ai yêu thích khám phá thiên nhiên.`
   },
 
   "dong-thien-duong": {
     title: "Động Thiên Đường",
-    content: `Động Thiên Đường dài hơn 31km với hệ thống thạch nhũ tuyệt đẹp.`,
+          images: [
+      "https://api.sovaba.travel/uploads/Tham_quan_Dong_Thien_Duong_04abe82bb0.png",
+      "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos206698452xl-1734917218918.jpg",
+      "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos271368316xl-1734917494041.jpg",
+     ],
+    content:`Động Thiên Đường được mệnh danh là “hoàng cung trong lòng đất” với hệ thống thạch nhũ tuyệt đẹp. Đây là một trong những hang động nổi bật nhất tại Quảng Bình.
+
+Du khách có thể đi bộ trên cầu gỗ dài hàng km để chiêm ngưỡng vẻ đẹp kỳ ảo bên trong hang. Không gian rộng lớn, mát mẻ và vô cùng ấn tượng.
+
+---
+
+Bạn có thể di chuyển bằng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị để đến đây.
+
+Ngoài ra, du lịch Tân Oanh có tour khám phá hang động rất tiện lợi.
+
+👉 Xe dịch vụ Quảng Trị  
+👉 Xe ghép Quảng Trị  
+👉 Du lịch Tân Oanh
+
+Động Thiên Đường là điểm đến không thể bỏ qua khi đến Quảng Bình.`
   },
 
   "suoi-mooc": {
     title: "Suối Moọc",
-    content: `Suối Moọc là điểm du lịch sinh thái nổi tiếng với làn nước xanh ngọc.`,
+              images: [
+      "https://phongnhasmiletravel.com/assets/media/z2434590977855-1eff4ba9f0b02ebcbd2e4ac2dfc3b3c0.jpg",
+      "https://celinaresort.com/wp-content/uploads/2021/03/phong-nha-suoi-mooc-01.jpg",
+      "https://quangbinhtravel.vn/wp-content/uploads/2024/09/suoi-nuoc-mooc-1024x576-1.jpg",
+     ],
+    content:`Suối Moọc là điểm du lịch sinh thái nổi tiếng với làn nước xanh ngọc và không gian thiên nhiên mát mẻ. Đây là nơi lý tưởng để nghỉ dưỡng và vui chơi.
+
+Du khách có thể tắm suối, chèo kayak và tham gia các hoạt động ngoài trời.
+
+---
+
+Di chuyển thuận tiện bằng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+Ngoài ra, du lịch Tân Oanh có tour kết hợp tham quan khu vực này.
+
+👉 Xe dịch vụ Quảng Trị  
+👉 Xe ghép Quảng Trị  
+👉 Du lịch Tân Oanh
+
+Suối Moọc là điểm đến lý tưởng cho du lịch sinh thái.`
   },
 
   "bien-nhat-le": {
     title: "Biển Nhật Lệ",
-    content: `Biển Nhật Lệ nằm tại thành phố Đồng Hới với bãi cát trắng mịn và nước biển trong xanh.`,
+              images: [
+      "https://dulichnewtour.vn/ckfinder/images/bien-nhat-le%20(14).jpg",
+      "https://qbtravel.vn/wp-content/uploads/2025/07/Bien-nhat-le-quang-binh-top-10-cac-bai-bien-dep-nhat-tai-viet-nam.jpg",
+      "https://cms.junglebosstours.com/assets/2ed2d476-f135-4f49-895c-811ac93e1b0c?width=1920&height=1080",
+     ],
+   content:`Biển Nhật Lệ là một trong những bãi biển đẹp nhất tại Quảng Bình, nổi bật với bãi cát trắng mịn và làn nước trong xanh. Đây là điểm đến hấp dẫn cho du khách yêu thích du lịch biển.
+
+Du khách có thể tắm biển, dạo chơi và thưởng thức hải sản đặc sản địa phương.
+
+---
+
+Để đến Biển Nhật Lệ thuận tiện, bạn có thể sử dụng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+Ngoài ra, du lịch Tân Oanh cung cấp nhiều tour kết hợp Quảng Trị – Quảng Bình.
+
+👉 Xe dịch vụ Quảng Trị – tiện lợi, nhanh chóng  
+👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
+👉 Du lịch Tân Oanh – hành trình trọn gói
+
+Biển Nhật Lệ là lựa chọn hoàn hảo cho kỳ nghỉ thư giãn.`
   },
 
   "con-cat-quang-phu": {
