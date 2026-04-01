@@ -13,8 +13,8 @@ const data: Record<string, Place> = {
     title: "Thành cổ Quảng Trị",
     images: [
       "https://cms.junglebosstours.com/assets/9dba0c19-b575-4fc7-b973-439dc1a6114f?format=webp",
-      "https://your-image-link-2.com",
-      "https://your-image-link-3.com",
+      "https://quangbinhtravel.vn/wp-content/uploads/2025/02/thanh-co-quang-tri-2-1024x576.jpg",
+      "https://bcp.cdnchinhphu.vn/334894974524682240/2025/4/29/thanh-co-quang-tri-2-1745940289655357673123.jpg",
     ],
     content: `Thành cổ Quảng Trị là di tích lịch sử đặc biệt gắn liền với trận chiến 81 ngày đêm năm 1972, một dấu mốc bi tráng trong lịch sử dân tộc Việt Nam. Đây không chỉ là điểm đến mang giá trị lịch sử sâu sắc mà còn là nơi để du khách, cựu chiến binh và thế hệ trẻ tìm hiểu, tưởng niệm và tri ân những hy sinh to lớn của cha ông.
 
@@ -42,9 +42,9 @@ Thành cổ Quảng Trị không chỉ là một điểm đến du lịch, mà c
   "dia-dao-vinh-moc": {
     title: "Địa đạo Vịnh Mốc",
         images: [
-      "https://your-image-link-2.com",
-      "https://your-image-link-2.com",
-      "https://your-image-link-3.com",
+      "https://imagevietnam.vnanet.vn//MediaUpload/Org/2024/10/24/2824-14-31-25.jpg",
+      "https://i.ytimg.com/vi/rk54KqVVRhI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBXsh2gC5kIlGO04vfmnjhPi-5VVQ",
+      "https://images2.thanhnien.vn/528068263637045248/2025/4/17/b6fb41e5542be775be3a-17448558778211424847224.jpg",
     ],
     content:`Địa đạo Vịnh Mốc là một trong những công trình lịch sử đặc biệt và độc đáo nhất tại Quảng Trị, nằm ở huyện Vĩnh Linh – vùng đất từng chịu nhiều bom đạn ác liệt trong chiến tranh. Đây không chỉ là một di tích lịch sử mà còn là minh chứng sống động cho ý chí kiên cường và tinh thần bất khuất của người dân miền Trung.
 
@@ -72,75 +72,153 @@ Ngoài ra, nếu bạn muốn có một hành trình trọn vẹn, kết hợp n
   },
 
   "cau-hien-luong-ben-hai": {
-    title: "Cầu Hiền Lương – Sông Bến Hải",
-    content:`Cầu Hiền Lương – Sông Bến Hải là biểu tượng lịch sử đặc biệt của Việt Nam, từng là ranh giới chia cắt hai miền Nam – Bắc trong suốt thời kỳ chiến tranh. Nơi đây mang đậm dấu ấn lịch sử và là điểm tham quan ý nghĩa đối với du khách.
+    title: "Cầu Hiền Lương – Sông Bến Hải", 
+        images: [
+      "https://bcp.cdnchinhphu.vn/334894974524682240/2025/4/14/dl3-cauhienluongsongbenhai-vituyen17homnay20230425153740-1744623159965304727765.jpg",
+      "https://media.vov.vn/sites/default/files/styles/large_watermark/public/2025-04/cau_hien_luong_in_bong_tren_song_ben_hai.jpg",
+      "https://netintravel.com/wp-content/uploads/2025/09/cau-hien-luong-1.jpg",
+content:`Cầu Hiền Lương – Sông Bến Hải là một trong những biểu tượng lịch sử quan trọng của Việt Nam, từng là ranh giới chia cắt hai miền Nam – Bắc trong thời kỳ chiến tranh. Đây là địa điểm mang giá trị lịch sử sâu sắc và thu hút nhiều du khách đến tham quan.
 
-Khi đến đây, du khách có thể tham quan cầu Hiền Lương, bảo tàng và khu vực di tích lịch sử, đồng thời tìm hiểu về giai đoạn lịch sử đầy biến động của đất nước.
+Khi đến đây, du khách sẽ được tìm hiểu về giai đoạn lịch sử đầy biến động của đất nước, tham quan các công trình như cầu Hiền Lương, nhà trưng bày và các di tích liên quan.
+
+Không gian nơi đây mang lại cảm giác trang nghiêm, giúp mỗi người hiểu rõ hơn về giá trị của hòa bình ngày nay.
+
+Bạn có thể kết hợp tham quan Cầu Hiền Lương với các điểm gần đó như Địa đạo Vịnh Mốc hoặc Thành cổ Quảng Trị.
 
 ---
 
-Để di chuyển thuận tiện đến Cầu Hiền Lương, bạn có thể lựa chọn xe dịch vụ Quảng Trị với lịch trình linh hoạt. Nếu muốn tiết kiệm chi phí, xe ghép Quảng Trị là lựa chọn phù hợp.
+Để di chuyển thuận tiện, bạn có thể lựa chọn xe dịch vụ Quảng Trị giúp chủ động thời gian. Nếu đi nhóm nhỏ, xe ghép Quảng Trị là lựa chọn tiết kiệm.
 
-Ngoài ra, các tour du lịch Tân Oanh cũng cung cấp hành trình kết hợp nhiều địa điểm lịch sử trong khu vực.
+Ngoài ra, các tour du lịch Tân Oanh sẽ giúp bạn khám phá trọn vẹn khu vực này.
 
-👉 Đặt xe dịch vụ Quảng Trị – tiện lợi, nhanh chóng  
+👉 Xe dịch vụ Quảng Trị – tiện lợi, nhanh chóng  
 👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
-👉 Du lịch Tân Oanh – khám phá trọn vẹn miền Trung
+👉 Du lịch Tân Oanh – hành trình trọn gói
 
-Cầu Hiền Lương là điểm đến mang nhiều ý nghĩa lịch sử và cảm xúc.`
+Cầu Hiền Lương là điểm đến giàu ý nghĩa lịch sử mà bạn nên ghé thăm.`
   },
 
   "bien-cua-viet": {
     title: "Biển Cửa Việt",
-    content:`Biển Cửa Việt là một trong những bãi biển đẹp và nổi tiếng tại Quảng Trị, thu hút du khách bởi bãi cát trắng mịn, nước biển trong xanh và không khí trong lành. Đây là điểm đến lý tưởng cho các chuyến nghỉ dưỡng và du lịch biển.
+            images: [
+      "https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/05_2021/du-lich-bien-cua-viet-o-dau.jpg",
+      "https://t.cmx-cdn.com/tiepthigiadinh.vn/files/hientttaneed/2023/05/17/bien-cua-viet-003946.jpg",
+      "https://quangbinhtravel.vn/wp-content/uploads/2025/09/resort-cua-viet.jpg",
+    content:`Biển Cửa Việt là một trong những bãi biển đẹp và nổi tiếng tại Quảng Trị, thu hút du khách bởi bãi cát trắng mịn và nước biển trong xanh. Đây là điểm đến lý tưởng cho những chuyến nghỉ dưỡng và du lịch biển.
 
-Du khách có thể tắm biển, thưởng thức hải sản tươi ngon và tận hưởng không gian yên bình tại đây.
+Du khách có thể tắm biển, dạo chơi trên bãi cát, thưởng thức hải sản tươi ngon và tận hưởng không khí trong lành.
+
+Biển Cửa Việt cũng là nơi thích hợp để tổ chức các hoạt động dã ngoại, team building hoặc nghỉ dưỡng cuối tuần.
 
 ---
 
-Để đến Biển Cửa Việt thuận tiện, bạn có thể lựa chọn xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị tùy theo nhu cầu và ngân sách.
+Để di chuyển thuận tiện, bạn có thể sử dụng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị tùy theo nhu cầu.
 
-Nếu muốn kết hợp tham quan nhiều địa điểm, du lịch Tân Oanh là lựa chọn phù hợp giúp bạn tối ưu hành trình.
+Ngoài ra, du lịch Tân Oanh cung cấp nhiều tour kết hợp tham quan biển và các điểm du lịch khác.
 
 👉 Xe dịch vụ Quảng Trị – di chuyển thoải mái  
 👉 Xe ghép Quảng Trị – giá rẻ, tiện lợi  
-👉 Du lịch Tân Oanh – tour trọn gói hấp dẫn
+👉 Du lịch Tân Oanh – tour trọn gói
 
 Biển Cửa Việt là điểm dừng chân lý tưởng cho chuyến du lịch miền Trung.`
   },
 
   "thanh-dia-la-vang": {
     title: "Thánh địa La Vang",
-    content: `La Vang là trung tâm hành hương Công giáo lớn nhất Việt Nam.`,
+                images: [
+      "https://cdn.xanhsm.com/2025/02/0a88ceed-thanh-dia-duc-me-la-vang-1.jpg",
+      "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfwtupocma5EJEnvtCuM8TuZUzjSOxAItyAMcXCXwHTu-yMNzLFXslFLHOwPKglsWHSaTbuxpu8hkh0rPVCoTjuD_fxcWejER1zgBqiQyh-VnC_RxQhg-F4rD2UjfaGmbEV7QQ6?key=TxwSl_Cy_ksJ6rhyBNogjZDD",
+      "https://bizweb.dktcdn.net/100/006/093/articles/thanh-dia-duc-me-la-vang.jpg?v=1700974161927",
+    content:`Thánh địa La Vang là trung tâm hành hương Công giáo lớn nhất Việt Nam, nằm tại Quảng Trị. Đây là điểm đến tâm linh nổi tiếng thu hút hàng triệu du khách và giáo dân mỗi năm.
+
+Không gian tại La Vang rộng lớn, trang nghiêm với các công trình kiến trúc mang đậm dấu ấn tôn giáo. Đây là nơi lý tưởng để cầu nguyện và tìm sự bình an.
+
+Du khách khi đến đây không chỉ tham quan mà còn cảm nhận được sự yên tĩnh và thiêng liêng.
+
+---
+
+Để đến La Vang thuận tiện, bạn có thể lựa chọn xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+Ngoài ra, du lịch Tân Oanh cung cấp các tour hành hương kết hợp tham quan nhiều điểm.
+
+👉 Xe dịch vụ Quảng Trị – đưa đón tận nơi  
+👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
+👉 Du lịch Tân Oanh – hành trình trọn gói
+
+La Vang là điểm đến tâm linh không thể bỏ qua khi đến Quảng Trị.`
   },
 
   "dao-con-co": {
     title: "Đảo Cồn Cỏ",
-    content:`Đảo Cồn Cỏ là hòn đảo nhỏ nằm ngoài khơi Quảng Trị, nổi bật với hệ sinh thái biển phong phú và cảnh quan thiên nhiên hoang sơ. Đây là điểm đến lý tưởng cho những ai yêu thích khám phá và trải nghiệm thiên nhiên.
+                    images: [
+      "https://images.vietnamtourism.gov.vn/vn/images/2021/dao_Con_Co.jpg",
+      "https://www.vietnamairlines.com/content/dam/legacy-site-assets/SEO-images/2025%20SEO/Thay%20Anh%20Traffic%20Tieng%20Viet/dao%20con%20co/cot-co-to-quoc-dao-con-co.jpeg",
+      "https://thiennhienmoitruong.vn/upload2024/images/a-phuong-1/btv-t.phuong-2/148.jpg",
+content:`Đảo Cồn Cỏ là hòn đảo nhỏ nằm ngoài khơi Quảng Trị, nổi bật với cảnh quan thiên nhiên hoang sơ và hệ sinh thái biển phong phú. Đây là điểm đến hấp dẫn cho những ai yêu thích khám phá.
 
-Du khách có thể tham gia các hoạt động như lặn biển, câu cá và khám phá hệ sinh thái biển độc đáo.
+Du khách có thể tham gia các hoạt động như lặn biển, câu cá, khám phá rạn san hô và tận hưởng không khí trong lành.
+
+Đảo Cồn Cỏ mang lại trải nghiệm gần gũi với thiên nhiên và rất phù hợp cho những chuyến đi nghỉ dưỡng.
 
 ---
 
-Để di chuyển ra đảo thuận tiện, bạn nên sử dụng xe dịch vụ Quảng Trị để đến cảng, hoặc lựa chọn xe ghép Quảng Trị nếu đi theo nhóm nhỏ.
+Để di chuyển ra đảo, bạn có thể sử dụng xe dịch vụ Quảng Trị đến cảng hoặc chọn xe ghép Quảng Trị.
 
-Ngoài ra, du lịch Tân Oanh cung cấp các tour kết hợp tham quan đảo và các điểm du lịch khác.
+Ngoài ra, du lịch Tân Oanh có các tour khám phá đảo rất tiện lợi.
 
-👉 Xe dịch vụ Quảng Trị – linh hoạt lịch trình  
-👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
-👉 Du lịch Tân Oanh – trải nghiệm trọn gói
+👉 Xe dịch vụ Quảng Trị – linh hoạt  
+👉 Xe ghép Quảng Trị – tiết kiệm  
+👉 Du lịch Tân Oanh – trọn gói
 
-Đảo Cồn Cỏ là điểm đến hấp dẫn cho những ai yêu thiên nhiên và biển đảo.`
+Đảo Cồn Cỏ là điểm đến lý tưởng cho du lịch biển đảo.`
   },
 
   "bien-cua-tung": {
     title: "Biển Cửa Tùng",
-    content: `Cửa Tùng từng được mệnh danh là nữ hoàng của các bãi biển miền Trung.`,
+                        images: [
+      "https://images.vietnamtourism.gov.vn/vn/images/2021/dao_Con_Co.jpg",
+      "https://www.vietnamairlines.com/content/dam/legacy-site-assets/SEO-images/2025%20SEO/Thay%20Anh%20Traffic%20Tieng%20Viet/dao%20con%20co/cot-co-to-quoc-dao-con-co.jpeg",
+      "https://thiennhienmoitruong.vn/upload2024/images/a-phuong-1/btv-t.phuong-2/148.jpg",
+  content:`Biển Cửa Tùng từng được mệnh danh là “nữ hoàng của các bãi biển miền Trung” với vẻ đẹp yên bình và thơ mộng. Nơi đây nổi bật với làn nước trong xanh và bãi cát mịn.
+
+Du khách có thể tắm biển, nghỉ dưỡng và thưởng thức hải sản địa phương.
+
+Không gian yên tĩnh của Cửa Tùng rất phù hợp cho những ai muốn tránh xa sự ồn ào.
+
+---
+
+Bạn có thể di chuyển bằng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị để tiết kiệm chi phí.
+
+Ngoài ra, du lịch Tân Oanh có nhiều tour hấp dẫn kết hợp tham quan khu vực này.
+
+👉 Xe dịch vụ Quảng Trị  
+👉 Xe ghép Quảng Trị  
+👉 Du lịch Tân Oanh
+
+Biển Cửa Tùng là điểm đến lý tưởng cho kỳ nghỉ thư giãn.`
   },
 
   "rung-ru-linh": {
     title: "Rừng nguyên sinh Rú Lịnh",
-    content: `Rú Lịnh là khu rừng nguyên sinh hiếm hoi còn lại tại Quảng Trị với hệ sinh thái đa dạng.`,
+                            images: [
+      "https://nld.mediacdn.vn/thumb_w/698/291774122806476800/2022/3/1/13-rulinh2-1646140239781810676032.jpg",
+      "https://dulich-media.quangtri.gov.vn/resources/portal//Images/QTI/adminportal.qti.it3/doanhnghiep/du_lich/rung_ru_linh/7_381906929.jpg",
+      "https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/06_2021/rung-nguyen-sinh-ru-linh-canh.jpg",
+  content:`Rừng nguyên sinh Rú Lịnh là khu rừng hiếm hoi còn giữ được hệ sinh thái tự nhiên tại Quảng Trị. Với không gian xanh mát và đa dạng sinh học, nơi đây là điểm đến lý tưởng cho những ai yêu thiên nhiên.
+
+Du khách có thể đi bộ khám phá rừng, tận hưởng không khí trong lành và tìm hiểu về hệ sinh thái đặc trưng.
+
+---
+
+Việc di chuyển đến Rú Lịnh sẽ thuận tiện hơn khi sử dụng xe dịch vụ Quảng Trị. Nếu đi nhóm nhỏ, xe ghép Quảng Trị là lựa chọn tiết kiệm.
+
+Ngoài ra, bạn có thể tham khảo tour du lịch Tân Oanh để kết hợp nhiều điểm tham quan.
+
+👉 Xe dịch vụ Quảng Trị – chủ động lịch trình  
+👉 Xe ghép Quảng Trị – tiết kiệm chi phí  
+👉 Du lịch Tân Oanh – khám phá trọn gói
+
+Rú Lịnh là điểm đến lý tưởng cho những ai yêu thiên nhiên hoang sơ.`
   },
 
   /* QUẢNG BÌNH */
