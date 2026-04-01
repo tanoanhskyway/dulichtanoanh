@@ -23,8 +23,8 @@ const LienHe = () => {
             
             <div className="space-y-4">
               {[
-                { icon: Phone, label: "Hotline", value: "08.666.00822", href: "tel:0866600822" },
-                { icon: MessageCircle, label: "Zalo", value: "08.666.00822", href: "https://zalo.me/0866600822" },
+                { icon: Phone, label: "Hotline", value: "08.666.008.22", href: "tel:0866600822" },
+                { icon: MessageCircle, label: "Zalo", value: "08.666.008.22", href: "https://zalo.me/0866600822" },
                 { icon: MapPin, label: "Địa chỉ", value: "Cửa Việt, Quảng Trị" },
                 { icon: Clock, label: "Giờ làm việc", value: "24/7 – Luôn sẵn sàng" },
               ].map((item) => (
