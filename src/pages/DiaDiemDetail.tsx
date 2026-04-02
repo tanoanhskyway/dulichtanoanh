@@ -675,42 +675,248 @@ Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp t
 
   "ba-na-hills": {
     title: "Bà Nà Hills",
-    content: `Bà Nà Hills nổi tiếng với Cầu Vàng và khu du lịch trên đỉnh núi.`,
+              images: [
+      "https://cdn3.ivivu.com/2024/04/sun-world-ba-na-hills-ivivu37-1.jpg",
+      "https://vcdn1-dulich.vnecdn.net/2025/04/10/BNtop-1744279080-7298-1744280762.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=fa5s51Vg2pTOCMq-gWBuTA",
+      "https://www.tuannguyentravel.com/data/tour/500/38015114522177299650985815282896971644208038n-1695203141.jpg",
+     ],
+    content:`Bà Nà Hills là khu du lịch nổi tiếng với Cầu Vàng và khí hậu mát mẻ quanh năm. Đây là điểm đến hàng đầu tại Đà Nẵng.
+
+Du khách có thể đi cáp treo, tham quan và vui chơi tại khu giải trí.
+
+---
+
+Di chuyển bằng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+👉 Xe dịch vụ Quảng Trị  
+👉 Xe ghép Quảng Trị  
+👉 Du lịch Tân Oanh
+
+Bà Nà Hills là điểm đến không thể bỏ lỡ.`,
   },
 
   "bien-my-khe": {
     title: "Biển Mỹ Khê",
-    content: `Mỹ Khê là một trong những bãi biển đẹp nhất hành tinh.`,
+              images: [
+      "https://havi-web.s3.ap-southeast-1.amazonaws.com/bien_my_khe_da_nang_2_11zon_1_a3a8e98ee1.webp",
+      "https://mia.vn/media/uploads/blog-du-lich/bai-bien-my-khe-da-nang-lang-nguoi-ngam-nhin-1-trong-6-bai-bien-dep-nhat-hanh-tinh-05-1636298582.jpeg",
+      "https://queenbus.com.vn/wp-content/uploads/2025/08/Bai-tam-1-2-3-luon-dong-khach-nhat-Anh_-Suu-tam.png",
+     ],
+    content:`Biển Mỹ Khê là một trong những bãi biển đẹp nhất hành tinh với bãi cát trắng và nước biển trong xanh.
+
+Du khách có thể tắm biển và nghỉ dưỡng.
+
+---
+
+Di chuyển bằng xe dịch vụ Quảng Trị hoặc xe ghép Quảng Trị.
+
+👉 Xe dịch vụ Quảng Trị  
+👉 Xe ghép Quảng Trị  
+👉 Du lịch Tân Oanh
+
+Mỹ Khê là điểm đến lý tưởng tại Đà Nẵng.`,
   },
 
   "cau-rong-da-nang": {
     title: "Cầu Rồng Đà Nẵng",
-    content: `Cầu Rồng là biểu tượng của thành phố Đà Nẵng và có thể phun lửa vào cuối tuần.`,
+              images: [
+      "https://images2.thanhnien.vn/528068263637045248/2025/6/18/the-legend-danang-1-17502421275011965589401.jpg",
+      "https://queenbus.com.vn/wp-content/uploads/2025/08/Cau-Rong-bieu-tuong-du-lich-Da-Nang-Anh-Suu-tam-1024x683.png",
+      "https://tophomestay.vn/upload/img/9fba44d71932a89fa06a21703c0bfbed/2021/10/19/cau_rong_da_nang_tophomestay_10_1634645101.jpg",
+     ],
+   content:`Cầu Rồng là một trong những biểu tượng nổi bật nhất của thành phố Đà Nẵng, nằm bắc qua sông Hàn và kết nối trung tâm thành phố với khu vực biển Mỹ Khê. Với thiết kế độc đáo hình con rồng vươn ra biển lớn, cây cầu không chỉ có giá trị giao thông mà còn mang ý nghĩa phong thủy và biểu tượng phát triển của thành phố.
+
+Được khánh thành vào năm 2013, Cầu Rồng nhanh chóng trở thành điểm check-in nổi tiếng thu hút đông đảo du khách trong và ngoài nước. Điểm đặc biệt nhất của cây cầu này là khả năng phun lửa và phun nước vào mỗi cuối tuần, tạo nên một màn trình diễn ấn tượng và độc đáo giữa lòng thành phố.
+
+Vào buổi tối, Cầu Rồng trở nên rực rỡ với hệ thống đèn LED đổi màu liên tục, phản chiếu xuống dòng sông Hàn tạo nên khung cảnh lung linh, hiện đại. Đây là thời điểm lý tưởng để du khách dạo chơi, chụp ảnh và tận hưởng không khí sôi động của Đà Nẵng về đêm.
+
+Ngoài ra, khu vực xung quanh Cầu Rồng cũng rất nhộn nhịp với nhiều quán cà phê, nhà hàng và các điểm vui chơi giải trí. Du khách có thể kết hợp tham quan các địa điểm nổi tiếng khác như cầu Tình Yêu, cầu sông Hàn, biển Mỹ Khê hoặc bán đảo Sơn Trà.
+
+Thời điểm đẹp nhất để tham quan Cầu Rồng là vào buổi tối, đặc biệt vào cuối tuần khi diễn ra màn phun lửa và phun nước (thường vào khoảng 21h). Du khách nên đến sớm để chọn vị trí đẹp và thuận tiện cho việc di chuyển.
+
+---
+
+Nếu bạn đang có kế hoạch tham quan Cầu Rồng và khám phá Đà Nẵng, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và thoải mái hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tiết kiệm chi phí mà vẫn đảm bảo sự tiện lợi trong suốt hành trình. Đây là lựa chọn rất phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Đà Nẵng và miền Trung, bạn có thể lựa chọn các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá Đà Nẵng
+
+Cầu Rồng không chỉ là một công trình kiến trúc độc đáo mà còn là biểu tượng hiện đại, năng động của Đà Nẵng. Đây chắc chắn là điểm đến mà bạn không nên bỏ lỡ khi ghé thăm thành phố đáng sống này.`,
   },
 
   "ngu-hanh-son": {
     title: "Ngũ Hành Sơn",
-    content: `Ngũ Hành Sơn là quần thể núi đá vôi với nhiều chùa và hang động.`,
+              images: [
+      "https://danangfantasticity.com/wp-content/uploads/2025/08/danh-thang-ngu-hanh-son-da-nang-chua-quan-the-am.jpg",
+      "https://danangfantasticity.com/wp-content/uploads/2025/08/danh-thang-ngu-hanh-son-da-nang-002.jpg",
+      "https://danangfantasticity.com/wp-content/uploads/2015/09/danh-thang-ngu-hanh-son-da-nang.jpg",
+     ],
+    content:`Ngũ Hành Sơn là quần thể núi đá vôi nổi tiếng nằm tại thành phố Đà Nẵng, gồm 5 ngọn núi mang tên Kim, Mộc, Thủy, Hỏa và Thổ. Đây là một trong những điểm du lịch tâm linh và thiên nhiên hấp dẫn nhất miền Trung, thu hút đông đảo du khách trong và ngoài nước.
+
+Mỗi ngọn núi trong Ngũ Hành Sơn đều mang một vẻ đẹp riêng, nhưng nổi bật nhất là núi Thủy Sơn – nơi tập trung nhiều hang động, chùa chiền và điểm tham quan nổi tiếng. Khi đến đây, du khách có thể khám phá các hang động kỳ bí như động Huyền Không, động Âm Phủ, cùng với các ngôi chùa linh thiêng như chùa Linh Ứng, chùa Tam Thai.
+
+Không chỉ mang giá trị tâm linh, Ngũ Hành Sơn còn sở hữu cảnh quan thiên nhiên tuyệt đẹp với tầm nhìn hướng ra biển Mỹ Khê và toàn cảnh thành phố Đà Nẵng. Từ trên cao, du khách có thể chiêm ngưỡng khung cảnh biển trời bao la kết hợp với núi non hùng vĩ, tạo nên một trải nghiệm rất ấn tượng.
+
+Ngoài ra, khu vực xung quanh Ngũ Hành Sơn còn nổi tiếng với làng đá mỹ nghệ Non Nước – nơi sản xuất các sản phẩm điêu khắc đá tinh xảo. Du khách có thể tham quan, mua sắm quà lưu niệm và tìm hiểu về nghề truyền thống lâu đời của địa phương.
+
+Ngũ Hành Sơn có vị trí rất thuận tiện, nằm giữa Đà Nẵng và Hội An, nên bạn có thể dễ dàng kết hợp tham quan nhiều địa điểm nổi tiếng khác như biển Mỹ Khê, cầu Rồng, phố cổ Hội An hay bán đảo Sơn Trà.
+
+Thời điểm lý tưởng để tham quan Ngũ Hành Sơn là vào buổi sáng hoặc chiều mát, khi thời tiết dễ chịu và thuận tiện cho việc leo núi. Du khách nên mang giày thể thao để di chuyển dễ dàng và chuẩn bị nước uống đầy đủ.
+
+---
+
+Nếu bạn đang có kế hoạch khám phá Ngũ Hành Sơn và du lịch Đà Nẵng, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và thoải mái hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tiết kiệm chi phí mà vẫn đảm bảo sự tiện lợi trong suốt hành trình. Đây là lựa chọn phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Đà Nẵng và miền Trung, bạn có thể tham khảo các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá Đà Nẵng
+
+Ngũ Hành Sơn không chỉ là điểm đến tâm linh mà còn là nơi hội tụ vẻ đẹp thiên nhiên và văn hóa đặc sắc. Đây chắc chắn là điểm dừng chân mà bạn không nên bỏ lỡ khi đến Đà Nẵng.`,
   },
 
   "pho-co-hoi-an": {
     title: "Phố cổ Hội An",
-    content: `Phố cổ Hội An là di sản văn hóa thế giới nổi tiếng.`,
+              images: [
+      "https://hoiancreativecity.com/uploads/images/hoi-an-quang-nam-vntrip-1.jpg",
+      "https://dulichminhanh.com.vn/wp-content/uploads/2021/05/du-lich-hoi-an.jpg",
+      "https://images.baodantoc.vn/uploads/2023/Th%C3%A1ng%204/Ng%C3%A0y_11/Ngs/kien-truc-pho-co-hoi-an-2_1665128843.jpg",
+     ],
+    content:`Phố cổ Hội An là một trong những điểm du lịch nổi tiếng nhất Việt Nam, được UNESCO công nhận là di sản văn hóa thế giới. Nằm bên bờ sông Hoài thơ mộng, Hội An thu hút du khách bởi vẻ đẹp cổ kính, yên bình cùng những giá trị văn hóa được gìn giữ qua hàng trăm năm.
+
+Điểm đặc biệt của phố cổ Hội An chính là kiến trúc độc đáo với những ngôi nhà cổ mái ngói rêu phong, những con phố nhỏ lung linh ánh đèn lồng và không gian mang đậm dấu ấn giao thoa văn hóa giữa Việt Nam, Trung Hoa và Nhật Bản. Khi dạo bước trong phố cổ, du khách sẽ có cảm giác như quay ngược thời gian về một thương cảng sầm uất của thế kỷ trước.
+
+Một trong những trải nghiệm không thể bỏ qua khi đến Hội An là dạo phố vào buổi tối. Khi hàng nghìn chiếc đèn lồng được thắp sáng, cả khu phố trở nên rực rỡ và lãng mạn. Du khách có thể thả hoa đăng trên sông Hoài, thưởng thức các món ăn đặc sản như cao lầu, mì Quảng, bánh mì Hội An và tận hưởng không khí yên bình nơi đây.
+
+Ngoài ra, Hội An còn có nhiều điểm tham quan nổi bật như chùa Cầu, hội quán Phúc Kiến, nhà cổ Tấn Ký hay các làng nghề truyền thống. Du khách cũng có thể kết hợp tham quan các địa điểm gần đó như biển An Bàng, rừng dừa Bảy Mẫu hoặc di chuyển đến Đà Nẵng chỉ trong khoảng 30 phút.
+
+Thời điểm lý tưởng để tham quan phố cổ Hội An là từ tháng 2 đến tháng 8, khi thời tiết khô ráo và thuận tiện cho việc dạo phố. Buổi tối là thời gian đẹp nhất để khám phá Hội An với không gian lung linh và nhộn nhịp.
+
+---
+
+Nếu bạn đang có kế hoạch khám phá phố cổ Hội An, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và thoải mái hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tiết kiệm chi phí mà vẫn đảm bảo sự tiện lợi trong suốt hành trình. Đây là lựa chọn phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng – Hội An.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại miền Trung, bạn có thể tham khảo các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá Hội An
+
+Phố cổ Hội An không chỉ là điểm đến du lịch mà còn là nơi lưu giữ những giá trị văn hóa, lịch sử quý báu. Đây chắc chắn là điểm dừng chân mà bạn không nên bỏ lỡ khi đến miền Trung Việt Nam.`,
   },
 
   "ban-dao-son-tra": {
     title: "Bán đảo Sơn Trà",
-    content: `Sơn Trà là khu bảo tồn thiên nhiên nổi tiếng của Đà Nẵng.`,
+              images: [
+      "https://danangfantasticity.com/wp-content/uploads/2025/08/ban-dao-son-tra-thanh-pho-da-nang.jpg",
+      "https://furamavietnam.com/wp-content/uploads/2025/01/Furama-Resort-Danang-Linh-Ung-Pagoda-Chua-Noi-Tieng-O-Da-Nang-01.jpg",
+      "https://static.vinwonders.com/2022/06/dinh-Ban-Co-1-1.jpg",
+     ],
+    content:`Bán đảo Sơn Trà là một trong những điểm du lịch nổi bật và hấp dẫn nhất tại Đà Nẵng, được ví như “lá phổi xanh” của thành phố. Nằm cách trung tâm không xa, nơi đây sở hữu cảnh quan thiên nhiên hoang sơ với rừng, biển và núi hòa quyện, tạo nên một không gian vô cùng trong lành và yên bình.
+
+Sơn Trà nổi tiếng với hệ sinh thái đa dạng, đặc biệt là loài voọc chà vá chân nâu quý hiếm – được mệnh danh là “nữ hoàng linh trưởng”. Khi đến đây, du khách có thể trải nghiệm cảm giác hòa mình vào thiên nhiên, khám phá rừng nguyên sinh và tận hưởng không khí mát mẻ quanh năm.
+
+Một trong những điểm tham quan nổi bật nhất tại bán đảo Sơn Trà là chùa Linh Ứng với tượng Phật Bà Quan Âm cao nhất Việt Nam. Từ vị trí này, du khách có thể phóng tầm mắt ngắm toàn cảnh biển Mỹ Khê và thành phố Đà Nẵng từ trên cao.
+
+Ngoài ra, bán đảo Sơn Trà còn có nhiều địa điểm check-in nổi tiếng như đỉnh Bàn Cờ, cây đa ngàn năm, bãi Bụt, bãi Rạng hay các cung đường ven biển tuyệt đẹp. Đây là nơi lý tưởng cho các hoạt động như săn ảnh, trekking nhẹ, chạy xe ngắm cảnh hoặc đơn giản là thư giãn giữa thiên nhiên.
+
+Sơn Trà cũng có vị trí rất thuận tiện để kết hợp tham quan các địa điểm nổi tiếng khác như cầu Rồng, Ngũ Hành Sơn, biển Mỹ Khê hay phố cổ Hội An. Nhờ đó, du khách có thể dễ dàng xây dựng một lịch trình du lịch đa dạng và hấp dẫn.
+
+Thời điểm lý tưởng để tham quan bán đảo Sơn Trà là vào buổi sáng sớm hoặc chiều mát, khi thời tiết dễ chịu và ánh sáng đẹp. Du khách nên chuẩn bị phương tiện phù hợp, kiểm tra xe trước khi di chuyển và mang theo nước uống để đảm bảo an toàn.
+
+---
+
+Nếu bạn đang có kế hoạch khám phá bán đảo Sơn Trà, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và thoải mái hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tiết kiệm chi phí mà vẫn đảm bảo sự tiện lợi trong suốt hành trình. Đây là lựa chọn phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Đà Nẵng và miền Trung, bạn có thể lựa chọn các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá Đà Nẵng
+
+Bán đảo Sơn Trà không chỉ là điểm đến du lịch mà còn là nơi hội tụ vẻ đẹp thiên nhiên và sự bình yên hiếm có. Đây chắc chắn là điểm dừng chân mà bạn không nên bỏ lỡ khi đến Đà Nẵng.`,
   },
 
   "cau-tinh-yeu-da-nang": {
     title: "Cầu Tình Yêu",
-    content: `Cầu Tình Yêu là địa điểm check-in nổi tiếng bên sông Hàn.`,
+              images: [
+      "https://vietluxtour.com/Upload/images/2024/khamphatrongnuoc/C%E1%BA%A7u%20t%C3%ACnh%20y%C3%AAu%20%C4%90%C3%A0%20N%E1%BA%B5ng/cau-tinh-yeu-da-nang%20(7)-min.jpg",
+      "https://statics.vinpearl.com/cau-tinh-yeu-da-nang-1_1629472108.jpg",
+      "https://tourcaptreobana.com/wp-content/uploads/2023/12/anh-54.jpeg",
+     ],
+    content:`Cầu Tình Yêu là một trong những điểm check-in nổi tiếng và lãng mạn nhất tại Đà Nẵng, nằm bên bờ sông Hàn, gần khu vực cầu Rồng. Đây là địa điểm được nhiều cặp đôi và du khách yêu thích khi đến thành phố biển xinh đẹp này.
+
+Lấy cảm hứng từ những cây cầu tình yêu nổi tiếng trên thế giới, Cầu Tình Yêu Đà Nẵng được thiết kế với không gian mở, hướng ra sông Hàn thơ mộng. Dọc theo lan can cầu là những chiếc đèn lồng đỏ hình trái tim, tạo nên khung cảnh vô cùng lãng mạn, đặc biệt vào buổi tối.
+
+Một trong những hoạt động đặc trưng tại đây là treo ổ khóa tình yêu – biểu tượng cho sự gắn kết và bền lâu của các cặp đôi. Du khách có thể mua khóa tại khu vực gần cầu và ghi tên mình lên đó như một kỷ niệm đáng nhớ khi đến Đà Nẵng.
+
+Từ Cầu Tình Yêu, du khách có thể dễ dàng ngắm nhìn toàn cảnh sông Hàn và cầu Rồng, đặc biệt vào buổi tối khi thành phố lên đèn. Đây cũng là vị trí lý tưởng để xem cầu Rồng phun lửa và nước vào cuối tuần.
+
+Ngoài ra, khu vực xung quanh cầu rất nhộn nhịp với nhiều quán cà phê, nhà hàng và các điểm vui chơi. Du khách có thể kết hợp tham quan các địa điểm nổi tiếng khác như cầu Rồng, biển Mỹ Khê, bán đảo Sơn Trà hoặc Ngũ Hành Sơn.
+
+Thời điểm đẹp nhất để tham quan Cầu Tình Yêu là vào buổi tối, khi không gian trở nên lung linh và lãng mạn. Đây cũng là lúc thích hợp để chụp ảnh và tận hưởng không khí sôi động của Đà Nẵng về đêm.
+
+---
+
+Nếu bạn đang có kế hoạch tham quan Cầu Tình Yêu và khám phá Đà Nẵng, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và thoải mái hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tiết kiệm chi phí mà vẫn đảm bảo sự tiện lợi trong suốt hành trình. Đây là lựa chọn phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Đà Nẵng và miền Trung, bạn có thể lựa chọn các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá Đà Nẵng
+
+Cầu Tình Yêu không chỉ là điểm check-in đẹp mà còn là nơi lưu giữ những khoảnh khắc lãng mạn và đáng nhớ khi bạn đến với thành phố Đà Nẵng.`,
   },
 
   "asia-park-da-nang": {
     title: "Asia Park",
-    content: `Asia Park là công viên giải trí nổi tiếng với vòng quay Sun Wheel.`,
+              images: [
+      "https://duan-sungroup.com/wp-content/uploads/2022/11/cong-vien-chau-a-asia-park-duoc-cai-tao-vao-nam-2020.jpg",
+      "https://duan-sungroup.com/wp-content/uploads/2022/11/Asia-park-cong-vien-chau-a-da-nang-to-hop-vui-choi-giai-tri.jpg",
+      "https://hoangphuan.com/wp-content/uploads/2024/05/check-in-asia-park-1.jpg",
+     ],
+    content:`Công viên Châu Á (Asia Park) là một trong những khu vui chơi giải trí lớn và hiện đại nhất tại Đà Nẵng, nằm bên bờ sông Hàn. Đây là điểm đến lý tưởng dành cho gia đình, nhóm bạn và du khách muốn trải nghiệm các hoạt động vui chơi, giải trí sôi động tại thành phố đáng sống.
+
+Asia Park được thiết kế theo phong cách kết hợp giữa văn hóa các quốc gia châu Á và các trò chơi giải trí hiện đại. Nơi đây nổi bật với nhiều khu vực khác nhau như khu vui chơi cảm giác mạnh, khu văn hóa và khu ẩm thực, mang đến cho du khách trải nghiệm đa dạng và phong phú.
+
+Điểm nhấn đặc biệt của công viên là vòng quay Sun Wheel – một trong những vòng quay lớn nhất Việt Nam. Khi lên đến đỉnh, du khách có thể ngắm toàn cảnh thành phố Đà Nẵng lung linh về đêm, đặc biệt là dòng sông Hàn và các cây cầu nổi tiếng.
+
+Ngoài ra, Asia Park còn có nhiều trò chơi hấp dẫn dành cho mọi lứa tuổi, từ nhẹ nhàng đến cảm giác mạnh. Đây là nơi lý tưởng để vui chơi, giải trí và tạo nên những kỷ niệm đáng nhớ cùng bạn bè và gia đình.
+
+Vào buổi tối, công viên trở nên rực rỡ với hệ thống ánh sáng hiện đại và không khí sôi động. Du khách có thể vừa tham gia trò chơi, vừa thưởng thức ẩm thực và tận hưởng không gian vui nhộn.
+
+Asia Park có vị trí rất thuận tiện, gần trung tâm thành phố nên dễ dàng kết hợp tham quan các địa điểm nổi tiếng khác như cầu Rồng, cầu Tình Yêu, biển Mỹ Khê hoặc bán đảo Sơn Trà.
+
+Thời điểm lý tưởng để tham quan Công viên Châu Á là vào buổi chiều và tối, khi thời tiết mát mẻ và các hoạt động giải trí diễn ra sôi động nhất.
+
+---
+
+Nếu bạn đang có kế hoạch vui chơi tại Công viên Châu Á và khám phá Đà Nẵng, việc lựa chọn phương tiện di chuyển phù hợp sẽ giúp chuyến đi thuận tiện và thoải mái hơn. Hiện nay, các dịch vụ xe dịch vụ Quảng Trị được nhiều du khách lựa chọn nhờ khả năng đưa đón tận nơi và linh hoạt về thời gian.
+
+Đối với khách đi lẻ hoặc nhóm nhỏ, xe ghép Quảng Trị là giải pháp tiết kiệm chi phí mà vẫn đảm bảo sự tiện lợi trong suốt hành trình. Đây là lựa chọn phổ biến cho các tuyến Quảng Trị – Huế – Đà Nẵng.
+
+Ngoài ra, nếu bạn muốn có một lịch trình trọn gói, kết hợp tham quan nhiều địa điểm nổi tiếng tại Đà Nẵng và miền Trung, bạn có thể lựa chọn các tour du lịch Tân Oanh để được hỗ trợ tốt nhất.
+
+👉 Đặt xe dịch vụ Quảng Trị nhanh chóng – đưa đón tận nơi, chủ động lịch trình  
+👉 Xe ghép Quảng Trị giá rẻ – phù hợp khách lẻ, nhóm nhỏ  
+👉 Du lịch Tân Oanh – hành trình trọn gói, khám phá Đà Nẵng
+
+Công viên Châu Á không chỉ là nơi vui chơi giải trí mà còn là điểm đến mang lại những trải nghiệm sôi động và đáng nhớ cho mọi du khách khi đến với Đà Nẵng.`,
   },
 };
 
