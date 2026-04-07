@@ -1008,7 +1008,7 @@ const DiaDiemDetail = () => {
             {related.map((key) => (
               <li key={key}>
                 <Link
-                  to={`/${key}`}
+                  to={`/dia-diem/${key}`}
                   className="text-primary hover:underline font-medium"
                 >
                   {data[key].title}
