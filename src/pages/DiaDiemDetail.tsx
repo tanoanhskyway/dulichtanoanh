@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 type Place = {
   title: string;
@@ -920,6 +920,55 @@ Công viên Châu Á không chỉ là nơi vui chơi giải trí mà còn là đ
   },
 };
 
+const relatedMap: Record<string, string[]> = {
+  "thanh-co-quang-tri": ["dia-dao-vinh-moc", "cau-hien-luong-ben-hai", "bien-cua-viet"],
+  "dia-dao-vinh-moc": ["thanh-co-quang-tri", "cau-hien-luong-ben-hai", "bien-cua-tung"],
+  "cau-hien-luong-ben-hai": ["thanh-co-quang-tri", "dia-dao-vinh-moc", "bien-cua-viet"],
+  "bien-cua-viet": ["thanh-co-quang-tri", "bien-cua-tung", "dao-con-co"],
+  "thanh-dia-la-vang": ["thanh-co-quang-tri", "cau-hien-luong-ben-hai"],
+  "dao-con-co": ["bien-cua-viet", "bien-cua-tung"],
+  "bien-cua-tung": ["bien-cua-viet", "dao-con-co", "dia-dao-vinh-moc"],
+  "rung-ru-linh": ["thanh-co-quang-tri", "bien-cua-tung"],
+
+  "phong-nha-ke-bang": ["dong-thien-duong", "hang-son-doong", "suoi-mooc"],
+  "hang-son-doong": ["phong-nha-ke-bang", "hang-en", "dong-thien-duong"],
+  "dong-thien-duong": ["phong-nha-ke-bang", "suoi-mooc", "hang-son-doong"],
+  "suoi-mooc": ["phong-nha-ke-bang", "dong-thien-duong", "bien-bao-ninh"],
+  "bien-nhat-le": ["bien-bao-ninh", "con-cat-quang-phu", "phong-nha-ke-bang"],
+  "con-cat-quang-phu": ["bien-nhat-le", "bien-bao-ninh"],
+  "hang-en": ["hang-son-doong", "phong-nha-ke-bang"],
+  "bien-bao-ninh": ["bien-nhat-le", "con-cat-quang-phu", "suoi-mooc"],
+
+  "dai-noi-hue": ["chua-thien-mu", "song-huong-hue", "cho-dong-ba"],
+  "lang-tu-duc": ["lang-khai-dinh", "doi-vong-canh", "song-huong-hue"],
+  "chua-thien-mu": ["song-huong-hue", "dai-noi-hue", "cho-dong-ba"],
+  "song-huong-hue": ["dai-noi-hue", "cho-dong-ba", "chua-thien-mu"],
+  "cho-dong-ba": ["song-huong-hue", "dai-noi-hue", "lang-khai-dinh"],
+  "lang-khai-dinh": ["lang-tu-duc", "doi-vong-canh", "dai-noi-hue"],
+  "bien-lang-co": ["doi-vong-canh", "dai-noi-hue", "ba-na-hills"],
+  "doi-vong-canh": ["lang-tu-duc", "lang-khai-dinh", "song-huong-hue"],
+
+  "ba-na-hills": ["cau-rong-da-nang", "ngu-hanh-son", "pho-co-hoi-an"],
+  "bien-my-khe": ["cau-rong-da-nang", "ban-dao-son-tra", "cau-tinh-yeu-da-nang"],
+  "cau-rong-da-nang": ["bien-my-khe", "cau-tinh-yeu-da-nang", "ban-dao-son-tra"],
+  "ngu-hanh-son": ["pho-co-hoi-an", "ban-dao-son-tra", "cau-rong-da-nang"],
+  "pho-co-hoi-an": ["ngu-hanh-son", "cau-rong-da-nang", "bien-my-khe"],
+  "ban-dao-son-tra": ["bien-my-khe", "cau-rong-da-nang", "cau-tinh-yeu-da-nang"],
+  "cau-tinh-yeu-da-nang": ["cau-rong-da-nang", "bien-my-khe", "ban-dao-son-tra"],
+  "asia-park-da-nang": ["cau-rong-da-nang", "bien-my-khe", "ngu-hanh-son"],
+};
+
+const serviceLinks = [
+  {
+    to: "/lien-he",
+    label: "xe dịch vụ Quảng Trị",
+  },
+  {
+    to: "/lien-he",
+    label: "xe ghép Quảng Trị",
+  },
+];
+
 const DiaDiemDetail = () => {
   const { slug } = useParams();
   const place = data[slug as string];
@@ -927,6 +976,8 @@ const DiaDiemDetail = () => {
   if (!place) {
     return <div className="container py-20">Không tìm thấy địa điểm</div>;
   }
+
+  const related = relatedMap[slug as string] || [];
 
   return (
     <div className="container max-w-3xl py-16">
@@ -940,6 +991,7 @@ const DiaDiemDetail = () => {
               src={img}
               alt={`${place.title} ${index + 1}`}
               className="w-full h-56 object-cover rounded-lg"
+              loading="lazy"
             />
           ))}
         </div>
@@ -948,6 +1000,61 @@ const DiaDiemDetail = () => {
       <p className="leading-8 text-lg text-muted-foreground whitespace-pre-line">
         {place.content}
       </p>
+
+      {related.length > 0 && (
+        <div className="mt-10 bg-card border border-border rounded-xl p-6">
+          <h2 className="text-lg font-bold mb-4">Địa điểm liên quan</h2>
+          <ul className="space-y-2">
+            {related.map((key) => (
+              <li key={key}>
+                <Link
+                  to={`/${key}`}
+                  className="text-primary hover:underline font-medium"
+                >
+                  {data[key].title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <div className="mt-8 bg-card border border-border rounded-xl p-6 space-y-3">
+        <h2 className="text-lg font-bold">Dịch vụ xe du lịch Tân Oanh</h2>
+
+        <p className="text-muted-foreground leading-7">
+          Nếu bạn cần di chuyển thuận tiện đến các điểm du lịch miền Trung,
+          hãy lựa chọn{" "}
+          <Link
+            to={serviceLinks[0].to}
+            className="text-primary hover:underline font-medium"
+          >
+            {serviceLinks[0].label}
+          </Link>{" "}
+          hoặc{" "}
+          <Link
+            to={serviceLinks[1].to}
+            className="text-primary hover:underline font-medium"
+          >
+            {serviceLinks[1].label}
+          </Link>{" "}
+          để được hỗ trợ đưa đón tận nơi, linh hoạt thời gian và tối ưu chi phí.
+        </p>
+
+        <div className="flex flex-col gap-2 text-sm">
+          <a href="tel:0866600822" className="text-primary font-semibold">
+            📞 Gọi ngay: 08.666.008.22
+          </a>
+          <a
+            href="https://zalo.me/0866600822"
+            target="_blank"
+            rel="noreferrer"
+            className="text-primary font-semibold"
+          >
+            💬 Chat Zalo đặt xe
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
