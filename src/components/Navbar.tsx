@@ -10,6 +10,7 @@ const navItems = [
   { label: "Xe du lịch", path: "/xe-du-lich" },
   { label: "Địa điểm", path: "/dia-diem" },
   { label: "Tour du lịch", path: "/tour-du-lich" },
+  { label: "Blog", path: "/blog" },
   { label: "Giới thiệu", path: "/gioi-thieu" },
   { label: "Liên hệ", path: "/lien-he" },
 ];
@@ -76,10 +77,11 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
+
             <a href="tel:0866600822" className="mt-2">
               <Button className="w-full cta-shadow gap-2">
                 <Phone className="h-4 w-4" />
-                08.666.00822
+                08.666.008.22
               </Button>
             </a>
           </nav>
