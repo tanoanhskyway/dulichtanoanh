@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 type Place = {
   title: string;
@@ -972,6 +973,58 @@ const serviceLinks = [
 const DiaDiemDetail = () => {
   const { slug } = useParams();
   const place = data[slug as string];
+
+  useEffect(() => {
+    if (!place || !slug) return;
+
+    document.title = `${place.title} | Du lịch Tân Oanh`;
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute(
+        "content",
+        `Khám phá ${place.title} – địa điểm du lịch nổi bật miền Trung, kinh nghiệm tham quan và cách di chuyển thuận tiện cùng Tân Oanh.`
+      );
+    }
+
+    let canonical = document.querySelector(
+      'link[rel="canonical"]'
+    ) as HTMLLinkElement | null;
+
+    if (!canonical) {
+      canonical = document.createElement("link");
+      canonical.setAttribute("rel", "canonical");
+      document.head.appendChild(canonical);
+    }
+
+    canonical.setAttribute(
+      "href",
+      `https://dulichtanoanh.com/dia-diem/${slug}`
+    );
+
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) {
+      ogTitle.setAttribute("content", `${place.title} | Du lịch Tân Oanh`);
+    }
+
+    const ogDescription = document.querySelector(
+      'meta[property="og:description"]'
+    );
+    if (ogDescription) {
+      ogDescription.setAttribute(
+        "content",
+        `Tìm hiểu ${place.title}, kinh nghiệm tham quan và gợi ý di chuyển thuận tiện tại miền Trung.`
+      );
+    }
+
+    const ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) {
+      ogUrl.setAttribute(
+        "content",
+        `https://dulichtanoanh.com/dia-diem/${slug}`
+      );
+    }
+  }, [place, slug]);
 
   if (!place) {
     return <div className="container py-20">Không tìm thấy địa điểm</div>;
