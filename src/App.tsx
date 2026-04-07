@@ -17,57 +17,50 @@ import TourDuLich from "./pages/TourDuLich";
 import DiaDiemDetail from "./pages/DiaDiemDetail";
 import GioiThieu from "./pages/GioiThieu";
 import LienHe from "./pages/LienHe";
+import Blog from "./pages/Blog";
+import BlogDetail from "./pages/BlogDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
 const App = () => (
-<QueryClientProvider client={queryClient}>
-<TooltipProvider>
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
 
-<Toaster />
-<Sonner />
+      <BrowserRouter>
+        <Navbar />
 
-<BrowserRouter>
+        <main>
+          <Routes>
+            <Route path="/" element={<Index />} />
 
-<Navbar />
+            <Route path="/xe-ghep" element={<XeGhep />} />
+            <Route path="/xe-du-lich" element={<XeDuLich />} />
 
-<main>
+            <Route path="/dia-diem" element={<DiaDiem />} />
+            <Route path="/dia-diem/:slug" element={<DiaDiemDetail />} />
 
-<Routes>
+            <Route path="/tour-du-lich" element={<TourDuLich />} />
 
-<Route path="/" element={<Index />} />
+            <Route path="/gioi-thieu" element={<GioiThieu />} />
+            <Route path="/lien-he" element={<LienHe />} />
 
-<Route path="/xe-ghep" element={<XeGhep />} />
+            {/* BLOG */}
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogDetail />} />
 
-<Route path="/xe-du-lich" element={<XeDuLich />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
 
-<Route path="/dia-diem" element={<DiaDiem />} />
-
-<Route path="/tour-du-lich" element={<TourDuLich />} />
-
-<Route path="/dia-diem/:slug" element={<DiaDiemDetail />} />
-
-<Route path="/gioi-thieu" element={<GioiThieu />} />
-
-<Route path="/lien-he" element={<LienHe />} />
-
-<Route path="*" element={<NotFound />} />
-
-</Routes>
-
-</main>
-
-<Footer />
-
-<FloatingButtons />
-
-<BookingPopup />
-
-</BrowserRouter>
-
-</TooltipProvider>
-</QueryClientProvider>
+        <Footer />
+        <FloatingButtons />
+        <BookingPopup />
+      </BrowserRouter>
+    </TooltipProvider>
+  </QueryClientProvider>
 );
 
 export default App;
