@@ -6,10 +6,9 @@ import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Trang chủ", path: "/" },
-  { label: "Xe ghép", path: "/xe-ghep" },
-  { label: "Xe du lịch", path: "/xe-du-lich" },
+  { label: "Xe doanh nghiệp", path: "/xe-du-lich" },
+  { label: "Tour & Du lịch", path: "/tour-du-lich" },
   { label: "Địa điểm", path: "/dia-diem" },
-  { label: "Tour du lịch", path: "/tour-du-lich" },
   { label: "Blog", path: "/blog" },
   { label: "Giới thiệu", path: "/gioi-thieu" },
   { label: "Liên hệ", path: "/lien-he" },
@@ -22,8 +21,12 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border shadow-sm">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={logo} alt="Tan Oanh Skyway" className="h-14 w-auto" />
+        <Link to="/" className="flex items-center gap-3 shrink-0" aria-label="Tân Oanh Transport">
+          <img src={logo} alt="Tân Oanh Transport" className="h-12 w-auto" />
+          <div className="hidden lg:block leading-tight">
+            <p className="font-extrabold text-foreground tracking-wide">TÂN OANH</p>
+            <p className="text-xs text-muted-foreground">Corporate Transportation</p>
+          </div>
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">
