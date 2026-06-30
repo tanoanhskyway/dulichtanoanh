@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo2.png";
 
 const mainLinks = [
   { label: "Trang chủ", href: "/" },
@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link to="/" className="flex items-center gap-3 shrink-0">
-            <img src={logo} alt="Tân Oanh Transport" className="h-20 w-auto" />
+            <img src={logo} alt="Tân Oanh Transport" className="h-18 w-auto" />
             <div className="hidden sm:block leading-tight">
               <p className="font-extrabold text-foreground text-sm tracking-wide">TÂN OANH</p>
               <p className="text-[11px] text-muted-foreground uppercase tracking-wider">Corporate Transportation</p>
