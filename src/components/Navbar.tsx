@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo2.png";
+import logo from "@/assets/logo.png";
 
 const mainLinks = [
   { label: "Trang chủ", href: "/" },
