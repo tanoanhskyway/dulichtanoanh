@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import {
   ArrowRight,
   BriefcaseBusiness,
@@ -12,11 +11,9 @@ import {
   Headphones,
   HelpCircle,
   MapPin,
-  Newspaper,
   Plane,
   Route,
   ShieldCheck,
-  Star,
   Users,
   Wrench,
 } from "lucide-react";
@@ -33,8 +30,6 @@ const scrollLinks = {
   fleet: "#doi-xe",
   process: "#quy-trinh",
   faq: "#faq",
-  blog: "#blog-preview",
-  travel: "#dia-diem-du-lich",
   cta: "#tu-van",
 };
 
@@ -117,19 +112,6 @@ const faqs = [
   { q: "Có hỗ trợ báo giá và chứng từ cho doanh nghiệp không?", a: "Có. Tân Oanh hỗ trợ báo giá rõ ràng, hợp đồng và các chứng từ cần thiết theo nhu cầu của doanh nghiệp." },
 ];
 
-const blogPosts = [
-  { title: "Kinh nghiệm thuê xe đưa đón chuyên gia tại Quảng Trị", desc: "Những tiêu chí doanh nghiệp nên kiểm tra trước khi chọn đơn vị vận chuyển chuyên gia.", href: "/blog" },
-  { title: "Thuê xe doanh nghiệp hay mua xe riêng: phương án nào tối ưu?", desc: "So sánh chi phí, vận hành, tài xế, bảo dưỡng và tính linh hoạt cho doanh nghiệp.", href: "/blog" },
-  { title: "Dịch vụ xe cho khu công nghiệp: nhu cầu sẽ tăng như thế nào?", desc: "Khi hạ tầng và KCN phát triển, nhu cầu xe công tác, chuyên gia, hội nghị sẽ tăng mạnh.", href: "/blog" },
-];
-
-const travelPlaces = [
-  { title: "Thành Cổ Quảng Trị", desc: "Điểm đến lịch sử phù hợp cho đoàn doanh nghiệp, đối tác và khách công tác." },
-  { title: "Địa đạo Vịnh Mốc", desc: "Trải nghiệm văn hóa - lịch sử đặc trưng của Quảng Trị." },
-  { title: "Biển Cửa Tùng - Cửa Việt", desc: "Phù hợp lịch trình nghỉ ngắn, tiếp khách, tour cuối tuần." },
-  { title: "Nghĩa trang Trường Sơn", desc: "Điểm đến trang trọng trong các chương trình tri ân và tham quan." },
-];
-
 const Index = () => (
   <>
     <section id="trang-chu" className="relative min-h-[88vh] md:min-h-[78vh] flex items-center overflow-hidden scroll-mt-20 bg-slate-950">
@@ -188,8 +170,8 @@ const Index = () => (
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <p className="text-primary font-semibold mb-2">Dịch vụ trọng tâm</p>
-          <h2 className="text-2xl sm:text-4xl font-bold text-foreground mb-4">Giải pháp vận chuyển hiển thị ngay trên trang chủ</h2>
-          <p className="text-muted-foreground">Khách không cần bấm sang trang khác. Toàn bộ dịch vụ chính của Tân Oanh được trình bày ngay trên một trang để dễ xem, dễ hiểu và dễ liên hệ.</p>
+          <h2 className="text-2xl sm:text-4xl font-bold text-foreground mb-4">Giải pháp vận chuyển cho doanh nghiệp</h2>
+          <p className="text-muted-foreground">Tập trung vào xe đưa đón chuyên gia, xe doanh nghiệp, hợp đồng dài hạn, sân bay, hội nghị và khảo sát công trình tại Quảng Trị.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -201,7 +183,7 @@ const Index = () => (
               <h3 className="text-lg font-bold text-foreground mb-2">{service.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">{service.desc}</p>
               <span className="inline-flex items-center gap-2 text-sm font-semibold text-primary group-hover:gap-3 transition-all">
-                Xem ngay trên trang <ChevronRight className="h-4 w-4" />
+                Xem nhanh <ChevronRight className="h-4 w-4" />
               </span>
             </a>
           ))}
@@ -334,27 +316,7 @@ const Index = () => (
       </div>
     </section>
 
-    <section id="blog-preview" className="py-16 bg-card scroll-mt-20">
-      <div className="container">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10"><div><p className="text-primary font-semibold mb-2">Blog & kiến thức</p><h2 className="text-2xl sm:text-4xl font-bold text-foreground mb-3">Nội dung SEO hỗ trợ doanh nghiệp</h2><p className="text-muted-foreground max-w-2xl">Blog được giữ lại để xây dựng SEO dài hạn về xe doanh nghiệp, chuyên gia, sân bay, khu công nghiệp và du lịch công vụ.</p></div><Link to="/blog"><Button variant="outline">Xem Blog</Button></Link></div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {blogPosts.map((post) => (
-            <Link key={post.title} to={post.href} className="bg-background rounded-2xl p-6 border border-border shadow-sm hover:shadow-md transition-shadow"><Newspaper className="h-7 w-7 text-primary mb-4" /><h3 className="font-bold text-foreground mb-2">{post.title}</h3><p className="text-sm text-muted-foreground leading-relaxed mb-4">{post.desc}</p><span className="text-sm font-semibold text-primary inline-flex items-center gap-2">Đọc thêm <ArrowRight className="h-4 w-4" /></span></Link>
-          ))}
-        </div>
-      </div>
-    </section>
 
-    <section id="dia-diem-du-lich" className="py-16 scroll-mt-20">
-      <div className="container">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10"><div><p className="text-primary font-semibold mb-2">Tour & địa điểm du lịch</p><h2 className="text-2xl sm:text-4xl font-bold text-foreground mb-3">Giữ lại du lịch để phục vụ đối tác và tăng SEO</h2><p className="text-muted-foreground max-w-2xl">Doanh nghiệp đưa chuyên gia, đối tác đến Quảng Trị thường có nhu cầu tham quan, tiếp khách, đi tour ngắn. Vì vậy Blog, Tour và Địa điểm vẫn là tài sản SEO quan trọng.</p></div><div className="flex gap-3"><Link to="/tour-du-lich"><Button variant="outline">Xem Tour</Button></Link><Link to="/dia-diem"><Button>Địa điểm</Button></Link></div></div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {travelPlaces.map((place) => (
-            <Link key={place.title} to="/dia-diem" className="rounded-2xl bg-card border border-border p-5 shadow-sm hover:shadow-md transition-shadow"><MapPin className="h-7 w-7 text-primary mb-3" /><h3 className="font-bold text-foreground mb-2">{place.title}</h3><p className="text-sm text-muted-foreground leading-relaxed">{place.desc}</p></Link>
-          ))}
-        </div>
-      </div>
-    </section>
 
     <section id="tu-van" className="py-16 bg-primary scroll-mt-20">
       <div className="container text-center text-primary-foreground">
