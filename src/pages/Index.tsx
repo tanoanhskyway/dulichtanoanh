@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import {
   ArrowRight,
   BriefcaseBusiness,
@@ -24,46 +23,60 @@ import car4 from "@/assets/car-4seat.jpg";
 import car7 from "@/assets/car-7seat.jpg";
 import car16 from "@/assets/car-16seat.jpg";
 
+const scrollLinks = {
+  quote: "#bao-gia",
+  services: "#dich-vu",
+  customers: "#khach-hang",
+  fleet: "#doi-xe",
+  process: "#quy-trinh",
+};
+
 const services = [
   {
     icon: BriefcaseBusiness,
     title: "Xe đưa đón chuyên gia",
     desc: "Đón tiễn chuyên gia, kỹ sư, lãnh đạo và đối tác làm việc tại Quảng Trị.",
+    detail: "Phù hợp chuyên gia Hàn Quốc, Nhật Bản, Trung Quốc, Đài Loan, khách công tác và lãnh đạo doanh nghiệp.",
   },
   {
     icon: Building2,
     title: "Xe doanh nghiệp",
     desc: "Giải pháp xe phục vụ công ty, nhà máy, khu công nghiệp và văn phòng đại diện.",
+    detail: "Có thể điều xe theo ngày, theo lịch cố định hoặc theo nhu cầu phát sinh của doanh nghiệp.",
   },
   {
     icon: CalendarClock,
     title: "Hợp đồng dài hạn",
     desc: "Thuê xe theo tháng, theo quý hoặc theo năm với lịch trình ổn định, rõ ràng.",
+    detail: "Phù hợp doanh nghiệp không muốn tự mua xe, tuyển tài xế, bảo dưỡng và quản lý vận hành.",
   },
   {
     icon: Plane,
     title: "Đưa đón sân bay",
     desc: "Đón tiễn sân bay Huế, Đà Nẵng và sân bay Quảng Trị khi đi vào khai thác.",
+    detail: "Theo dõi lịch trình, hỗ trợ bảng tên, đón khách tại sân bay, khách sạn, nhà máy hoặc văn phòng.",
   },
   {
     icon: Users,
     title: "Xe hội nghị, sự kiện",
     desc: "Điều phối nhiều xe phục vụ hội thảo, đón đoàn, lễ khởi công và sự kiện doanh nghiệp.",
+    detail: "Có thể phối hợp nhiều dòng xe cho đoàn lãnh đạo, khách mời, kỹ thuật và nhân sự sự kiện.",
   },
   {
     icon: Route,
     title: "Xe khảo sát công trình",
     desc: "Phục vụ đoàn khảo sát, nhà thầu, kỹ sư và nhà đầu tư đi thực địa tại Quảng Trị.",
+    detail: "Linh hoạt lịch trình đi khu công nghiệp, công trình, cảng biển, cửa khẩu, dự án và địa điểm khảo sát.",
   },
 ];
 
 const customers = [
-  { icon: Building2, title: "Doanh nghiệp", desc: "Xe công tác, xe trực, xe đưa đón đối tác." },
-  { icon: Wrench, title: "Nhà máy & KCN", desc: "Vận chuyển chuyên gia, kỹ sư, nhân sự." },
-  { icon: BriefcaseBusiness, title: "Chuyên gia", desc: "Xe riêng, lịch trình bảo mật, đúng giờ." },
-  { icon: MapPin, title: "Nhà thầu", desc: "Xe khảo sát dự án, công trình, nhà máy." },
-  { icon: Plane, title: "Khách công tác", desc: "Đón tiễn sân bay, khách sạn, văn phòng." },
-  { icon: Users, title: "Đoàn sự kiện", desc: "Điều phối xe hội nghị, hội thảo, đón đoàn." },
+  { icon: Building2, title: "Doanh nghiệp", desc: "Xe công tác, xe trực, xe đưa đón đối tác và khách hàng quan trọng." },
+  { icon: Wrench, title: "Nhà máy & KCN", desc: "Vận chuyển chuyên gia, kỹ sư, nhân sự và đoàn kiểm tra nhà máy." },
+  { icon: BriefcaseBusiness, title: "Chuyên gia", desc: "Xe riêng, lịch trình bảo mật, đón tiễn đúng giờ, tài xế lịch sự." },
+  { icon: MapPin, title: "Nhà thầu", desc: "Xe khảo sát dự án, công trình, nhà máy, khu công nghiệp và cảng biển." },
+  { icon: Plane, title: "Khách công tác", desc: "Đón tiễn sân bay, khách sạn, văn phòng, nhà máy và địa điểm họp." },
+  { icon: Users, title: "Đoàn sự kiện", desc: "Điều phối xe hội nghị, hội thảo, đón đoàn, lễ khởi công và hội nghị khách hàng." },
 ];
 
 const advantages = [
@@ -76,12 +89,19 @@ const advantages = [
 ];
 
 const fleet = [
-  { img: car4, title: "Xe 4 chỗ", desc: "Phù hợp lãnh đạo, chuyên gia, khách công tác cá nhân." },
-  { img: car7, title: "Xe 7 chỗ", desc: "Phù hợp đoàn nhỏ, kỹ sư, đối tác và gia đình chuyên gia." },
+  { img: car4, title: "Xe 4 chỗ", desc: "Phù hợp lãnh đạo, chuyên gia, khách công tác cá nhân và lịch trình riêng." },
+  { img: car7, title: "Xe 7 chỗ", desc: "Phù hợp đoàn nhỏ, kỹ sư, đối tác, khách VIP và gia đình chuyên gia." },
   { img: car16, title: "Xe 16 chỗ", desc: "Phù hợp đoàn khảo sát, hội nghị, sự kiện và nhân sự công ty." },
 ];
 
-const process = ["Tiếp nhận nhu cầu", "Tư vấn lịch trình", "Gửi báo giá", "Ký hợp đồng", "Điều phối xe", "Chăm sóc sau chuyến đi"];
+const process = [
+  "Tiếp nhận nhu cầu",
+  "Tư vấn lịch trình",
+  "Gửi báo giá",
+  "Thống nhất hợp đồng",
+  "Điều phối xe",
+  "Theo dõi & chăm sóc",
+];
 
 const testimonials = [
   {
@@ -103,7 +123,7 @@ const testimonials = [
 
 const Index = () => (
   <>
-    <section className="relative min-h-[88vh] md:min-h-[76vh] flex items-center overflow-hidden">
+    <section id="trang-chu" className="relative min-h-[88vh] md:min-h-[76vh] flex items-center overflow-hidden scroll-mt-20">
       <img
         src={heroCar}
         alt="Tân Oanh Transport - xe đưa đón chuyên gia và doanh nghiệp tại Quảng Trị"
@@ -120,17 +140,17 @@ const Index = () => (
               Tân Oanh Transport • Phục vụ 24/7 tại Quảng Trị
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold leading-tight mb-5 animate-fade-in-up">
-              Xe đưa đón chuyên gia & doanh nghiệp tại Quảng Trị
+              Đối tác vận chuyển doanh nghiệp & chuyên gia tại Quảng Trị
             </h1>
             <p className="text-lg sm:text-xl opacity-90 mb-7 leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
               Dịch vụ xe đưa đón chuyên gia, xe doanh nghiệp, xe hợp đồng dài hạn, xe hội nghị, xe VIP và đưa đón sân bay với tiêu chuẩn chuyên nghiệp, đúng giờ và an toàn.
             </p>
             <div className="flex flex-wrap gap-3 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-              <Link to="/lien-he">
+              <a href={scrollLinks.quote}>
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 cta-shadow text-base font-semibold h-12 px-8">
                   Nhận báo giá <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
-              </Link>
+              </a>
               <a href="tel:0866600822">
                 <Button size="lg" variant="outline" className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10 h-12 px-8">
                   Hotline 08.666.008.22
@@ -152,18 +172,18 @@ const Index = () => (
               </div>
             </div>
           </div>
-          <div className="hidden md:block animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+          <div id="bao-gia" className="hidden md:block animate-fade-in-up scroll-mt-24" style={{ animationDelay: "0.3s" }}>
             <BookingForm />
           </div>
         </div>
       </div>
     </section>
 
-    <section className="md:hidden container -mt-8 relative z-10 mb-8">
+    <section className="md:hidden container -mt-8 relative z-10 mb-8 scroll-mt-24" id="bao-gia-mobile">
       <BookingForm />
     </section>
 
-    <section className="py-16 bg-card">
+    <section id="dich-vu" className="py-16 bg-card scroll-mt-20">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <p className="text-primary font-semibold mb-2">Dịch vụ trọng tâm</p>
@@ -179,17 +199,18 @@ const Index = () => (
                 <service.icon className="h-7 w-7 text-primary group-hover:text-primary-foreground transition-colors" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-2">{service.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-5">{service.desc}</p>
-              <Link to="/lien-he" className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:gap-3 transition-all">
-                Tư vấn dịch vụ <ArrowRight className="h-4 w-4" />
-              </Link>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-3">{service.desc}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-5">{service.detail}</p>
+              <a href={scrollLinks.quote} className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:gap-3 transition-all">
+                Nhận tư vấn <ArrowRight className="h-4 w-4" />
+              </a>
             </div>
           ))}
         </div>
       </div>
     </section>
 
-    <section className="py-16 bg-secondary">
+    <section id="khach-hang" className="py-16 bg-secondary scroll-mt-20">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           <div>
@@ -198,26 +219,26 @@ const Index = () => (
             <p className="text-muted-foreground leading-relaxed mb-6">
               Thay vì chỉ bán một chuyến xe, Tân Oanh xây dựng giải pháp di chuyển phù hợp cho từng nhóm khách: doanh nghiệp, nhà máy, chuyên gia, nhà thầu, khách công tác và đoàn sự kiện.
             </p>
-            <Link to="/lien-he">
+            <a href={scrollLinks.quote}>
               <Button className="cta-shadow">
                 Trao đổi nhu cầu của bạn <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-            </Link>
+            </a>
           </div>
           <div className="grid sm:grid-cols-2 gap-4">
             {customers.map((customer) => (
-              <div key={customer.title} className="bg-card rounded-xl p-5 border border-border shadow-sm">
+              <a key={customer.title} href={scrollLinks.quote} className="bg-card rounded-xl p-5 border border-border shadow-sm hover:shadow-md transition-shadow">
                 <customer.icon className="h-7 w-7 text-primary mb-3" />
                 <h3 className="font-bold text-foreground mb-1">{customer.title}</h3>
                 <p className="text-sm text-muted-foreground">{customer.desc}</p>
-              </div>
+              </a>
             ))}
           </div>
         </div>
       </div>
     </section>
 
-    <section className="py-16">
+    <section id="doi-xe" className="py-16 scroll-mt-20">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <p className="text-primary font-semibold mb-2">Đội xe</p>
@@ -231,11 +252,14 @@ const Index = () => (
               <div className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-2">{item.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">{item.desc}</p>
-                <div className="flex flex-wrap gap-2 text-xs text-muted-foreground">
+                <div className="flex flex-wrap gap-2 text-xs text-muted-foreground mb-5">
                   <span className="px-3 py-1 rounded-full bg-secondary">Sạch sẽ</span>
                   <span className="px-3 py-1 rounded-full bg-secondary">Điều hòa</span>
                   <span className="px-3 py-1 rounded-full bg-secondary">Tài xế riêng</span>
                 </div>
+                <a href={scrollLinks.quote} className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:gap-3 transition-all">
+                  Báo giá xe này <ArrowRight className="h-4 w-4" />
+                </a>
               </div>
             </div>
           ))}
@@ -243,7 +267,7 @@ const Index = () => (
       </div>
     </section>
 
-    <section className="py-16 bg-card">
+    <section id="ly-do-chon" className="py-16 bg-card scroll-mt-20">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <p className="text-primary font-semibold mb-2">Lý do chọn Tân Oanh</p>
@@ -263,7 +287,7 @@ const Index = () => (
       </div>
     </section>
 
-    <section className="py-16 bg-secondary">
+    <section id="quy-trinh" className="py-16 bg-secondary scroll-mt-20">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <p className="text-primary font-semibold mb-2">Quy trình hợp tác</p>
@@ -280,7 +304,7 @@ const Index = () => (
       </div>
     </section>
 
-    <section className="py-16">
+    <section id="danh-gia" className="py-16 scroll-mt-20">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <p className="text-primary font-semibold mb-2">Đánh giá</p>
@@ -303,7 +327,7 @@ const Index = () => (
       </div>
     </section>
 
-    <section className="py-16 bg-primary">
+    <section id="lien-he-nhan-bao-gia" className="py-16 bg-primary scroll-mt-20">
       <div className="container text-center text-primary-foreground">
         <p className="font-semibold text-accent mb-2">Tân Oanh Transport</p>
         <h2 className="text-2xl sm:text-4xl font-bold mb-4">Bạn cần giải pháp vận chuyển chuyên nghiệp?</h2>
@@ -311,11 +335,11 @@ const Index = () => (
           Liên hệ Tân Oanh để nhận tư vấn xe đưa đón chuyên gia, xe doanh nghiệp, xe hợp đồng dài hạn, xe sân bay, xe hội nghị và xe khảo sát tại Quảng Trị.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
-          <Link to="/lien-he">
+          <a href={scrollLinks.quote}>
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold h-12 px-8 cta-shadow">
               Nhận báo giá
             </Button>
-          </Link>
+          </a>
           <a href="tel:0866600822">
             <Button size="lg" variant="outline" className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10 h-12 px-8">
               Gọi 08.666.008.22
