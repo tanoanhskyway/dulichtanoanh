@@ -17,9 +17,9 @@ const Footer = () => (
         <div>
           <h4 className="font-semibold mb-4">Dịch vụ doanh nghiệp</h4>
           <nav className="flex flex-col gap-2 text-sm opacity-80">
-            <a href="/#services" className="hover:opacity-100">Xe đưa đón chuyên gia</a>
-            <a href="/#services" className="hover:opacity-100">Xe doanh nghiệp</a>
-            <a href="/#services" className="hover:opacity-100">Xe hợp đồng dài hạn</a>
+            <Link to="/xe-dua-don-chuyen-gia" className="hover:opacity-100">Xe đưa đón chuyên gia</Link>
+            <Link to="/xe-doanh-nghiep" className="hover:opacity-100">Xe doanh nghiệp</Link>
+            <Link to="/xe-hop-dong-dai-han" className="hover:opacity-100">Xe hợp đồng dài hạn</Link>
             <a href="/#services" className="hover:opacity-100">Xe hội nghị & sân bay</a>
             <a href="/#fleet" className="hover:opacity-100">Đội xe Tân Oanh</a>
           </nav>

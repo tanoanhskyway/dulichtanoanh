@@ -5,13 +5,13 @@ import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.png";
 
 const navItems = [
-  { label: "Dịch vụ", href: "/#services" },
-  { label: "Đội xe", href: "/#fleet" },
-  { label: "Quy trình", href: "/#process" },
+  { label: "Trang chủ", href: "/" },
+  { label: "Chuyên gia", href: "/xe-dua-don-chuyen-gia" },
+  { label: "Doanh nghiệp", href: "/xe-doanh-nghiep" },
+  { label: "Hợp đồng", href: "/xe-hop-dong-dai-han" },
   { label: "Tour", href: "/tour-du-lich" },
   { label: "Địa điểm", href: "/dia-diem" },
   { label: "Blog", href: "/blog" },
-  { label: "Giới thiệu", href: "/gioi-thieu" },
   { label: "Liên hệ", href: "/lien-he" },
 ];
 
@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <nav className="hidden xl:flex items-center gap-1">
+        <nav className="hidden 2xl:flex items-center gap-1">
           {navItems.map((item) => renderNavItem(item))}
         </nav>
 
@@ -62,13 +62,13 @@ const Navbar = () => {
           </a>
         </div>
 
-        <button className="xl:hidden p-2 text-foreground" onClick={() => setOpen(!open)} aria-label="Menu">
+        <button className="2xl:hidden p-2 text-foreground" onClick={() => setOpen(!open)} aria-label="Menu">
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
       </div>
 
       {open && (
-        <div className="xl:hidden border-t border-border bg-card animate-slide-in">
+        <div className="2xl:hidden border-t border-border bg-card animate-slide-in">
           <nav className="container py-4 flex flex-col gap-1">
             {navItems.map((item) => renderNavItem(item, true))}
             <a href="tel:0866600822" className="mt-2">

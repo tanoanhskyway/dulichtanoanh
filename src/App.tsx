@@ -12,6 +12,9 @@ import BookingPopup from "@/components/BookingPopup";
 import Index from "./pages/Index";
 import XeGhep from "./pages/XeGhep";
 import XeDuLich from "./pages/XeDuLich";
+import XeDuaDonChuyenGia from "./pages/XeDuaDonChuyenGia";
+import XeDoanhNghiep from "./pages/XeDoanhNghiep";
+import XeHopDongDaiHan from "./pages/XeHopDongDaiHan";
 import DiaDiem from "./pages/DiaDiem";
 import TourDuLich from "./pages/TourDuLich";
 import DiaDiemDetail from "./pages/DiaDiemDetail";
@@ -38,6 +41,9 @@ const App = () => (
 
             <Route path="/xe-ghep" element={<XeGhep />} />
             <Route path="/xe-du-lich" element={<XeDuLich />} />
+            <Route path="/xe-dua-don-chuyen-gia" element={<XeDuaDonChuyenGia />} />
+            <Route path="/xe-doanh-nghiep" element={<XeDoanhNghiep />} />
+            <Route path="/xe-hop-dong-dai-han" element={<XeHopDongDaiHan />} />
 
             <Route path="/dia-diem" element={<DiaDiem />} />
             <Route path="/dia-diem/:slug" element={<DiaDiemDetail />} />
