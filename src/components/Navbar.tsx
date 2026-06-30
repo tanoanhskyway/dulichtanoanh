@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link to="/" className="flex items-center gap-3 shrink-0">
-            <img src={logo} alt="Tân Oanh Transport" className="h-12 w-auto object-contain" />
+            <img src={logo} alt="Tân Oanh Transport" className="h-14 w-auto object-contain" />
             <div className="hidden sm:block leading-tight">
               <p className="font-extrabold text-foreground text-sm tracking-wide">TÂN OANH</p>
               <p className="text-[11px] text-muted-foreground uppercase tracking-wider">Corporate Transportation</p>
