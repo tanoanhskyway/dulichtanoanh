@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="container py-12">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="md:col-span-1">
-          <img src={logo} alt="Tân Oanh Transport" className="h-8 w-auto max-w-[180px] object-contain mb-4" />
+          <img src={logo} alt="Tân Oanh Transport" className="h-12 w-auto max-w-[180px] object-contain mb-4" />
           <p className="text-sm opacity-80 leading-relaxed">
             Tân Oanh Transport cung cấp giải pháp xe đưa đón chuyên gia, xe doanh nghiệp, xe hợp đồng dài hạn, xe hội nghị, xe sân bay và tour doanh nghiệp tại Quảng Trị.
           </p>
