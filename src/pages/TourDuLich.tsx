@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, ArrowRight, Camera, Mountain, Landmark, Sun } from "lucide-react";
+import { ArrowRight, Building2, CalendarCheck, Camera, Landmark, Mountain, Sun, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import destQT from "@/assets/dest-quangtri.jpg";
 import destQB from "@/assets/dest-quangbinh.jpg";
@@ -7,178 +7,176 @@ import destHue from "@/assets/dest-hue.jpg";
 import destDN from "@/assets/dest-danang.jpg";
 
 const articles = [
-{
-id:"quang-tri",
-img:destQT,
-icon:Landmark,
-province:"Quảng Trị",
-title:"Tour du lịch Quảng Trị – Khám phá vùng đất lịch sử và biển đẹp",
-intro:"Quảng Trị không chỉ nổi tiếng với những di tích lịch sử hào hùng mà còn sở hữu những bãi biển hoang sơ tuyệt đẹp.",
-highlights:[
-
-{ name:"Thành cổ Quảng Trị", slug:"thanh-co-quang-tri", desc:"Di tích lịch sử quốc gia đặc biệt gắn liền với trận chiến 81 ngày đêm năm 1972." },
-
-{ name:"Địa đạo Vịnh Mốc", slug:"dia-dao-vinh-moc", desc:"Hệ thống địa đạo nổi tiếng nằm sâu trong lòng đất tại huyện Vĩnh Linh." },
-
-{ name:"Cầu Hiền Lương – Sông Bến Hải", slug:"cau-hien-luong-ben-hai", desc:"Biểu tượng lịch sử chia cắt hai miền Nam – Bắc trong thời kỳ chiến tranh." },
-
-{ name:"Bãi biển Cửa Việt", slug:"bien-cua-viet", desc:"Bãi biển đẹp nổi tiếng với cát trắng mịn và hải sản tươi ngon." },
-
-{ name:"Thánh địa La Vang", slug:"thanh-dia-la-vang", desc:"Trung tâm hành hương Công giáo lớn nhất Việt Nam." },
-
-{ name:"Đảo Cồn Cỏ", slug:"dao-con-co", desc:"Hòn đảo du lịch nổi tiếng của Quảng Trị với hệ sinh thái biển nguyên sơ." },
-
-{ name:"Bãi biển Cửa Tùng", slug:"bien-cua-tung", desc:"Bãi biển được mệnh danh là nữ hoàng của các bãi biển miền Trung." },
-
-{ name:"Rừng nguyên sinh Rú Lịnh", slug:"rung-ru-linh", desc:"Khu rừng nguyên sinh với hệ sinh thái đa dạng hiếm có tại Quảng Trị." }
-
-],
-tips:"Thời điểm lý tưởng để du lịch Quảng Trị là từ tháng 3 đến tháng 8."
-},
-
-{
-id:"quang-binh",
-img:destQB,
-icon:Mountain,
-province:"Quảng Bình",
-title:"Tour du lịch Quảng Bình – Thiên đường hang động kỳ vĩ",
-intro:"Quảng Bình được mệnh danh là vương quốc hang động với nhiều kỳ quan thiên nhiên nổi tiếng thế giới.",
-highlights:[
-
-{ name:"Phong Nha – Kẻ Bàng", slug:"phong-nha-ke-bang", desc:"Di sản thiên nhiên thế giới với hệ thống hang động khổng lồ." },
-
-{ name:"Hang Sơn Đoòng", slug:"hang-son-doong", desc:"Hang động lớn nhất thế giới với hệ sinh thái độc đáo." },
-
-{ name:"Động Thiên Đường", slug:"dong-thien-duong", desc:"Hang động dài hơn 31km với thạch nhũ tuyệt đẹp." },
-
-{ name:"Suối Moọc", slug:"suoi-mooc", desc:"Dòng suối xanh ngọc nằm giữa rừng nguyên sinh." },
-
-{ name:"Bãi biển Nhật Lệ", slug:"bien-nhat-le", desc:"Bãi biển đẹp nổi tiếng của thành phố Đồng Hới." },
-
-{ name:"Cồn cát Quang Phú", slug:"con-cat-quang-phu", desc:"Địa điểm trượt cát và check-in nổi tiếng." },
-
-{ name:"Hang Én", slug:"hang-en", desc:"Hang động lớn thứ ba thế giới với cảnh quan kỳ vĩ." },
-
-{ name:"Biển Bảo Ninh", slug:"bien-bao-ninh", desc:"Bãi biển hoang sơ với khung cảnh yên bình." }
-
-],
-tips:"Mùa đẹp nhất du lịch Quảng Bình là từ tháng 3 đến tháng 8."
-},
-
-{
-id:"hue",
-img:destHue,
-icon:Landmark,
-province:"Huế",
-title:"Tour du lịch Huế – Cố đô thơ mộng với di sản UNESCO",
-intro:"Huế nổi tiếng với quần thể di tích triều Nguyễn và nền ẩm thực cung đình đặc sắc.",
-highlights:[
-
-{ name:"Đại Nội Huế", slug:"dai-noi-hue", desc:"Quần thể di tích cố đô Huế được UNESCO công nhận." },
-
-{ name:"Lăng Tự Đức", slug:"lang-tu-duc", desc:"Lăng vua nổi tiếng với cảnh quan thơ mộng." },
-
-{ name:"Chùa Thiên Mụ", slug:"chua-thien-mu", desc:"Ngôi chùa cổ nằm bên bờ sông Hương." },
-
-{ name:"Sông Hương", slug:"song-huong-hue", desc:"Biểu tượng thơ mộng của thành phố Huế." },
-
-{ name:"Chợ Đông Ba", slug:"cho-dong-ba", desc:"Khu chợ truyền thống nổi tiếng với ẩm thực Huế." },
-
-{ name:"Lăng Khải Định", slug:"lang-khai-dinh", desc:"Lăng vua với kiến trúc pha trộn Đông Tây." },
-
-{ name:"Biển Lăng Cô", slug:"bien-lang-co", desc:"Một trong những vịnh biển đẹp nhất thế giới." },
-
-{ name:"Đồi Vọng Cảnh", slug:"doi-vong-canh", desc:"Điểm ngắm hoàng hôn đẹp tại Huế." }
-
-],
-tips:"Thời điểm đẹp nhất du lịch Huế từ tháng 2 đến tháng 4."
-},
-
-{
-id:"da-nang",
-img:destDN,
-icon:Sun,
-province:"Đà Nẵng",
-title:"Tour du lịch Đà Nẵng – Thành phố đáng sống nhất Việt Nam",
-intro:"Đà Nẵng là trung tâm du lịch miền Trung với biển đẹp và nhiều khu vui chơi nổi tiếng.",
-highlights:[
-
-{ name:"Bà Nà Hills – Cầu Vàng", slug:"ba-na-hills", desc:"Khu du lịch nổi tiếng với cây cầu vàng biểu tượng." },
-
-{ name:"Bãi biển Mỹ Khê", slug:"bien-my-khe", desc:"Một trong những bãi biển đẹp nhất hành tinh." },
-
-{ name:"Cầu Rồng", slug:"cau-rong-da-nang", desc:"Cây cầu biểu tượng của Đà Nẵng có thể phun lửa." },
-
-{ name:"Ngũ Hành Sơn", slug:"ngu-hanh-son", desc:"Quần thể núi đá vôi với nhiều hang động và chùa cổ." },
-
-{ name:"Phố cổ Hội An", slug:"pho-co-hoi-an", desc:"Di sản văn hóa thế giới cách Đà Nẵng 30km." },
-
-{ name:"Bán đảo Sơn Trà", slug:"ban-dao-son-tra", desc:"Khu bảo tồn thiên nhiên nổi tiếng với chùa Linh Ứng." },
-
-{ name:"Cầu Tình Yêu", slug:"cau-tinh-yeu-da-nang", desc:"Địa điểm check-in nổi tiếng bên sông Hàn." },
-
-{ name:"Asia Park", slug:"asia-park-da-nang", desc:"Công viên giải trí với vòng quay Sun Wheel." }
-
-],
-tips:"Mùa đẹp nhất du lịch Đà Nẵng từ tháng 3 đến tháng 8."
-}
-
+  {
+    id: "quang-tri",
+    img: destQT,
+    icon: Landmark,
+    province: "Quảng Trị",
+    title: "Tour doanh nghiệp tại Quảng Trị – Lịch sử, biển và trải nghiệm địa phương",
+    intro:
+      "Phù hợp cho đoàn công tác, chuyên gia, đối tác và khách VIP muốn tham quan trong ngày sau lịch làm việc tại Quảng Trị.",
+    highlights: [
+      { name: "Thành cổ Quảng Trị", slug: "thanh-co-quang-tri", desc: "Điểm đến lịch sử quan trọng, phù hợp cho lịch trình trang trọng và ý nghĩa." },
+      { name: "Địa đạo Vịnh Mốc", slug: "dia-dao-vinh-moc", desc: "Trải nghiệm lịch sử độc đáo, thường được chọn cho khách nước ngoài." },
+      { name: "Cầu Hiền Lương – Sông Bến Hải", slug: "cau-hien-luong-ben-hai", desc: "Biểu tượng lịch sử chia cắt hai miền, dễ kết hợp cùng Vịnh Mốc." },
+      { name: "Bãi biển Cửa Việt", slug: "bien-cua-viet", desc: "Phù hợp ăn trưa, nghỉ ngơi, tiếp khách và trải nghiệm hải sản địa phương." },
+    ],
+    suitable: "Đoàn 4–16 khách, lịch trình nửa ngày hoặc 1 ngày.",
+  },
+  {
+    id: "quang-binh",
+    img: destQB,
+    icon: Mountain,
+    province: "Quảng Bình",
+    title: "Tour Quảng Bình cho đoàn công tác – Phong Nha, Thiên Đường, Suối Moọc",
+    intro:
+      "Lựa chọn phù hợp cho chuyên gia và đối tác lưu trú tại Quảng Trị muốn có chuyến đi cuối tuần chất lượng.",
+    highlights: [
+      { name: "Phong Nha – Kẻ Bàng", slug: "phong-nha-ke-bang", desc: "Di sản thiên nhiên thế giới, phù hợp cho khách quốc tế và đoàn doanh nghiệp." },
+      { name: "Động Thiên Đường", slug: "dong-thien-duong", desc: "Hang động nổi bật, lịch trình dễ tổ chức trong ngày." },
+      { name: "Suối Moọc", slug: "suoi-mooc", desc: "Không gian thiên nhiên thư giãn, phù hợp tour cuối tuần." },
+      { name: "Bãi biển Nhật Lệ", slug: "bien-nhat-le", desc: "Có thể kết hợp nghỉ dưỡng và ăn tối tại Đồng Hới." },
+    ],
+    suitable: "Đoàn chuyên gia, khách nước ngoài, tour cuối tuần.",
+  },
+  {
+    id: "hue",
+    img: destHue,
+    icon: Landmark,
+    province: "Huế",
+    title: "Tour Huế kết hợp đưa đón sân bay Phú Bài",
+    intro:
+      "Phù hợp cho khách công tác, lãnh đạo hoặc đối tác cần kết hợp đưa đón sân bay với tham quan cố đô.",
+    highlights: [
+      { name: "Đại Nội Huế", slug: "dai-noi-hue", desc: "Điểm tham quan biểu tượng, phù hợp cho khách VIP và khách quốc tế." },
+      { name: "Chùa Thiên Mụ", slug: "chua-thien-mu", desc: "Điểm dừng ngắn, đẹp và dễ kết hợp trong lịch trình." },
+      { name: "Sông Hương", slug: "song-huong-hue", desc: "Có thể kết hợp ăn tối, du thuyền hoặc nghỉ dưỡng." },
+      { name: "Biển Lăng Cô", slug: "bien-lang-co", desc: "Phù hợp tuyến Huế – Đà Nẵng hoặc lịch trình nghỉ dưỡng." },
+    ],
+    suitable: "Đón tiễn sân bay, đoàn lãnh đạo, khách công tác.",
+  },
+  {
+    id: "da-nang",
+    img: destDN,
+    icon: Sun,
+    province: "Đà Nẵng",
+    title: "Tour Đà Nẵng – Hội An cho đoàn doanh nghiệp",
+    intro:
+      "Phù hợp cho khách công tác cần di chuyển sân bay Đà Nẵng, hội nghị, sự kiện hoặc lịch trình tiếp khách miền Trung.",
+    highlights: [
+      { name: "Bà Nà Hills – Cầu Vàng", slug: "ba-na-hills", desc: "Điểm đến nổi bật cho đoàn khách muốn trải nghiệm trọn ngày." },
+      { name: "Bãi biển Mỹ Khê", slug: "bien-my-khe", desc: "Phù hợp nghỉ dưỡng, ăn tối và gặp gỡ đối tác." },
+      { name: "Phố cổ Hội An", slug: "pho-co-hoi-an", desc: "Lịch trình tối rất phù hợp cho khách doanh nghiệp." },
+      { name: "Bán đảo Sơn Trà", slug: "ban-dao-son-tra", desc: "Điểm tham quan ngắn, cảnh quan đẹp, dễ sắp xếp." },
+    ],
+    suitable: "Sự kiện, hội nghị, đón tiễn sân bay Đà Nẵng.",
+  },
 ];
 
 const TourDuLich = () => (
-<>
-<section className="py-12">
-<div className="container max-w-4xl space-y-16">
+  <>
+    <section className="bg-gradient-to-br from-foreground via-foreground to-primary py-16">
+      <div className="container text-primary-foreground">
+        <div className="max-w-3xl">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent">
+            Tour & Travel Solutions
+          </p>
+          <h1 className="text-3xl sm:text-5xl font-extrabold mb-4 leading-tight">
+            Tour doanh nghiệp và lịch trình tham quan cho đối tác tại miền Trung
+          </h1>
+          <p className="text-lg opacity-90 leading-8">
+            Tân Oanh Transport không chỉ cung cấp xe doanh nghiệp, mà còn hỗ trợ
+            lịch trình tham quan cho chuyên gia, khách công tác, đoàn sự kiện và đối tác VIP.
+          </p>
+        </div>
+      </div>
+    </section>
 
-{articles.map((article)=>(
-<article key={article.id} id={article.id}>
-  <img
-  src={article.img}
-  alt={article.title}
-  className="w-full h-[300px] object-cover rounded-xl mb-6"
-/>
+    <section className="py-12 bg-secondary/40">
+      <div className="container">
+        <div className="grid md:grid-cols-3 gap-5">
+          <div className="bg-card border border-border rounded-2xl p-6 shadow-sm">
+            <Building2 className="h-8 w-8 text-primary mb-3" />
+            <h2 className="font-bold text-lg mb-2">Phục vụ đoàn doanh nghiệp</h2>
+            <p className="text-sm text-muted-foreground leading-6">
+              Lịch trình phù hợp chuyên gia, nhà đầu tư, đối tác và khách công tác.
+            </p>
+          </div>
+          <div className="bg-card border border-border rounded-2xl p-6 shadow-sm">
+            <CalendarCheck className="h-8 w-8 text-primary mb-3" />
+            <h2 className="font-bold text-lg mb-2">Linh hoạt theo lịch làm việc</h2>
+            <p className="text-sm text-muted-foreground leading-6">
+              Có thể đi nửa ngày, 1 ngày, cuối tuần hoặc kết hợp đưa đón sân bay.
+            </p>
+          </div>
+          <div className="bg-card border border-border rounded-2xl p-6 shadow-sm">
+            <Users className="h-8 w-8 text-primary mb-3" />
+            <h2 className="font-bold text-lg mb-2">Xe và tài xế đồng bộ</h2>
+            <p className="text-sm text-muted-foreground leading-6">
+              Điều phối xe 4–16 chỗ, tài xế lịch sự, đúng giờ và hỗ trợ đoàn trong suốt hành trình.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<h2 className="text-2xl font-bold mb-3">{article.title}</h2>
+    <section className="py-14">
+      <div className="container max-w-5xl space-y-14">
+        {articles.map((article) => (
+          <article key={article.id} id={article.id} className="bg-card border border-border rounded-3xl overflow-hidden shadow-sm">
+            <img
+              src={article.img}
+              alt={article.title}
+              className="w-full h-[260px] sm:h-[340px] object-cover"
+              loading="lazy"
+            />
+            <div className="p-6 sm:p-8">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="h-11 w-11 rounded-xl bg-primary/10 flex items-center justify-center">
+                  <article.icon className="h-5 w-5 text-primary" />
+                </div>
+                <div>
+                  <p className="text-sm text-primary font-semibold uppercase tracking-[0.18em]">{article.province}</p>
+                  <p className="text-xs text-muted-foreground">{article.suitable}</p>
+                </div>
+              </div>
 
-<p className="text-muted-foreground mb-6">{article.intro}</p>
+              <h2 className="text-2xl sm:text-3xl font-extrabold mb-3 text-foreground">{article.title}</h2>
+              <p className="text-muted-foreground mb-6 leading-7">{article.intro}</p>
 
-<h3 className="text-lg font-bold mb-4 flex items-center gap-2">
-<Camera className="h-5 w-5 text-primary"/> Điểm đến nổi bật
-</h3>
+              <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+                <Camera className="h-5 w-5 text-primary" /> Điểm đến có thể kết hợp
+              </h3>
 
-<div className="space-y-4">
+              <div className="grid sm:grid-cols-2 gap-4 mb-6">
+                {article.highlights.map((h) => (
+                  <div key={h.slug} className="bg-secondary/70 rounded-2xl border border-border p-5">
+                    <h4 className="font-bold text-lg mb-1">
+                      <Link to={`/dia-diem/${h.slug}`} className="hover:text-primary">
+                        {h.name}
+                      </Link>
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-6">{h.desc}</p>
+                  </div>
+                ))}
+              </div>
 
-{article.highlights.map((h)=>(
-<div key={h.slug} className="bg-card rounded-xl border p-5">
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Link to="/lien-he">
+                  <Button className="gap-2">
+                    Nhận tư vấn tour <ArrowRight className="h-4 w-4" />
+                  </Button>
+                </Link>
+                <a href="tel:0866600822">
+                  <Button variant="outline">Gọi 08.666.008.22</Button>
+                </a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </>
+);
 
-<h4 className="font-bold text-lg mb-1">
-
-<Link
-to={`/dia-diem/${h.slug}`}
-className="hover:text-primary"
->
-
-{h.name}
-
-</Link>
-
-</h4>
-
-<p className="text-sm text-muted-foreground">
-{h.desc}
-</p>
-
-</div>
-))}
-
-</div>
-
-</article>
-))}
-
-</div>
-</section>
-</>
-)
-
-export default TourDuLich
+export default TourDuLich;

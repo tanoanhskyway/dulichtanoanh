@@ -1,78 +1,128 @@
 import { Link } from "react-router-dom";
+import { ArrowRight, BriefcaseBusiness, Factory, Plane, Route } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const posts = [
   {
-    slug: "kinh-nghiem-di-da-nang-tu-quang-tri",
-    title: "Kinh nghiệm đi Đà Nẵng từ Quảng Trị tiết kiệm và thuận tiện",
+    slug: "nen-di-xe-ghep-hay-thue-xe",
+    category: "Doanh nghiệp",
+    title: "Thuê xe riêng hay xe ghép khi đi công tác tại Quảng Trị?",
     excerpt:
-      "Gợi ý cách di chuyển từ Quảng Trị đi Đà Nẵng nhanh, tiết kiệm, phù hợp cho khách lẻ, gia đình và nhóm bạn.",
+      "Gợi ý lựa chọn phương tiện phù hợp cho chuyên gia, kỹ sư, khách công tác và doanh nghiệp cần lịch trình riêng tư, đúng giờ.",
     image:
-      "https://images2.thanhnien.vn/528068263637045248/2025/6/18/the-legend-danang-1-17502421275011965589401.jpg",
+      "https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=1200&auto=format&fit=crop",
   },
   {
     slug: "gia-xe-quang-tri-di-hue",
-    title: "Giá xe Quảng Trị đi Huế mới nhất",
+    category: "Sân bay",
+    title: "Kinh nghiệm đặt xe công tác từ Quảng Trị đi Huế, Đà Nẵng",
     excerpt:
-      "Cập nhật thông tin tham khảo về xe ghép Quảng Trị đi Huế, xe dịch vụ riêng và cách chọn phương án phù hợp.",
+      "Các lưu ý khi đặt xe đưa đón sân bay, xe đi họp, xe đón đối tác và xe phục vụ lịch trình công tác trong ngày.",
     image:
-      "https://media.vietravel.com/images/Content/du-lich-song-huong-hue-1.jpg",
+      "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop",
   },
   {
-    slug: "nen-di-xe-ghep-hay-thue-xe",
-    title: "Nên đi xe ghép hay thuê xe riêng?",
+    slug: "kinh-nghiem-di-da-nang-tu-quang-tri",
+    category: "Chuyên gia",
+    title: "Tiêu chí chọn xe đưa đón chuyên gia và đối tác nước ngoài",
     excerpt:
-      "So sánh ưu nhược điểm giữa xe ghép Quảng Trị và xe dịch vụ riêng để bạn dễ chọn theo nhu cầu thực tế.",
+      "Doanh nghiệp nên ưu tiên xe sạch, tài xế lịch sự, đúng giờ, có hợp đồng rõ ràng và phương án dự phòng khi phát sinh.",
     image:
-      "https://queenbus.com.vn/wp-content/uploads/2025/08/Cau-Rong-bieu-tuong-du-lich-Da-Nang-Anh-Suu-tam-1024x683.png",
+      "https://images.unsplash.com/photo-1485739139909-d0d1783a7196?q=80&w=1200&auto=format&fit=crop",
   },
   {
     slug: "lich-trinh-du-lich-quang-tri-1-ngay",
-    title: "Lịch trình du lịch Quảng Trị 1 ngày gợi ý chi tiết",
+    category: "Tour doanh nghiệp",
+    title: "Gợi ý lịch trình tiếp khách, tham quan Quảng Trị trong 1 ngày",
     excerpt:
-      "Gợi ý lịch trình tham quan Thành cổ Quảng Trị, Địa đạo Vịnh Mốc, Cầu Hiền Lương và Biển Cửa Việt trong 1 ngày.",
+      "Kết hợp Thành Cổ, Vịnh Mốc, Cầu Hiền Lương, Cửa Việt cho đoàn công tác hoặc đối tác sau lịch làm việc.",
     image:
       "https://cms.junglebosstours.com/assets/9dba0c19-b575-4fc7-b973-439dc1a6114f?format=webp",
   },
   {
-    slug: "cach-dat-xe-ghep-quang-tri",
-    title: "Cách đặt xe ghép Quảng Trị nhanh và tiện lợi",
-    excerpt:
-      "Hướng dẫn đặt xe ghép Quảng Trị qua điện thoại, Zalo và những lưu ý để chuyến đi thuận tiện hơn.",
-    image:
-      "https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/05_2021/du-lich-bien-cua-viet-o-dau.jpg",
-  },
-  {
     slug: "top-dia-diem-du-lich-quang-tri",
-    title: "Top địa điểm du lịch Quảng Trị nên đi",
+    category: "Du lịch",
+    title: "Những địa điểm nên đưa đối tác đi tham quan tại Quảng Trị",
     excerpt:
-      "Tổng hợp các điểm đến nổi bật tại Quảng Trị như Thành cổ, Vịnh Mốc, La Vang, Cửa Việt và Cửa Tùng.",
+      "Các điểm đến phù hợp cho đoàn doanh nghiệp, khách VIP, chuyên gia nước ngoài và khách công tác lưu trú ngắn ngày.",
     image:
       "https://imagevietnam.vnanet.vn//MediaUpload/Org/2024/10/24/2824-14-31-25.jpg",
   },
+  {
+    slug: "cach-dat-xe-ghep-quang-tri",
+    category: "Đặt xe",
+    title: "Cách đặt xe nhanh cho doanh nghiệp khi có lịch gấp",
+    excerpt:
+      "Chuẩn bị thông tin điểm đón, điểm trả, số người, loại xe, thời gian chờ và yêu cầu hóa đơn để báo giá nhanh hơn.",
+    image:
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop",
+  },
+];
+
+const focusTopics = [
+  { icon: BriefcaseBusiness, title: "Xe doanh nghiệp", text: "Kinh nghiệm thuê xe công tác, xe tháng, xe phục vụ lãnh đạo và nhân sự." },
+  { icon: Factory, title: "Khu công nghiệp", text: "Nội dung về di chuyển đến KCN, nhà máy, công trình và khu kinh tế." },
+  { icon: Plane, title: "Sân bay", text: "Đưa đón sân bay Huế, Đà Nẵng và chuẩn bị cho sân bay Quảng Trị." },
+  { icon: Route, title: "Tour doanh nghiệp", text: "Gợi ý lịch trình tham quan, tiếp khách và du lịch kết hợp công tác." },
 ];
 
 const Blog = () => {
   return (
     <>
-      <section className="bg-primary py-16">
-        <div className="container text-primary-foreground text-center">
-          <h1 className="text-3xl sm:text-4xl font-extrabold mb-3">
-            Blog du lịch & kinh nghiệm di chuyển
-          </h1>
-          <p className="text-lg opacity-90 max-w-2xl mx-auto">
-            Cập nhật kinh nghiệm du lịch miền Trung, mẹo đặt xe ghép Quảng Trị,
-            xe dịch vụ Quảng Trị và các lịch trình tham quan tiện lợi.
-          </p>
+      <section className="bg-gradient-to-br from-foreground via-foreground to-primary py-16">
+        <div className="container text-primary-foreground">
+          <div className="max-w-3xl">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent">
+              Tân Oanh Transport Blog
+            </p>
+            <h1 className="text-3xl sm:text-5xl font-extrabold mb-4 leading-tight">
+              Kiến thức di chuyển, công tác và du lịch doanh nghiệp tại Quảng Trị
+            </h1>
+            <p className="text-lg opacity-90 leading-8">
+              Cập nhật kinh nghiệm thuê xe doanh nghiệp, xe đưa đón chuyên gia,
+              xe sân bay, lịch trình công tác và các điểm đến phù hợp cho khách hàng doanh nghiệp.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section className="py-12">
+      <section className="py-14 bg-secondary/40">
+        <div className="container">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {focusTopics.map((item) => (
+              <div key={item.title} className="bg-card border border-border rounded-2xl p-5 shadow-sm">
+                <div className="h-11 w-11 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
+                  <item.icon className="h-5 w-5 text-primary" />
+                </div>
+                <h2 className="font-bold text-foreground mb-2">{item.title}</h2>
+                <p className="text-sm text-muted-foreground leading-6">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-14">
         <div className="container max-w-6xl">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
+            <div>
+              <p className="text-sm font-semibold text-primary uppercase tracking-[0.2em] mb-2">Bài viết mới</p>
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-foreground">
+                Nội dung hỗ trợ khách doanh nghiệp & khách công tác
+              </h2>
+            </div>
+            <Link to="/lien-he">
+              <Button className="gap-2">
+                Tư vấn lịch trình <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {posts.map((post) => (
               <article
                 key={post.slug}
-                className="bg-card border border-border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+                className="bg-card border border-border rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
               >
                 <Link to={`/blog/${post.slug}`}>
                   <img
@@ -84,6 +134,9 @@ const Blog = () => {
                 </Link>
 
                 <div className="p-5 space-y-3">
+                  <span className="inline-flex rounded-full bg-secondary px-3 py-1 text-xs font-semibold text-primary">
+                    {post.category}
+                  </span>
                   <h2 className="text-lg font-bold leading-7">
                     <Link
                       to={`/blog/${post.slug}`}
@@ -99,47 +152,36 @@ const Blog = () => {
 
                   <Link
                     to={`/blog/${post.slug}`}
-                    className="inline-flex text-primary font-semibold hover:underline"
+                    className="inline-flex items-center gap-1 text-primary font-semibold hover:underline"
                   >
-                    Xem chi tiết →
+                    Xem chi tiết <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
               </article>
             ))}
           </div>
 
-          <div className="mt-10 bg-card border border-border rounded-xl p-6">
-            <h2 className="text-xl font-bold mb-3">
-              Dịch vụ xe du lịch Tân Oanh
-            </h2>
-            <p className="text-muted-foreground leading-7">
-              Nếu bạn đang cần{" "}
-              <Link to="/xe-ghep" className="text-primary font-medium hover:underline">
-                xe ghép Quảng Trị
-              </Link>{" "}
-              hoặc{" "}
-              <Link
-                to="/xe-du-lich"
-                className="text-primary font-medium hover:underline"
-              >
-                xe dịch vụ Quảng Trị
+          <div className="mt-10 bg-primary rounded-2xl p-6 sm:p-8 text-primary-foreground flex flex-col lg:flex-row gap-6 lg:items-center lg:justify-between">
+            <div>
+              <h2 className="text-2xl font-extrabold mb-2">
+                Cần xe cho chuyên gia, đối tác hoặc đoàn công tác?
+              </h2>
+              <p className="opacity-90 leading-7 max-w-2xl">
+                Tân Oanh Transport hỗ trợ xe đưa đón chuyên gia, xe doanh nghiệp,
+                xe hợp đồng dài hạn, xe sân bay và tour doanh nghiệp tại Quảng Trị.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <a href="tel:0866600822">
+                <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold">
+                  Gọi 08.666.008.22
+                </Button>
+              </a>
+              <Link to="/lien-he">
+                <Button variant="outline" className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10">
+                  Nhận báo giá
+                </Button>
               </Link>
-              , hãy liên hệ để được hỗ trợ đưa đón tận nơi, linh hoạt thời gian
-              và tư vấn tuyến phù hợp.
-            </p>
-
-            <div className="mt-4 flex flex-col gap-2 text-sm">
-              <a href="tel:0866600822" className="text-primary font-semibold">
-                📞 Gọi ngay: 08.666.008.22
-              </a>
-              <a
-                href="https://zalo.me/0866600822"
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary font-semibold"
-              >
-                💬 Chat Zalo đặt xe
-              </a>
             </div>
           </div>
         </div>
