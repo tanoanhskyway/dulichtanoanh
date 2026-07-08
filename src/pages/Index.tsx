@@ -7,10 +7,12 @@ import {
   CalendarClock,
   Car,
   CheckCircle2,
+  ClipboardCheck,
   Clock,
   FileCheck2,
   Headphones,
   HelpCircle,
+  Newspaper,
   MapPin,
   Plane,
   Route,
@@ -30,6 +32,22 @@ const heroStats = [
   { icon: FileCheck2, label: "Hợp đồng & VAT" },
   { icon: Clock, label: "Phục vụ 24/7" },
   { icon: MapPin, label: "Quảng Trị – Huế – Đà Nẵng" },
+];
+
+const businessMetrics = [
+  { value: "24/7", label: "Điều phối & hỗ trợ lịch trình" },
+  { value: "4–45", label: "Chỗ, phù hợp nhiều quy mô đoàn" },
+  { value: "B2B", label: "Tập trung khách doanh nghiệp" },
+  { value: "VAT", label: "Hỗ trợ hợp đồng & chứng từ" },
+];
+
+const trustedFields = [
+  "Nhà máy & khu công nghiệp",
+  "Nhà thầu xây dựng",
+  "Doanh nghiệp FDI",
+  "Khách sạn & sự kiện",
+  "Đoàn khảo sát đầu tư",
+  "Khách công tác cao cấp",
 ];
 
 const customers = [
@@ -142,6 +160,25 @@ const reasons = [
   { icon: BadgeCheck, title: "Tư duy B2B", desc: "Không chỉ là thuê xe, mà là giải pháp vận chuyển ổn định cho doanh nghiệp." },
 ];
 
+const commitments = [
+  { icon: ClipboardCheck, title: "Đúng xe – đúng lịch", desc: "Xác nhận loại xe, tài xế, thời gian và điểm đón trước khi phục vụ." },
+  { icon: FileCheck2, title: "Minh bạch chi phí", desc: "Báo giá rõ ràng theo chuyến, theo ngày hoặc theo hợp đồng dài hạn." },
+  { icon: ShieldCheck, title: "An toàn lịch trình", desc: "Ưu tiên tài xế kinh nghiệm, xe sạch sẽ và bảo mật thông tin khách hàng." },
+  { icon: Headphones, title: "Phản hồi nhanh", desc: "Tiếp nhận yêu cầu báo giá, đổi lịch hoặc điều xe trong thời gian ngắn." },
+];
+
+const testimonials = [
+  { role: "Trưởng phòng hành chính", company: "Doanh nghiệp sản xuất", text: "Điều chúng tôi cần là đúng giờ, xe sạch và có người điều phối khi lịch thay đổi. Tân Oanh phù hợp với nhu cầu đó." },
+  { role: "Quản lý dự án", company: "Nhà thầu xây dựng", text: "Lịch trình khảo sát nhiều điểm nhưng được tư vấn khá rõ ràng. Cách làm việc chuyên nghiệp hơn thuê xe lẻ." },
+  { role: "Khách công tác", company: "Đoàn đối tác", text: "Dịch vụ phù hợp khi cần đón sân bay, đi nhà máy và kết hợp tham quan Quảng Trị trong cùng lịch trình." },
+];
+
+const blogPreview = [
+  { title: "Kinh nghiệm thuê xe đưa đón chuyên gia tại Quảng Trị", href: "/blog" },
+  { title: "Doanh nghiệp nên thuê xe hợp đồng hay tự mua xe?", href: "/blog" },
+  { title: "Các khu công nghiệp Quảng Trị và nhu cầu vận chuyển chuyên gia", href: "/blog" },
+];
+
 const process = [
   "Tiếp nhận yêu cầu",
   "Tư vấn lịch trình",
@@ -229,6 +266,37 @@ const Index = () => (
       </div>
     </section>
 
+    <section className="bg-background border-b border-border">
+      <div className="container py-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          {businessMetrics.map((item) => (
+            <div key={item.label} className="rounded-2xl border border-border bg-card p-5 text-center shadow-sm">
+              <p className="text-2xl sm:text-3xl font-extrabold text-primary mb-1">{item.value}</p>
+              <p className="text-xs sm:text-sm text-muted-foreground font-semibold">{item.label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section className="py-14 bg-card">
+      <div className="container">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+          <div className="max-w-xl">
+            <p className="text-sm font-bold uppercase tracking-wider text-primary mb-2">Đối tác tin tưởng</p>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-foreground">Phục vụ các nhóm khách hàng có nhu cầu di chuyển chuyên nghiệp</h2>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 flex-1">
+            {trustedFields.map((field) => (
+              <div key={field} className="rounded-xl border border-border bg-background px-4 py-3 text-sm font-bold text-foreground text-center">
+                {field}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section className="py-16 bg-background">
       <div className="container">
         <div className="max-w-2xl mx-auto text-center mb-10">
@@ -264,7 +332,7 @@ const Index = () => (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <article key={service.id} id={service.id} className="rounded-3xl bg-card border border-border p-6 shadow-sm hover:shadow-xl transition-all">
-              <div className="h-13 w-13 rounded-2xl bg-primary text-primary-foreground flex items-center justify-center mb-5">
+              <div className="h-12 w-12 rounded-2xl bg-primary text-primary-foreground flex items-center justify-center mb-5">
                 <service.icon className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-extrabold text-foreground mb-2">{service.title}</h3>
@@ -330,6 +398,26 @@ const Index = () => (
       </div>
     </section>
 
+    <section className="py-16 bg-background">
+      <div className="container">
+        <div className="max-w-2xl mx-auto text-center mb-10">
+          <p className="text-sm font-bold uppercase tracking-wider text-primary mb-2">Cam kết vận hành</p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground">Những tiêu chuẩn doanh nghiệp cần ở một đối tác vận chuyển</h2>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+          {commitments.map((item) => (
+            <div key={item.title} className="rounded-3xl border border-border bg-card p-6 shadow-sm">
+              <div className="h-12 w-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-4">
+                <item.icon className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-extrabold text-foreground mb-2">{item.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section id="quy-trinh" className="py-16 bg-background">
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-10">
@@ -388,6 +476,54 @@ const Index = () => (
                 </div>
               </div>
             </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section className="py-16 bg-slate-950 text-white">
+      <div className="container">
+        <div className="max-w-2xl mx-auto text-center mb-10">
+          <p className="text-sm font-bold uppercase tracking-wider text-amber-300 mb-2">Đánh giá khách hàng</p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold">Nhận xét từ các nhóm khách hàng doanh nghiệp</h2>
+        </div>
+        <div className="grid md:grid-cols-3 gap-5">
+          {testimonials.map((item) => (
+            <div key={item.role} className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <div className="flex gap-1 mb-4">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} className="h-4 w-4 fill-amber-300 text-amber-300" />
+                ))}
+              </div>
+              <p className="text-sm text-white/75 leading-relaxed mb-5 italic">“{item.text}”</p>
+              <p className="font-extrabold">{item.role}</p>
+              <p className="text-sm text-white/55">{item.company}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section className="py-16 bg-background">
+      <div className="container">
+        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-8">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-wider text-primary mb-2">Blog & kiến thức</p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground">Nội dung hỗ trợ SEO và tư vấn khách doanh nghiệp</h2>
+          </div>
+          <Link to="/blog" className="inline-flex items-center gap-2 font-bold text-primary hover:underline">
+            Xem tất cả bài viết <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
+        <div className="grid md:grid-cols-3 gap-5">
+          {blogPreview.map((post) => (
+            <Link key={post.title} to={post.href} className="group rounded-3xl border border-border bg-card p-6 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="h-12 w-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-4">
+                <Newspaper className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-extrabold text-foreground group-hover:text-primary transition-colors mb-3">{post.title}</h3>
+              <p className="text-sm text-muted-foreground">Đọc thêm để hiểu cách lựa chọn giải pháp vận chuyển phù hợp cho doanh nghiệp.</p>
+            </Link>
           ))}
         </div>
       </div>
