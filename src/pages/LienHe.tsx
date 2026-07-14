@@ -180,6 +180,54 @@ const LienHe = () => {
           </div>
         </div>
       </section>
+      <section className="py-16 bg-background">
+  <div className="container">
+
+    <div className="text-center mb-10">
+      <h2 className="text-3xl font-bold text-foreground">
+        Vị trí Tân Oanh Transport
+      </h2>
+
+      <p className="text-muted-foreground mt-3">
+        Dễ dàng tìm đường đến văn phòng hoặc liên hệ để được điều xe nhanh nhất.
+      </p>
+    </div>
+
+    <div className="overflow-hidden rounded-3xl shadow-xl border border-border">
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.3080620195615!2d107.1824151!3d16.9100896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3140e787406f1889%3A0xe593c238d3e4bc80!2zWGUgRHUgTOG7i2NoIFTDom4gT2FuaA!5e0!3m2!1svi!2s!4v1784003896155!5m2!1svi!2s"
+        width="100%"
+        height="500"
+        style={{ border: 0 }}
+        loading="lazy"
+        referrerPolicy="strict-origin-when-cross-origin"
+      />
+
+    </div>
+
+    <div className="mt-8 flex flex-wrap justify-center gap-4">
+
+      <a
+        href="https://www.google.com/maps/place/Xe+Du+L%E1%BB%8Bch+T%C3%A2n+Oanh/@16.9100896,107.1824151,17z/data=!3m1!4b1!4m6!3m5!1s0x3140e787406f1889:0xe593c238d3e4bc80!8m2!3d16.9100896!4d107.1824151!16s%2Fg%2F11y_d1j64n"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold hover:opacity-90"
+      >
+        📍 Xem trên Google Maps
+      </a>
+
+      <a
+        href="tel:0866600822"
+        className="px-6 py-3 rounded-xl border border-primary text-primary font-semibold hover:bg-primary hover:text-white transition"
+      >
+        ☎ Gọi ngay
+      </a>
+
+    </div>
+
+  </div>
+</section>
     </>
   );
 };
